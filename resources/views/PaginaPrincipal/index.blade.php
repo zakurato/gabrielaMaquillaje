@@ -22,7 +22,7 @@
   <div class="image-container degradado">
     <img src="https://www.zonadamas.mx/wp-content/uploads/2020/04/1pk-70271698_m-1.jpg" alt="Descripción de la imagen">
     <div class="image-text">
-      <h1>MakeuplayerGabriela</h1>
+      <p style="font: 300% Arial">MakeuplayerGabriela</p>
     </div>
   </div>
 
