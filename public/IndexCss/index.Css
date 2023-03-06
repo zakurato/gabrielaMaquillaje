@@ -1,8 +1,12 @@
+
+body{
+    background-color: black;
+}
+
 /*seccion de entrada de imagen*/
 
 .image-container {
     width: 100%;
-    height: auto;
     float: right;
     position: relative;
   }
@@ -13,7 +17,7 @@
       transform: translateX(-35%);
     }
     to {
-      transform: translateX(-1%);
+      transform: translateX(0%);
     }
   }
   
@@ -39,7 +43,7 @@
   /*degradado*/
 
   .degradado {
-    filter: saturate(50%) brightness(85%) contrast(70%);
+    filter: saturate(100%) brightness(80%) contrast(100%);
 }
   
 
@@ -78,7 +82,7 @@ nav {
 
   .image-text {
     position: absolute;
-    top: 20%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
