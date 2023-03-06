@@ -1,0 +1,77 @@
+body {
+    background-image: url(https://img.freepik.com/foto-gratis/vista-superior-surtido-productos-maquillaje-belleza_23-2148620013.jpg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+    position: relative; /* Agregado */
+}
+
+#seccion1 {
+    background-color: black;
+}
+  
+#seccion2 {
+    background-color: black;
+}
+#seccion3 {
+    background-color: black;
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+.rotar {
+    transition: transform 0.9s ease-in-out;
+}
+  
+.rotar:hover {
+    transform: rotate(10deg);
+}
+  
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Style for the navigation links */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute; /* Agregado */
+    bottom: 100; /* Agregado */
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    position: absolute; /* Agregado */
+    bottom: 0; /* Agregado */
+}
+
+.container {
+    position: relative; /* Agregado */
+    padding-bottom: 100px; /* Ajustar según el tamaño del footer */
+}
