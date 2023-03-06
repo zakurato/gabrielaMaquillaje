@@ -1,54 +1,32 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Mi página web</title>
-    <link rel="stylesheet" href="{{asset("IndexCss/index.Css")}}">
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <nav>
-        <a id="home-link" href="#">Inicio</a>
-        <a href="#">Acerca de MakeuplayerGabriela</a>
-        <a href="#">Servicios</a>
-    </nav>
-    <br><br>
-    <div class="container"> <!-- Agregado -->
-        <section id="seccion1" class="rotar">
-            <img style="width: 100%" src="https://www.zonadamas.mx/wp-content/uploads/2020/04/1pk-70271698_m-1.jpg">
-        </section>
-        <section id="seccion2" class="rotar">
-            <img style="width: 100%" src="https://cdn2.hubspot.net/hubfs/5544577/limpieza-facial-2.jpg">
-        </section>
-        <section id="seccion3" class="rotar">
-            <img style="width: 100%" src="https://proaloecosmetics.com/blog/wp-content/uploads/2017/07/exfoliante-facial.png">
-        </section>
+  <link rel="stylesheet" href="{{asset("IndexCss/index.Css?1.0")}}">
+  <title>Pagina Principal</title>
+</head>
+<body>
 
-        <footer>
-            <p>Contacto</p>
-        </footer>
-  </body>
+  <nav>
+    <ul>
+      <li><a href="{{route("index")}}">Inicio</a></li>
+      <li><a href="#">Acerca de</a></li>
+      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+  
+  <div class="image-container degradado">
+    <img src="https://www.zonadamas.mx/wp-content/uploads/2020/04/1pk-70271698_m-1.jpg" alt="Descripción de la imagen">
+    <div class="image-text">
+      <h1>MakeuplayerGabriela</h1>
+    </div>
+  </div>
 
-  <script>
-    // Seleccionar el elemento <a> de la opción "Home"
-    const homeLink = document.querySelector("#home-link");
-  
-    // Agregar el evento click
-    homeLink.addEventListener("click", function(event) {
-      // Prevenir la acción por defecto del enlace (que es recargar la página)
-      event.preventDefault();
-  
-      // Obtener el elemento <body>
-      const body = document.querySelector("body");
-  
-      // Obtener la posición del elemento <body>
-      const bodyPosition = body.getBoundingClientRect().top;
-  
-      // Realizar la animación del scroll usando el método `scrollTo` de window
-      window.scrollTo({
-        top: bodyPosition,
-        behavior: "smooth"
-      });
-    });
-  </script>
-  
+
+
+</body>
 </html>

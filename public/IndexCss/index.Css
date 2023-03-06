@@ -1,77 +1,94 @@
-body {
-    background-image: url(https://img.freepik.com/foto-gratis/vista-superior-surtido-productos-maquillaje-belleza_23-2148620013.jpg);
+/*seccion de entrada de imagen*/
+
+.image-container {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
+    float: right;
+    position: relative;
+  }
+  
+  /* animación de la imagen */
+  @keyframes slide-left {
+    from {
+      transform: translateX(-35%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+  
+  /* aplicación de la animación a la imagen */
+  .image-container img {
+    animation: slide-left 2s ease-in-out forwards;
+  }
+  
+  .image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    background-color: black;
+  }
+  
+  .image-container:last-child::after {
+    display: none;
+  }
 
-main {
-    flex: 1;
-    position: relative; /* Agregado */
-}
+  /*degradado*/
 
-#seccion1 {
-    background-color: black;
+  .degradado {
+    filter: saturate(50%) brightness(85%) contrast(70%);
 }
   
-#seccion2 {
-    background-color: black;
-}
-#seccion3 {
-    background-color: black;
-}
-  
-img {
-    max-width: 100%;
-    height: auto;
-}
-  
-.rotar {
-    transition: transform 0.9s ease-in-out;
-}
-  
-.rotar:hover {
-    transform: rotate(10deg);
-}
-  
+
+/*Barra de navegacion*/
+
+
 nav {
-    width: 100%;
-    position: fixed;
-    z-index: 1;
     background-color: black;
     border-radius: 10px;
-    padding: 50px;
-}
-
-/* Style for the navigation links */
-nav a {
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  
+  a {
+    display: block;
+    padding: 15px;
     color: white;
     text-decoration: none;
-    padding: 5px;
-    margin-right: 10px;
-}
-
-h1 {
+  }
+  
+  a:hover {
+    background-color: white;
     color: black;
-    text-align: center;
-    width: 100%;
-    padding: 20px;
-    position: absolute; /* Agregado */
-    bottom: 100; /* Agregado */
-}
+  }
+  
 
-footer {
-    background-color: black;
+  /*letras encima de las imagenes*/
+
+  .image-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     color: white;
-    text-align: center;
-    width: 100%;
-    padding: 20px;
-    position: absolute; /* Agregado */
-    bottom: 0; /* Agregado */
-}
-
-.container {
-    position: relative; /* Agregado */
-    padding-bottom: 100px; /* Ajustar según el tamaño del footer */
-}
+  }
+  
+  .image-text h1 {
+    font-size: 3rem;
+  }
+  
+  .image-text p {
+    font-size: 1.5rem;
+  }
+  
