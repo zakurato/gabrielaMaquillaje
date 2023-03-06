@@ -82,7 +82,7 @@ nav {
 
   .image-text {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -95,5 +95,49 @@ nav {
   
   .image-text p {
     font-size: 1.5rem;
+  }
+  
+  /*Login*/
+
+  .login-container {
+    background-color: #0000009f;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+  }
+  
+  button[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
   }
   

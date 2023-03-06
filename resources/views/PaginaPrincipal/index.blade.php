@@ -14,8 +14,9 @@
     <ul>
       <li><a href="{{route("index")}}">Inicio</a></li>
       <li><a href="#">Acerca de</a></li>
-      <li><a href="#">Servicios</a></li>
+      <li><a href="#">Fotos</a></li>
       <li><a href="#">Contacto</a></li>
+      <li><a href="{{route("loginAdministracion")}}">Administración</a></li>
     </ul>
   </nav>
   
