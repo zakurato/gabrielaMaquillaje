@@ -22,3 +22,7 @@ Route::get('/login',[HomeController::class,"login"])->name("login");
 
 Route::get('/loginDentro',[HomeController::class,"loginDentro"])->name("loginDentro")->middleware("auth");
 Route::get('/loginFuera',[HomeController::class,"loginFuera"])->name("loginFuera")->middleware("auth");
+
+Route::get('/vistaCrearCategoria',[HomeController::class,"vistaCrearCategoria"])->name("vistaCrearCategoria")->middleware("auth");
+
+Route::post('/storeCategoria',[HomeController::class,"storeCategoria"])->name("storeCategoria")->middleware("auth");

@@ -12,11 +12,13 @@
 
     <nav>
         <ul>
-          <li><a href="{{route("loginFuera")}}">Cerrar session</a></li>
+          <li><a class="aCerrarSesion" href="{{route("loginFuera")}}">Cerrar sesion</a></li>
         </ul>
       </nav>
     <br><br>
-    <button>Crear categoria</button>
+            <a href="{{route("vistaCrearCategoria")}}">
+                <button>Crear categoría </button>
+            </a>
     <br><br><br>
     <form method="POST" action="" accept-charset="UTF-8" enctype="multipart/form-data">
         @csrf
@@ -34,7 +36,7 @@
           @enderror
       </div>
     
-
+        <br><br>
         <label for="categoria" required>Categoria:</label>
         <input class="form-control" type="text">
         <br>
