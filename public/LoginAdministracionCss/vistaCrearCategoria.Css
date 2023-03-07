@@ -56,6 +56,15 @@ nav {
     border-radius: 5px; /* Bordes redondeados */
     cursor: pointer; /* Cursor de selección */
   }
+
+  .btnEliminar:hover{
+    background-color: rgba(255, 0, 0, 0.644); /* Color base */
+    color: white; /* Color del texto */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Relleno del botón */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de selección */
+  }
   
 
   
