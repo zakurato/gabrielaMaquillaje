@@ -26,3 +26,7 @@ Route::get('/loginFuera',[HomeController::class,"loginFuera"])->name("loginFuera
 Route::get('/vistaCrearCategoria',[HomeController::class,"vistaCrearCategoria"])->name("vistaCrearCategoria")->middleware("auth");
 
 Route::post('/storeCategoria',[HomeController::class,"storeCategoria"])->name("storeCategoria")->middleware("auth");
+
+Route::post('/store',[HomeController::class,"store"])->name("store")->middleware("auth");
+
+Route::get('/eliminarCategoria',[HomeController::class,"eliminarCategoria"])->name("eliminarCategoria")->middleware("auth");

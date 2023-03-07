@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Categoria;
+use App\Models\Trabajo;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -30,7 +31,10 @@ class HomeController extends Controller
     }
 
     public function loginDentro(){
-        return view("Administracion.loginDentro");
+
+        $categorias = Categoria::all();
+
+        return view("Administracion.loginDentro",compact("categorias"));
     }
 
     public function loginFuera(Request $request){
@@ -41,7 +45,8 @@ class HomeController extends Controller
     }
 
     public function vistaCrearCategoria(){
-        return view("Administracion.vistaCrearCategoria");
+        $categorias = Categoria::all()->sortBy("nombreCategoria");
+        return view("Administracion.vistaCrearCategoria",compact("categorias"));
     }
 
     public function storeCategoria(Request $request){
@@ -69,4 +74,32 @@ class HomeController extends Controller
         }
     }
     
+
+    public function store(Request $request){
+        //return $request;
+
+        $request->validate([
+            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg,heif|max:16384',
+        ]);
+
+        //$imageName = $request->image->getClientOriginalName(); //guarda las imagenes con el nombre original problemas cuando se suben con el celular las fotos
+        $imageName = time().'.'.$request->image->extension(); //si las imagenes tienen el mismo nombre las guarda con diferente nombre 
+        $request->image->move(public_path('imagenesTrabajos'), $imageName);
+
+        $trabajo = new Trabajo();
+
+        $trabajo->nombreCategoria = $request->categoria;
+        $trabajo->imagen = $imageName;
+        $trabajo->save();
+
+        session()->flash("correcto","Se ha guardado correctamente");
+        return redirect()->route("loginDentro");
+
+    }
+
+    public function eliminarCategoria(Request $request){
+        $delete = Categoria::where("id",$request->id)->delete();
+
+        return redirect()->route("vistaCrearCategoria");
+    }
 }

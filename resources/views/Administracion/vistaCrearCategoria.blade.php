@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset("LoginAdministracionCss/vistaCrearCategoria.Css")}}">
+    <link rel="stylesheet" href="{{asset("LoginAdministracionCss/vistaCrearCategoria.Css?2.0")}}">
 
     <title>Crear Categoria</title>
 </head>
@@ -27,6 +27,24 @@
         <br>
         <button type="submit" class="" style="width: 100%; height: 50px; font: 120% Arial ">Guardar categoría</button>
       </form>
+
+      <br><br><br>
+
+          <h1 style="text-align: center">Categorias</h1>
+              <table border="1">
+                @foreach ($categorias as $item)
+                <tr>
+                  <td>{{$item->nombreCategoria}}</td>
+                  <td>
+                    <form action="{{route("eliminarCategoria")}}" method="GET">
+                      <input type="hidden" name="id" value="{{$item->id}}">
+                      <button type="submit" class="btnEliminar" onclick="return confirm('¿Esta seguro que desea eliminar la categoria?')">Eliminar</button>
+                    </form>
+                  </td>
+                </tr>
+                @endforeach
+              </table>
+            <br><br>
 
 
 </body>
