@@ -34,7 +34,9 @@ class HomeController extends Controller
 
         $categorias = Categoria::all();
 
-        return view("Administracion.loginDentro",compact("categorias"));
+        $trabajos = Trabajo::all();
+
+        return view("Administracion.loginDentro",compact("categorias","trabajos"));
     }
 
     public function loginFuera(Request $request){
@@ -86,6 +88,8 @@ class HomeController extends Controller
         $imageName = time().'.'.$request->image->extension(); //si las imagenes tienen el mismo nombre las guarda con diferente nombre 
         $request->image->move(public_path('imagenesTrabajos'), $imageName);
 
+        //return $request->categoria;
+
         $trabajo = new Trabajo();
 
         $trabajo->nombreCategoria = $request->categoria;
@@ -101,5 +105,15 @@ class HomeController extends Controller
         $delete = Categoria::where("id",$request->id)->delete();
 
         return redirect()->route("vistaCrearCategoria");
+    }
+    public function eliminarTrabajo(Request $request){
+
+        //return $request->imagen;
+        $delete = Trabajo::where("id",$request->id)->delete();
+
+        //$request->image->move(public_path('imagenesTrabajos'), $imageName);
+        session()->flash("eliminado","Se ha eliminado correctamente");
+        unlink(public_path('imagenesTrabajos') . '/' . $request->imagen);
+        return redirect()->route("loginDentro");
     }
 }

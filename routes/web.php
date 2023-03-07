@@ -30,3 +30,5 @@ Route::post('/storeCategoria',[HomeController::class,"storeCategoria"])->name("s
 Route::post('/store',[HomeController::class,"store"])->name("store")->middleware("auth");
 
 Route::get('/eliminarCategoria',[HomeController::class,"eliminarCategoria"])->name("eliminarCategoria")->middleware("auth");
+
+Route::get('/eliminarTrabajo',[HomeController::class,"eliminarTrabajo"])->name("eliminarTrabajo")->middleware("auth");
