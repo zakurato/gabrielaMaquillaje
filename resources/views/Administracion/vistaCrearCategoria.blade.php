@@ -23,7 +23,7 @@
     <form method="POST" action="{{route("storeCategoria")}}" accept-charset="UTF-8" enctype="multipart/form-data">
         @csrf
         <label for="categoria" required>Nombre de la categoría:</label>
-        <input class="form-control" id="campo" type="text" name="nombreCategoria" style="text-transform: uppercase;" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()">
+        <input class="form-control" id="campo" type="text" name="nombreCategoria" style="text-transform: uppercase;" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()" required>
         <br>
         <button type="submit" class="" style="width: 100%; height: 50px; font: 120% Arial ">Guardar categoría</button>
       </form>
