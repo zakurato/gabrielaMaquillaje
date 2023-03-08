@@ -116,4 +116,8 @@ class HomeController extends Controller
         unlink(public_path('imagenesTrabajos') . '/' . $request->imagen);
         return redirect()->route("loginDentro");
     }
+
+    public function acercaDe(){
+        return view("PaginaPrincipal.vistaAcercaDe");
+    }
 }
