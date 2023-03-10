@@ -29,6 +29,16 @@
       <h1 style="text-align: center">{{$item2->nombreCategoria}}</h1>
       <!-- Carousel -->
       <div id="demo-{{$item2->nombreCategoria}}" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          @php $count = 0 @endphp
+          @foreach($trabajos as $item)
+            @if ($item->nombreCategoria == $item2->nombreCategoria)
+              <button type="button" data-bs-target="#demo-{{$item2->nombreCategoria}}" data-bs-slide-to="{{$count}}" class="@if($count == 0) active @endif"></button>
+              @php $count++ @endphp
+            @endif
+          @endforeach
+        </div>
     
         <!-- The slideshow/carousel -->
         <div class="carousel-inner">
@@ -53,6 +63,7 @@
       </div>
       <br>
     @endforeach
+    
     
       
       
