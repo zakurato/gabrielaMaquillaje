@@ -27,7 +27,7 @@ a:hover {
 
 /*carousel*/
 
-.carousel{position:relative; width: 480px; height: 480px; margin-left: auto; margin-right: auto;}
+.carousel{position:relative; width: 400px; height: 400px; margin-left: auto; margin-right: auto;}
 .carousel.pointer-event{touch-action:pan-y}
 .carousel-inner{position:relative;width:100%;overflow:hidden}
 .carousel-inner::after{display:block;clear:both;content:""}
