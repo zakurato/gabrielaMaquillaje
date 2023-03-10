@@ -18,6 +18,7 @@
     <br><br><br>
     {{session("categoriaExiste")}}
     {{session("categoriaCorrectamente")}}
+    {{session("eliminado")}}
     <br><br><br>
 
     <form method="POST" action="{{route("storeCategoria")}}" accept-charset="UTF-8" enctype="multipart/form-data">

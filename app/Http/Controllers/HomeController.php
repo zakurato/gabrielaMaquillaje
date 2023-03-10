@@ -103,6 +103,7 @@ class HomeController extends Controller
 
     public function eliminarCategoria(Request $request){
         $delete = Categoria::where("id",$request->id)->delete();
+        session()->flash("eliminado","Se ha eliminado la categoría correctamente");
 
         return redirect()->route("vistaCrearCategoria");
     }
