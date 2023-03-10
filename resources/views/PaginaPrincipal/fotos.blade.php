@@ -44,7 +44,7 @@
           @foreach($trabajos as $item)
             @if ($item->nombreCategoria == $item2->nombreCategoria)
               <div class="carousel-item @if($active) active @endif">
-                <img style="width: 400px; height: 400px;" src="{{ asset('imagenesTrabajos/'.$item->imagen) }}" class="d-block w-100">
+                <img style="width: 300px; height: 300px;" src="{{ asset('imagenesTrabajos/'.$item->imagen) }}" class="d-block w-100">
               </div>
               @php $active = false @endphp
             @endif
