@@ -25,7 +25,7 @@
       </nav>
 
 
-    
+      <br><br><br>
 
 
       @foreach ($categorias as $item2)
