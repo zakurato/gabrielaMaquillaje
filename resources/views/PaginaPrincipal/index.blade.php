@@ -14,7 +14,7 @@
     <ul>
       <li><a href="{{route("index")}}">Inicio</a></li>
       <li><a href="{{route("acercaDe")}}">Acerca de MakeuplayerGabriela</a></li>
-      <li><a href="#">Fotos</a></li>
+      <li><a href="{{route("fotos")}}">Fotos</a></li>
       <li><a href="#">Contacto</a></li>
       <li><a href="{{route("loginAdministracion")}}">Administración</a></li>
     </ul>

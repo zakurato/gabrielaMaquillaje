@@ -34,3 +34,5 @@ Route::get('/eliminarCategoria',[HomeController::class,"eliminarCategoria"])->na
 Route::get('/eliminarTrabajo',[HomeController::class,"eliminarTrabajo"])->name("eliminarTrabajo")->middleware("auth");
 
 Route::get('/acercaDe',[HomeController::class,"acercaDe"])->name("acercaDe");
+Route::get('/fotos',[HomeController::class,"fotos"])->name("fotos");
+

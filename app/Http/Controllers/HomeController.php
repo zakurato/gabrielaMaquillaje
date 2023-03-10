@@ -120,4 +120,10 @@ class HomeController extends Controller
     public function acercaDe(){
         return view("PaginaPrincipal.vistaAcercaDe");
     }
+
+    public function fotos(){
+        $trabajos = Trabajo::all();
+        $categorias = Categoria::all();
+        return view("PaginaPrincipal.fotos",compact("trabajos","categorias"));
+    }
 }
