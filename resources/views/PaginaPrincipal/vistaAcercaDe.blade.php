@@ -20,7 +20,6 @@
     </ul>
   </nav>
   
-  <br><br>
   <div class="image-container degradado">
     <img style="width: auto; height: auto;" src="{{URL::asset('imagenesIndex/9bbd6c3e8044d15238a62291595ffc80.jpg')}}" alt="Descripción de la imagen">
     <div class="image-text">
