@@ -37,11 +37,11 @@
   
   <div class="image-container degradado">
     <img style="width: auto; height: auto;" src="{{URL::asset('imagenesIndex/9bbd6c3e8044d15238a62291595ffc80.jpg')}}" alt="Descripción de la imagen">
-
   </div>
 
+  <div class="image-container">
   <footer style="background-color: black; color: white; padding: 80px;">
-    <p style="font: 250% Arial; text-align: center">MakeuplayerGabriela</p>
+    <p style="font: 250% Arial">MakeuplayerGabriela</p>
     <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
       <a href="https://www.instagram.com/makeuplayer_gabriela/" target="_blank" style="margin-right: 10px;">
         <i class="fab fa-instagram" style="font-size: 30px; color: white"></i>
@@ -52,6 +52,7 @@
     </div>
     <p style="text-align: center;">&copy; MakeuplayerGabriela. Todos los derechos reservados. <br>
   </footer>
+</div>
 
 
 
