@@ -76,30 +76,9 @@ body{
     font-size: 1.5rem;
   }
   
-/*footer*/
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-content p {
-  margin-right: 10px;
-}
-
-.fa-instagram {
-  font-size: 30px;
-  color: #fff;
-}
-
+  
   
 .copyri{
   font: 100% Arial !important
 }
+
