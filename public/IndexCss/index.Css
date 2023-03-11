@@ -61,7 +61,7 @@ body{
 
   .image-text {
     position: absolute;
-    top: 80%;
+    top: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -100,3 +100,6 @@ footer {
 }
 
   
+.copyri{
+  font: 100% Arial !important
+}
