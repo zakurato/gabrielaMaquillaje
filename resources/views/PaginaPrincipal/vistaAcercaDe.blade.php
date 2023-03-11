@@ -44,7 +44,7 @@
         
         Con su dedicación, pasión y habilidades, MakeuplayerGabriela está bien en camino para convertirse en una de las mejores Makeuplayer del mercado. Está dispuesta a trabajar arduamente y a esforzarse para alcanzar sus metas y ofrecer un servicio excepcional a sus clientes.
         </p>
-        <br><br><br><br><br><br><br>
+        <br><br><br><br><br>
         <div style="text-align: center">
           <a href="https://www.instagram.com/makeuplayer_gabriela/" target="_blank" style="margin-right: 10px;">
             <i class="fab fa-instagram iconosWF" style="font-size: 30px; color: white"></i>
