@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="{{asset("IndexCss/index.Css?2.0")}}">
+  <link rel="stylesheet" href="{{asset("IndexCss/index.Css")}}">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -37,22 +37,20 @@
   
   <div class="image-container degradado">
     <img style="width: auto; height: auto;" src="{{URL::asset('imagenesIndex/9bbd6c3e8044d15238a62291595ffc80.jpg')}}" alt="Descripción de la imagen">
+    <footer style="background-color: black; color: white; padding: 80px;">
+      <p style="font: 250% Arial">MakeuplayerGabriela</p>
+      <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
+        <a href="https://www.instagram.com/makeuplayer_gabriela/" target="_blank" style="margin-right: 10px;">
+          <i class="fab fa-instagram" style="font-size: 30px; color: white"></i>
+        </a>
+        <a href="https://api.whatsapp.com/send?phone=50687249099&text=Hola!%20Quiero%20obtener%20mas%20información%20sobre%20un%20producto" target="_blank" style="margin-right: 10px;">
+          <i class="fab fa-whatsapp" style="font-size: 30px; color: white"></i>
+        </a>
+      </div>
+      <p style="text-align: center;">&copy; MakeuplayerGabriela. Todos los derechos reservados. <br>
+    </footer>
   </div>
 
-  <div class="image-container">
-  <footer style="background-color: black; color: white; padding: 80px;">
-    <p style="font: 250% Arial">MakeuplayerGabriela</p>
-    <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
-      <a href="https://www.instagram.com/makeuplayer_gabriela/" target="_blank" style="margin-right: 10px;">
-        <i class="fab fa-instagram" style="font-size: 30px; color: white"></i>
-      </a>
-      <a href="https://api.whatsapp.com/send?phone=50687249099&text=Hola!%20Quiero%20obtener%20mas%20información%20sobre%20un%20producto" target="_blank" style="margin-right: 10px;">
-        <i class="fab fa-whatsapp" style="font-size: 30px; color: white"></i>
-      </a>
-    </div>
-    <p style="text-align: center;">&copy; MakeuplayerGabriela. Todos los derechos reservados. <br>
-  </footer>
-</div>
 
 
 
