@@ -74,19 +74,19 @@
       </div>
       <br>
     @endforeach
-    
-    
+      
+    <footer>
     <div style="text-align: center">
       <a href="https://www.instagram.com/makeuplayer_gabriela/" target="_blank" style="margin-right: 10px;">
-        <i class="fab fa-instagram iconosWF" style="font-size: 30px; color: black"></i>
+        <i class="fab fa-instagram iconosWF" style="font-size: 30px; color: white"></i>
       </a>
       <a href="https://api.whatsapp.com/send?phone=50687249099&text=Hola!%20Quiero%20obtener%20mas%20información%20sobre%20un%20producto" target="_blank" style="margin-right: 10px;">
-        <i class="fab fa-whatsapp iconosWF" style="font-size: 30px; color: black"></i>
+        <i class="fab fa-whatsapp iconosWF" style="font-size: 30px; color: white"></i>
       </a>
     </div>
 
     <p class="copyri">&copy; MakeuplayerGabriela. Todos los derechos reservados. <br>
-      
+    </footer>
 
   
 </body>
