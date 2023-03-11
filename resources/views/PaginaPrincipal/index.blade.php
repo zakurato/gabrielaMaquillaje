@@ -41,7 +41,7 @@
   </div>
 
   <footer style="background-color: black; color: white; padding: 80px;">
-    <p style="font: 250% Arial">MakeuplayerGabriela</p>
+    <p style="font: 250% Arial; text-align: center">MakeuplayerGabriela</p>
     <div style="display: flex; justify-content: center; align-items: center; margin-bottom: 10px;">
       <a href="https://www.instagram.com/makeuplayer_gabriela/" target="_blank" style="margin-right: 10px;">
         <i class="fab fa-instagram" style="font-size: 30px; color: white"></i>
