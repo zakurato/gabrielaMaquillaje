@@ -1,16 +1,4 @@
 
-body {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  margin-bottom: 80px; /* ajustar el valor según el tamaño del footer */
-}
-
-
-
 /*seccion de entrada de imagen*/
 
 .image-container {
