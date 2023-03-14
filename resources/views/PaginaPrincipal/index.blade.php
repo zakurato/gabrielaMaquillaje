@@ -543,7 +543,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="elementor-icon-box-content">
 				<span class="elementor-icon-box-title">
 					<span>
-						 654 791 487					</span>
+						 +506 88389748					</span>
 				</span>
 							</div>
 		</div>
@@ -560,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						<div class="elementor-icon-box-content">
 				<span class="elementor-icon-box-title">
 					<span>
-						    carmen@maquillajealicante.com					</span>
+						    makeuplayerGabriela@hotmail.com					</span>
 				</span>
 							</div>
 		</div>
