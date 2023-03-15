@@ -1334,8 +1334,8 @@
           <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
               <ul class="navbar-nav">
                   <li class="nav-item dropdown">
-                  </li><li><a class="dropdown-item aNav" href="http://localhost/gabrielaMaquillaje/public">Inicio</a></li>
-                  <li><a class="dropdown-item aNav" href="http://localhost/gabrielaMaquillaje/public/fotos">Fotos</a></li>
+                  </li><li><a class="dropdown-item aNav" href="{{route("index")}}">Inicio</a></li>
+                  <li><a class="dropdown-item aNav" href="{{route("fotos")}}">Fotos</a></li>
                   
               </ul>
           </div>
