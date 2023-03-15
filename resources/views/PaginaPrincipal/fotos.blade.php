@@ -1325,7 +1325,7 @@
   <!-- End Google Tag Manager (noscript) -->
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav style="background-color: black !important" class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
           <a class="navbar-brand" href="#">LOGO</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">

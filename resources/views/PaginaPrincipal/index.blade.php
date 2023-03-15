@@ -1451,9 +1451,28 @@
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav style="background-color: black !important" class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">LOGO</a>
+            <a class="navbar-brand" href="#">
+                <div class="elementor-image">
+                    <picture>
+                        <source
+                            data-lazy-srcset="{{asset("images/logo.jpg")}}"
+                            type="image/webp"
+                            srcset="{{asset("images/logo.jpg")}}">
+                        <img width="176" height="85"
+                            src="{{asset("images/logo.jpg")}}"
+                            class="attachment-large size-large webpexpress-processed entered lazyloaded"
+                            alt="Maquillaje Alicante WP"
+                            data-lazy-src="{{asset("images/logo.jpg")}}"
+                            data-ll-status="loaded"><noscript><img
+                                width="176" height="85"
+                                src="{{asset("images/logo.jpg")}}"
+                                class="attachment-large size-large webpexpress-processed"
+                                alt="Maquillaje Alicante WP"></noscript>
+                    </picture>
+                </div>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -2482,17 +2501,17 @@
                                                                     <div class="elementor-image">
                                                                         <picture>
                                                                             <source
-                                                                                data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg.webp"
+                                                                                data-lazy-srcset="{{asset("images/logo.jpg")}}"
                                                                                 type="image/webp"
-                                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg.webp">
+                                                                                srcset="{{asset("images/logo.jpg")}}">
                                                                             <img width="176" height="85"
-                                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg"
+                                                                                src="{{asset("images/logo.jpg")}}"
                                                                                 class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                                 alt="Maquillaje Alicante WP"
-                                                                                data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg"
+                                                                                data-lazy-src="{{asset("images/logo.jpg")}}"
                                                                                 data-ll-status="loaded"><noscript><img
                                                                                     width="176" height="85"
-                                                                                    src="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg"
+                                                                                    src="{{asset("images/logo.jpg")}}"
                                                                                     class="attachment-large size-large webpexpress-processed"
                                                                                     alt="Maquillaje Alicante WP"></noscript>
                                                                         </picture>
@@ -4537,5 +4556,6 @@
         class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
         class="elementor-screen-only"></span>
 </body>
+
 
 </html>
