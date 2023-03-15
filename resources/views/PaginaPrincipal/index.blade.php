@@ -2269,79 +2269,68 @@
                                                     class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid elementor-has-item-ratio">
                                                     <article
                                                         class="elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                        <a class="elementor-post__thumbnail__link"
-                                                            href="https://www.maquillajealicante.com/como-elegir-el-maquillaje-de-invitada-perfecto-para-una-boda-en-primavera/">
-                                                            <div
-                                                                class="elementor-post__thumbnail elementor-fit-height">
+                                                            <div style="text-align: center">
                                                                 <picture>
                                                                     <source
                                                                         data-lazy-srcset="{{ asset('images/2.jpg') }}"
                                                                         type="image/webp"
                                                                         srcset="{{ asset('images/2.jpg') }}"><img
-                                                                        width="800" height="291"
+                                                                        width="400" height="291"
                                                                         src="{{ asset('images/2.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
                                                                         data-ll-status="loaded"><noscript><img
-                                                                            width="800" height="291"
+                                                                            width="400" height="291"
                                                                             src="{{ asset('images/2.jpg') }}"
                                                                             class="attachment-large size-large webpexpress-processed"
                                                                             alt=""></noscript>
                                                                 </picture>
                                                             </div>
-                                                        </a>
+
 
                                                     </article>
                                                     <article
                                                         class="elementor-post elementor-grid-item post-2864 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                        <a class="elementor-post__thumbnail__link"
-                                                            href="https://www.maquillajealicante.com/tips-para-elegir-productos-de-maquillaje-para-personas-con-piel-seca/">
-                                                            <div
-                                                                class="elementor-post__thumbnail elementor-fit-height">
+                                                            <div style="text-align: center">
                                                                 <picture>
                                                                     <source
                                                                         data-lazy-srcset="{{ asset('images/3.jpg') }}"
                                                                         type="image/webp"
                                                                         srcset="{{ asset('images/3.jpg') }}"><img
-                                                                        width="800" height="291"
+                                                                        width="400" height="291"
                                                                         src="{{ asset('images/3.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
                                                                         data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2023/02/pieles-seca-1024x373.jpg"
                                                                         data-ll-status="loaded"><noscript><img
-                                                                            width="800" height="291"
+                                                                            width="400" height="291"
                                                                             src="https://www.maquillajealicante.com/wp-content/uploads/2023/02/pieles-seca-1024x373.jpg"
                                                                             class="attachment-large size-large webpexpress-processed"
                                                                             alt=""></noscript>
                                                                 </picture>
                                                             </div>
-                                                        </a>
 
                                                     </article>
                                                     <article
                                                         class="elementor-post elementor-grid-item post-2833 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                        <a class="elementor-post__thumbnail__link"
-                                                            href="https://www.maquillajealicante.com/como-maquillar-los-ojos-para-carnaval/">
-                                                            <div
-                                                                class="elementor-post__thumbnail elementor-fit-height">
+                                                            <div style="text-align: center">
                                                                 <picture>
                                                                     <source
                                                                         data-lazy-srcset="{{ asset('images/4.jpg') }}"
                                                                         type="image/webp"
                                                                         srcset="{{ asset('images/4.jpg') }}"><img
-                                                                        width="800" height="291"
+                                                                        width="400" height="291"
                                                                         src="{{ asset('images/4.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
                                                                         data-lazy-src="{{ asset('images/4.jpg') }}"
                                                                         data-ll-status="loaded"><noscript><img
-                                                                            width="800" height="291"
+                                                                            width="400" height="291"
                                                                             src="{{ asset('images/4.jpg') }}"
                                                                             class="attachment-large size-large webpexpress-processed"
                                                                             alt=""></noscript>
                                                                 </picture>
                                                             </div>
-                                                        </a>
 
                                                     </article>
                                                 </div>
