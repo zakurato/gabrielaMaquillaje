@@ -118,9 +118,6 @@ class HomeController extends Controller
         return redirect()->route("loginDentro");
     }
 
-    public function acercaDe(){
-        return view("PaginaPrincipal.vistaAcercaDe");
-    }
 
     public function fotos(){
         $trabajos = Trabajo::all();

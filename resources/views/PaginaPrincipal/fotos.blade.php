@@ -24,7 +24,6 @@
           <ul class="navbar-nav">
             <li class="nav-item dropdown">
               <li><a class="dropdown-item aNav" href="{{route("index")}}">Inicio</a></li>
-              <li><a class="dropdown-item aNav" href="{{route("acercaDe")}}">Acerca de MakeuplayerGabriela</a></li>
               <li><a class="dropdown-item aNav" href="{{route("fotos")}}">Fotos</a></li>
             </li>
           </ul>
