@@ -1327,7 +1327,26 @@
 
   <nav style="background-color: black !important" class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-          <a class="navbar-brand" href="#">LOGO</a>
+          <a class="navbar-brand" href="#">
+            <div class="elementor-image">
+                <picture>
+                    <source
+                        data-lazy-srcset="{{asset("images/logo.jpg")}}"
+                        type="image/webp"
+                        srcset="{{asset("images/logo.jpg")}}">
+                    <img width="176" height="85"
+                        src="{{asset("images/logo.jpg")}}"
+                        class="attachment-large size-large webpexpress-processed entered lazyloaded"
+                        alt="Maquillaje Alicante WP"
+                        data-lazy-src="{{asset("images/logo.jpg")}}"
+                        data-ll-status="loaded"><noscript><img
+                            width="176" height="85"
+                            src="{{asset("images/logo.jpg")}}"
+                            class="attachment-large size-large webpexpress-processed"
+                            alt="Maquillaje Alicante WP"></noscript>
+                </picture>
+            </div>
+          </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
           </button>
