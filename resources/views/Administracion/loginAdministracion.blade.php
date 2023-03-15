@@ -1608,10 +1608,20 @@
   <br><br>
   <div data-elementor-type="footer" data-elementor-id="20" class="elementor elementor-20 elementor-location-footer">
       <div class="elementor-section-wrap">
-
           <section class="elementor-section elementor-top-section elementor-element elementor-element-25990cb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="25990cb" data-element_type="section">
               <div class="elementor-background-overlay"></div>
               <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-image" style="margin-left: auto; margin-right: auto;">
+                    <picture>
+                        <source data-lazy-srcset="{{asset("images/logo.jpg")}}" type="image/webp" srcset="{{asset("images/logo.jpg")}}">
+                        <img width="176" height="85" src="{{asset("images/logo.jpg")}}" class="attachment-large size-large webpexpress-processed entered lazyloaded" alt="Maquillaje Alicante WP" data-lazy-src="{{asset("images/logo.jpg")}}" data-ll-status="loaded"><noscript><img
+                                width="176" height="85"
+                                src="{{asset("images/logo.jpg")}}"
+                                class="attachment-large size-large webpexpress-processed"
+                                alt="Maquillaje Alicante WP"></noscript>
+                    </picture>
+                </div>
+                <br><br><br><br>
                   <div class="elementor-row">
                       <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ecebb66" data-id="ecebb66" data-element_type="column">
                           <div class="elementor-column-wrap elementor-element-populated">
@@ -1622,7 +1632,7 @@
                                               <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-46ab3f34" data-id="46ab3f34" data-element_type="column">
                                                   <div class="elementor-column-wrap elementor-element-populated">
                                                       <div class="elementor-widget-wrap">
-                                                          
+        
                                                           <div class="elementor-element elementor-element-57f63de elementor-widget elementor-widget-text-editor" data-id="57f63de" data-element_type="widget" data-widget_type="text-editor.default">
                                                               <div class="elementor-widget-container">
                                                                   <div class="elementor-text-editor elementor-clearfix">
