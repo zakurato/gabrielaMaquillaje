@@ -1647,10 +1647,10 @@
                                                               <div class="elementor-widget-container">
                                                                   <div class="elementor-image">
                                                                       <picture>
-                                                                          <source data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg.webp" type="image/webp" srcset="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg.webp">
-                                                                          <img width="176" height="85" src="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg" class="attachment-large size-large webpexpress-processed entered lazyloaded" alt="Maquillaje Alicante WP" data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg" data-ll-status="loaded"><noscript><img
+                                                                          <source data-lazy-srcset="{{asset("images/logo.jpg")}}" type="image/webp" srcset="{{asset("images/logo.jpg")}}">
+                                                                          <img width="176" height="85" src="{{asset("images/logo.jpg")}}" class="attachment-large size-large webpexpress-processed entered lazyloaded" alt="Maquillaje Alicante WP" data-lazy-src="{{asset("images/logo.jpg")}}" data-ll-status="loaded"><noscript><img
                                                                                   width="176" height="85"
-                                                                                  src="https://www.maquillajealicante.com/wp-content/uploads/2020/11/maquillaje-alicante.jpg"
+                                                                                  src="{{asset("images/logo.jpg")}}"
                                                                                   class="attachment-large size-large webpexpress-processed"
                                                                                   alt="Maquillaje Alicante WP"></noscript>
                                                                       </picture>
