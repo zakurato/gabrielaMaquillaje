@@ -1,75 +1,10 @@
 
-/*seccion de entrada de imagen*/
-
-.image-container {
-  width: 100%;
-  float: right;
-  position: relative;
-}
-
-/* animación de la imagen */
-@keyframes slide-left {
-  from {
-    transform: translateX(-35%);
-  }
-  to {
-    transform: translateX(-1%);
-  }
-}
-
-/* aplicación de la animación a la imagen */
-.image-container img {
-  animation: slide-left 2s ease-in-out forwards;
-}
-
-.image-container::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 2px;
-  background-color: black;
-}
-
-.image-container:last-child::after {
-  display: none;
-}
-
-/*degradado*/
-
-.degradado {
-  filter: saturate(100%) brightness(80%) contrast(100%);
-}
-
-/*nav con boostrap pero modificado*/
-
-.aNav{
-color: white !important;
-}
-.aNav:hover{
-background-color: #212529!important;
-}
-
-.copyri{
-  text-align: center;
-  font: 100% Arial !important
-}
-
-footer {
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  border-radius: 10px;
-  padding: 20px;
-  color: white;
-}
 
 
 
 /*carousel*/
 
-.carousel{position:relative; width: 300px; height: 300px; margin-left: auto; margin-right: auto;}
+.carousel{position:relative; width: 400px; height: 500px; margin-left: auto; margin-right: auto;}
 .carousel.pointer-event{touch-action:pan-y}
 .carousel-inner{position:relative;width:100%;overflow:hidden}
 .carousel-inner::after{display:block;clear:both;content:""}
