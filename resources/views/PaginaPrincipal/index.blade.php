@@ -1455,24 +1455,26 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <div class="elementor-image">
-                    <a href="{{route("index")}}">
-                        <picture>
-                            <source
-                                data-lazy-srcset="{{asset("images/logo.jpg")}}"
-                                type="image/webp"
-                                srcset="{{asset("images/logo.jpg")}}">
-                            <img width="176" height="85"
-                                src="{{asset("images/logo.jpg")}}"
-                                class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                alt="Maquillaje Alicante WP"
-                                data-lazy-src="{{asset("images/logo.jpg")}}"
-                                data-ll-status="loaded"><noscript><img
-                                    width="176" height="85"
+                    <div style="margin-left: -75%">
+                        <a href="{{route("index")}}">
+                            <picture>
+                                <source
+                                    data-lazy-srcset="{{asset("images/logo.jpg")}}"
+                                    type="image/webp"
+                                    srcset="{{asset("images/logo.jpg")}}">
+                                <img width="176" height="85"
                                     src="{{asset("images/logo.jpg")}}"
-                                    class="attachment-large size-large webpexpress-processed"
-                                    alt="Maquillaje Alicante WP"></noscript>
-                        </picture>
-                    </a>
+                                    class="attachment-large size-large webpexpress-processed entered lazyloaded"
+                                    alt="Maquillaje Alicante WP"
+                                    data-lazy-src="{{asset("images/logo.jpg")}}"
+                                    data-ll-status="loaded"><noscript><img
+                                        width="176" height="85"
+                                        src="{{asset("images/logo.jpg")}}"
+                                        class="attachment-large size-large webpexpress-processed"
+                                        alt="Maquillaje Alicante WP"></noscript>
+                            </picture>
+                        </a>
+                    </div>
                 </div>
             </a>
             <button class="navbar-toggler btnNav" type="button" data-bs-toggle="collapse"
