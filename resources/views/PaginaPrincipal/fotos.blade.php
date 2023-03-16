@@ -362,8 +362,8 @@
   <!-- / Yoast SEO plugin. -->
 
 
-  <link rel="stylesheet" href="{{asset("IndexCss/index.Css?1.0")}}">
-  <link rel="stylesheet" href="{{asset("IndexCss/fotos.Css?1.0")}}">
+  <link rel="stylesheet" href="{{asset("IndexCss/index.Css?2.0")}}">
+  <link rel="stylesheet" href="{{asset("IndexCss/fotos.Css?2.0")}}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
@@ -1347,8 +1347,8 @@
                 </picture>
             </div>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+          <button class="btnNav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="btnNav navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
               <ul class="navbar-nav">
@@ -1601,11 +1601,11 @@
         </div>
     
         <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo-{{$item2->nombreCategoria}}" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
+        <button class="nextCarou carousel-control-prev" type="button" data-bs-target="#demo-{{$item2->nombreCategoria}}" data-bs-slide="prev">
+          <span class="nextCarou carousel-control-prev-icon"></span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo-{{$item2->nombreCategoria}}" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
+        <button class="nextCarou carousel-control-next" type="button" data-bs-target="#demo-{{$item2->nombreCategoria}}" data-bs-slide="next">
+          <span class="nextCarou carousel-control-next-icon"></span>
         </button>
       </div>
       <br><br><br><br><br>

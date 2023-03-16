@@ -373,7 +373,7 @@
     <!-- / Yoast SEO plugin. -->
 
 
-    <link rel="stylesheet" href="{{ asset('IndexCss/index.Css?1.0') }}">
+    <link rel="stylesheet" href="{{ asset('IndexCss/index.Css?2.0') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
         integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -1473,10 +1473,10 @@
                     </picture>
                 </div>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler btnNav" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="btnNav navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
                 <ul class="navbar-nav">
@@ -1489,13 +1489,13 @@
         </div>
     </nav>
 
-    <div data-elementor-type="header" data-elementor-id="11"
-        class="elementor elementor-11 elementor-location-header">
 
-    </div>
     <div data-elementor-type="wp-page" data-elementor-id="26" class="elementor elementor-26">
         <div class="elementor-inner">
             <div class="elementor-section-wrap">
+                <br><br>
+                <h1 style="text-align: center">MakeuplayerGabriela</h1>
+                <hr style="margin-left: auto; margin-right: auto; color: #b8860b ; background-color: #b8860b ; width:30%; height: 2px;">
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-6c262c1 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
                     data-id="6c262c1" data-element_type="section">
@@ -1638,156 +1638,9 @@
                                                         font-size: 59px
                                                     }
                                                 </style>
-                                                <h1 class="elementor-heading-title elementor-size-default">
-                                                    MakeuplayerGabriela</h1>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-3f41ad9 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="3f41ad9" data-element_type="widget"
-                                            data-widget_type="divider.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                    /*! elementor - v3.7.2 - 21-08-2022 */
-                                                    .elementor-widget-divider {
-                                                        --divider-border-style: none;
-                                                        --divider-border-width: 1px;
-                                                        --divider-color: #2c2c2c;
-                                                        --divider-icon-size: 20px;
-                                                        --divider-element-spacing: 10px;
-                                                        --divider-pattern-height: 24px;
-                                                        --divider-pattern-size: 20px;
-                                                        --divider-pattern-url: none;
-                                                        --divider-pattern-repeat: repeat-x
-                                                    }
 
-                                                    .elementor-widget-divider .elementor-divider {
-                                                        display: -webkit-box;
-                                                        display: -ms-flexbox;
-                                                        display: flex
-                                                    }
-
-                                                    .elementor-widget-divider .elementor-divider__text {
-                                                        font-size: 15px;
-                                                        line-height: 1;
-                                                        max-width: 95%
-                                                    }
-
-                                                    .elementor-widget-divider .elementor-divider__element {
-                                                        margin: 0 var(--divider-element-spacing);
-                                                        -ms-flex-negative: 0;
-                                                        flex-shrink: 0
-                                                    }
-
-                                                    .elementor-widget-divider .elementor-icon {
-                                                        font-size: var(--divider-icon-size)
-                                                    }
-
-                                                    .elementor-widget-divider .elementor-divider-separator {
-                                                        display: -webkit-box;
-                                                        display: -ms-flexbox;
-                                                        display: flex;
-                                                        margin: 0;
-                                                        direction: ltr
-                                                    }
-
-                                                    .elementor-widget-divider--view-line_icon .elementor-divider-separator,
-                                                    .elementor-widget-divider--view-line_text .elementor-divider-separator {
-                                                        -webkit-box-align: center;
-                                                        -ms-flex-align: center;
-                                                        align-items: center
-                                                    }
-
-                                                    .elementor-widget-divider--view-line_icon .elementor-divider-separator:after,
-                                                    .elementor-widget-divider--view-line_icon .elementor-divider-separator:before,
-                                                    .elementor-widget-divider--view-line_text .elementor-divider-separator:after,
-                                                    .elementor-widget-divider--view-line_text .elementor-divider-separator:before {
-                                                        display: block;
-                                                        content: "";
-                                                        border-bottom: 0;
-                                                        -webkit-box-flex: 1;
-                                                        -ms-flex-positive: 1;
-                                                        flex-grow: 1;
-                                                        border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
-                                                    }
-
-                                                    .elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type {
-                                                        -webkit-box-flex: 0;
-                                                        -ms-flex-positive: 0;
-                                                        flex-grow: 0;
-                                                        -ms-flex-negative: 100;
-                                                        flex-shrink: 100
-                                                    }
-
-                                                    .elementor-widget-divider--element-align-left .elementor-divider-separator:before {
-                                                        content: none
-                                                    }
-
-                                                    .elementor-widget-divider--element-align-left .elementor-divider__element {
-                                                        margin-left: 0
-                                                    }
-
-                                                    .elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type {
-                                                        -webkit-box-flex: 0;
-                                                        -ms-flex-positive: 0;
-                                                        flex-grow: 0;
-                                                        -ms-flex-negative: 100;
-                                                        flex-shrink: 100
-                                                    }
-
-                                                    .elementor-widget-divider--element-align-right .elementor-divider-separator:after {
-                                                        content: none
-                                                    }
-
-                                                    .elementor-widget-divider--element-align-right .elementor-divider__element {
-                                                        margin-right: 0
-                                                    }
-
-                                                    .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
-                                                        border-top: var(--divider-border-width) var(--divider-border-style) var(--divider-color)
-                                                    }
-
-                                                    .elementor-widget-divider--separator-type-pattern {
-                                                        --divider-border-style: none
-                                                    }
-
-                                                    .elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,
-                                                    .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,
-                                                    .elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,
-                                                    .elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator {
-                                                        width: 100%;
-                                                        min-height: var(--divider-pattern-height);
-                                                        -webkit-mask-size: var(--divider-pattern-size) 100%;
-                                                        mask-size: var(--divider-pattern-size) 100%;
-                                                        -webkit-mask-repeat: var(--divider-pattern-repeat);
-                                                        mask-repeat: var(--divider-pattern-repeat);
-                                                        background-color: var(--divider-color);
-                                                        -webkit-mask-image: var(--divider-pattern-url);
-                                                        mask-image: var(--divider-pattern-url)
-                                                    }
-
-                                                    .elementor-widget-divider--no-spacing {
-                                                        --divider-pattern-size: auto
-                                                    }
-
-                                                    .elementor-widget-divider--bg-round {
-                                                        --divider-pattern-repeat: round
-                                                    }
-
-                                                    .rtl .elementor-widget-divider .elementor-divider__text {
-                                                        direction: rtl
-                                                    }
-
-                                                    .e-container>.elementor-widget-divider {
-                                                        width: var(--container-widget-width, 100%);
-                                                        --flex-grow: var(--container-widget-flex-grow, 0)
-                                                    }
-                                                </style>
-                                                <div class="elementor-divider">
-                                                    <span class="elementor-divider-separator">
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
