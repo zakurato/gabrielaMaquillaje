@@ -1329,22 +1329,24 @@
       <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <div class="elementor-image">
-                <picture>
-                    <source
-                        data-lazy-srcset="{{asset("images/logo.jpg")}}"
-                        type="image/webp"
-                        srcset="{{asset("images/logo.jpg")}}">
-                    <img width="176" height="85"
-                        src="{{asset("images/logo.jpg")}}"
-                        class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                        alt="Maquillaje Alicante WP"
-                        data-lazy-src="{{asset("images/logo.jpg")}}"
-                        data-ll-status="loaded"><noscript><img
-                            width="176" height="85"
+                <a href="{{route("index")}}">
+                    <picture>
+                        <source
+                            data-lazy-srcset="{{asset("images/logo.jpg")}}"
+                            type="image/webp"
+                            srcset="{{asset("images/logo.jpg")}}">
+                        <img width="176" height="85"
                             src="{{asset("images/logo.jpg")}}"
-                            class="attachment-large size-large webpexpress-processed"
-                            alt="Maquillaje Alicante WP"></noscript>
-                </picture>
+                            class="attachment-large size-large webpexpress-processed entered lazyloaded"
+                            alt="Maquillaje Alicante WP"
+                            data-lazy-src="{{asset("images/logo.jpg")}}"
+                            data-ll-status="loaded"><noscript><img
+                                width="176" height="85"
+                                src="{{asset("images/logo.jpg")}}"
+                                class="attachment-large size-large webpexpress-processed"
+                                alt="Maquillaje Alicante WP"></noscript>
+                    </picture>
+                </a>
             </div>
           </a>
           <button class="btnNav navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -1573,7 +1575,7 @@
 
 
       @foreach ($categorias as $item2)
-      <h1 style="text-align: center">{{$item2->nombreCategoria}}</h1>
+      <h4 style="text-align: center">{{$item2->nombreCategoria}}</h4>
       <!-- Carousel -->
       <div id="demo-{{$item2->nombreCategoria}}" class="carousel slide" data-bs-ride="carousel">
         <!-- Indicators/dots -->
