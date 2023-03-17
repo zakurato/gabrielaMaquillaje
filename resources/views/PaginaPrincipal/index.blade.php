@@ -1991,7 +1991,7 @@
                                             data-id="109d77f" data-element_type="widget"
                                             data-settings="{&quot;classic_columns&quot;:&quot;3&quot;,&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                             data-widget_type="posts.classic">
-                                            <div class="elementor-widget-container img">
+                                            <div class="elementor-widget-container">
                                                 <div
                                                     class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid elementor-has-item-ratio">
                                                     <article
@@ -2002,11 +2002,13 @@
                                                                         data-lazy-srcset="{{ asset('images/2.jpg') }}"
                                                                         type="image/webp"
                                                                         srcset="{{ asset('images/2.jpg') }}"><img
+                                                                        class="img"
                                                                         width="400" height="291"
                                                                         src="{{ asset('images/2.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
                                                                         data-ll-status="loaded"><noscript><img
+                                                                            class="img"
                                                                             width="400" height="291"
                                                                             src="{{ asset('images/2.jpg') }}"
                                                                             class="attachment-large size-large webpexpress-processed"
