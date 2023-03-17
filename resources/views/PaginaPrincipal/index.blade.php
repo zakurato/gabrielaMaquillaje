@@ -1991,11 +1991,11 @@
                                             data-id="109d77f" data-element_type="widget"
                                             data-settings="{&quot;classic_columns&quot;:&quot;3&quot;,&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
                                             data-widget_type="posts.classic">
-                                            <div class="elementor-widget-container">
+                                            <div class="elementor-widget-container img">
                                                 <div
                                                     class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid elementor-has-item-ratio">
                                                     <article
-                                                        class="img elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
+                                                        class="elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
                                                             <div style="text-align: center">
                                                                 <picture>
                                                                     <source
