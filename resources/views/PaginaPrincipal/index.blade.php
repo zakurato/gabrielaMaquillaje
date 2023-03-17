@@ -2002,12 +2002,12 @@
                                                                         data-lazy-srcset="{{ asset('images/2.jpg') }}"
                                                                         type="image/webp"
                                                                         srcset="{{ asset('images/2.jpg') }}"><img
-                                                                        width="400" height="291"
+                                                                        width="350" height="291"
                                                                         src="{{ asset('images/2.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
                                                                         data-ll-status="loaded"><noscript><img
-                                                                            width="400" height="291"
+                                                                            width="350" height="291"
                                                                             src="{{ asset('images/2.jpg') }}"
                                                                             class="attachment-large size-large webpexpress-processed"
                                                                             alt=""></noscript>
