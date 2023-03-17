@@ -373,7 +373,7 @@
     <!-- / Yoast SEO plugin. -->
 
 
-    <link rel="stylesheet" href="{{ asset('IndexCss/index.Css?2.0') }}">
+    <link rel="stylesheet" href="{{ asset('IndexCss/index.Css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
         integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -1455,7 +1455,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <div class="elementor-image">
-                    <div style="margin-left: -65%">
+                    <div style="text-align: left">
                         <a href="{{route("index")}}">
                             <picture>
                                 <source
@@ -1497,160 +1497,11 @@
     <div data-elementor-type="wp-page" data-elementor-id="26" class="elementor elementor-26">
         <div class="elementor-inner">
             <div class="elementor-section-wrap">
-                <br><br>
+                <br>
                 <h1 style="text-align: center">MakeuplayerGabriela</h1>
                 <hr style="margin-left: auto; margin-right: auto; color: #b8860b ; background-color: #b8860b ; width:30%; height: 2px;">
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-6c262c1 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="6c262c1" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-row">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-094457a"
-                                data-id="094457a" data-element_type="column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-c8a5491 elementor-hidden-phone elementor-widget elementor-widget-image"
-                                            data-id="c8a5491" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image">
-                                                    <picture>
-                                                        <source
-                                                            data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg.webp 1920w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-300x94.jpg.webp 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1024x320.jpg.webp 1024w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-768x240.jpg.webp 768w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1536x480.jpg.webp 1536w"
-                                                            sizes="(max-width: 1920px) 100vw, 1920px"
-                                                            type="image/webp"
-                                                            srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg.webp 1920w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-300x94.jpg.webp 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1024x320.jpg.webp 1024w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-768x240.jpg.webp 768w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1536x480.jpg.webp 1536w">
-                                                        <img width="1920" height="600"
-                                                            src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg"
-                                                            class="attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                            alt="Maquillaje Profesional en Alicante"
-                                                            data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg 1920w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-300x94.jpg 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1024x320.jpg 1024w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-768x240.jpg 768w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1536x480.jpg 1536w"
-                                                            data-lazy-sizes="(max-width: 1920px) 100vw, 1920px"
-                                                            data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg"
-                                                            data-ll-status="loaded"
-                                                            sizes="(max-width: 1920px) 100vw, 1920px"
-                                                            srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg 1920w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-300x94.jpg 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1024x320.jpg 1024w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-768x240.jpg 768w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1536x480.jpg 1536w"><noscript><img
-                                                                width="1920" height="600"
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg"
-                                                                class="attachment-full size-full webpexpress-processed"
-                                                                alt="Maquillaje Profesional en Alicante"
-                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg 1920w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-300x94.jpg 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1024x320.jpg 1024w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-768x240.jpg 768w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1-1536x480.jpg 1536w"
-                                                                sizes="(max-width: 1920px) 100vw, 1920px"></noscript>
-                                                    </picture>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-241c907 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
-                                            data-id="241c907" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image">
-                                                    <picture>
-                                                        <source
-                                                            data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional.jpg.webp 600w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-300x300.jpg.webp 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-150x150.jpg.webp 150w"
-                                                            sizes="(max-width: 600px) 100vw, 600px" type="image/webp"
-                                                            srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional.jpg.webp 600w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-300x300.jpg.webp 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-150x150.jpg.webp 150w">
-                                                        <img width="600" height="600"
-                                                            src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional.jpg"
-                                                            class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                            alt="Maquillaje Profesional en Alicante"
-                                                            data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional.jpg 600w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-300x300.jpg 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-150x150.jpg 150w"
-                                                            data-lazy-sizes="(max-width: 600px) 100vw, 600px"
-                                                            data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional.jpg"
-                                                            data-ll-status="loaded"
-                                                            sizes="(max-width: 600px) 100vw, 600px"
-                                                            srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional.jpg 600w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-300x300.jpg 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-150x150.jpg 150w"><noscript><img
-                                                                width="600" height="600"
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional.jpg"
-                                                                class="attachment-large size-large webpexpress-processed"
-                                                                alt="Maquillaje Profesional en Alicante"
-                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional.jpg 600w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-300x300.jpg 300w, https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-profesional-150x150.jpg 150w"
-                                                                sizes="(max-width: 600px) 100vw, 600px"></noscript>
-                                                    </picture>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-6c1d1ff elementor-widget elementor-widget-image"
-                                            data-id="6c1d1ff" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image">
-                                                    <picture>
-                                                        <source
-                                                            data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/professional-makeup-alicante.jpg.webp"
-                                                            type="image/webp"
-                                                            srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/professional-makeup-alicante.jpg.webp">
-                                                        <noscript><img
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/professional-makeup-alicante.jpg"
-                                                                title="Professional MakeUp Alicante"
-                                                                alt="Professional MakeUp Alicante"
-                                                                class="webpexpress-processed"></noscript>
-                                                    </picture>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-1469bd5a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                    data-id="1469bd5a" data-element_type="section">
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-row">
-                            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7220d07a"
-                                data-id="7220d07a" data-element_type="column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-7c60a82a elementor-widget elementor-widget-heading"
-                                            data-id="7c60a82a" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                    /*! elementor - v3.7.2 - 21-08-2022 */
-                                                    .elementor-heading-title {
-                                                        padding: 0;
-                                                        margin: 0;
-                                                        line-height: 1
-                                                    }
 
-                                                    .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                                        color: inherit;
-                                                        font-size: inherit;
-                                                        line-height: inherit
-                                                    }
 
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                                        font-size: 15px
-                                                    }
-
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                                        font-size: 19px
-                                                    }
-
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                                        font-size: 29px
-                                                    }
-
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                                        font-size: 39px
-                                                    }
-
-                                                    .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                                        font-size: 59px
-                                                    }
-                                                </style>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-e5c4400 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                     data-id="e5c4400" data-element_type="section">
@@ -2144,7 +1995,7 @@
                                                 <div
                                                     class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid elementor-has-item-ratio">
                                                     <article
-                                                        class="elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
+                                                        class="img elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
                                                             <div style="text-align: center">
                                                                 <picture>
                                                                     <source

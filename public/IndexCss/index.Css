@@ -64,6 +64,14 @@ body{
   background-color: black !important;
 }
 
+/*zoom para las imagenes*/
+img:focus{
+  transform: scale(1.1) !important;
+}
+img:hover{
+  transform: scale(1.1) !important;
+}
+
   
 
 

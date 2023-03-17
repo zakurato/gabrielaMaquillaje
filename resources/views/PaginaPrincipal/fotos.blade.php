@@ -1329,7 +1329,7 @@
       <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <div class="elementor-image">
-                <div style="margin-left: -65%">
+                <div style="text-align: left">
                     <a href="{{route("index")}}">
                         <picture>
                             <source
