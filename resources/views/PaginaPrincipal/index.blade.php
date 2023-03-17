@@ -373,7 +373,7 @@
     <!-- / Yoast SEO plugin. -->
 
 
-    <link rel="stylesheet" href="{{ asset('IndexCss/index.Css?1.0') }}">
+    <link rel="stylesheet" href="{{ asset('IndexCss/index.Css') }}">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css"
         integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -1995,20 +1995,18 @@
                                                 <div
                                                     class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid elementor-has-item-ratio">
                                                     <article
-                                                        class="elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
+                                                        class="img elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
                                                             <div style="text-align: center">
                                                                 <picture>
                                                                     <source
                                                                         data-lazy-srcset="{{ asset('images/2.jpg') }}"
                                                                         type="image/webp"
                                                                         srcset="{{ asset('images/2.jpg') }}"><img
-                                                                        class="img"
                                                                         width="400" height="291"
                                                                         src="{{ asset('images/2.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
                                                                         data-ll-status="loaded"><noscript><img
-                                                                            class="img"
                                                                             width="400" height="291"
                                                                             src="{{ asset('images/2.jpg') }}"
                                                                             class="attachment-large size-large webpexpress-processed"
