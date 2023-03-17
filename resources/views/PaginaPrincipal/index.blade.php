@@ -2024,13 +2024,13 @@
                                                                         data-lazy-srcset="{{ asset('images/3.jpg') }}"
                                                                         type="image/webp"
                                                                         srcset="{{ asset('images/3.jpg') }}"><img
-                                                                        width="400" height="291"
+                                                                        width="350" height="291"
                                                                         src="{{ asset('images/3.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
                                                                         data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2023/02/pieles-seca-1024x373.jpg"
                                                                         data-ll-status="loaded"><noscript><img
-                                                                            width="400" height="291"
+                                                                            width="350" height="291"
                                                                             src="https://www.maquillajealicante.com/wp-content/uploads/2023/02/pieles-seca-1024x373.jpg"
                                                                             class="attachment-large size-large webpexpress-processed"
                                                                             alt=""></noscript>
@@ -2046,13 +2046,13 @@
                                                                         data-lazy-srcset="{{ asset('images/4.jpg') }}"
                                                                         type="image/webp"
                                                                         srcset="{{ asset('images/4.jpg') }}"><img
-                                                                        width="400" height="291"
+                                                                        width="350" height="291"
                                                                         src="{{ asset('images/4.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
                                                                         data-lazy-src="{{ asset('images/4.jpg') }}"
                                                                         data-ll-status="loaded"><noscript><img
-                                                                            width="400" height="291"
+                                                                            width="350" height="291"
                                                                             src="{{ asset('images/4.jpg') }}"
                                                                             class="attachment-large size-large webpexpress-processed"
                                                                             alt=""></noscript>
