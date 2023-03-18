@@ -359,7 +359,6 @@
     <meta property="og:description"
         content="MakeuplayerGabriela">
     <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
-    <meta property="og:site_name" content="Carmen Moreno">
     <meta property="article:modified_time" content="2023-01-12T11:36:17+00:00">
     <meta property="og:image"
         content="{{asset("images/2.jpg")}}">
