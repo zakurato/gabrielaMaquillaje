@@ -352,13 +352,13 @@
         onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1">
     <meta name="description"
         content="MAQUILLADORA profesional en Alicante: Maquillaje para Eventos, Novias, Ceremonia y Fotografía ❯ Más de 20 años de experiencia ❯ ✆ 654 791 487 ❯❯">
-    <link rel="canonical" href="https://www.maquillajealicante.com/">
+    <link rel="canonical" href="https://www.makeuplayerGabriela.com/">
     <meta property="og:locale" content="es_ES">
     <meta property="og:type" content="website">
     <meta property="og:title" content="MakeuplayerGabriela">
     <meta property="og:description"
         content="MAQUILLADORA profesional en Alicante: Maquillaje para Eventos, Novias, Ceremonia y Fotografía ❯ Más de 20 años de experiencia ❯ ✆ 654 791 487 ❯❯">
-    <meta property="og:url" content="https://www.maquillajealicante.com/">
+    <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
     <meta property="og:site_name" content="Carmen Moreno">
     <meta property="article:modified_time" content="2023-01-12T11:36:17+00:00">
     <meta property="og:image"
