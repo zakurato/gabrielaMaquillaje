@@ -361,7 +361,7 @@
     <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
     <meta property="article:modified_time" content="2023-01-12T11:36:17+00:00">
     <meta property="og:image"
-        content="{{asset("images/3.jpg")}}">
+        content="{{ asset('images/4.jpg') }}">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
     <meta property="og:image:type" content="image/jpeg">
