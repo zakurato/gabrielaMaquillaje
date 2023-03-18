@@ -365,7 +365,6 @@
         content="image/logo.jpg">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
-    <meta property="og:image:type" content="image/jpeg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:label1" content="Tiempo de lectura">
     <meta name="twitter:data1" content="10 minutos">
