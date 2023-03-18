@@ -361,7 +361,7 @@
     <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
     <meta property="article:modified_time" content="2023-01-12T11:36:17+00:00">
     <meta property="og:image"
-        content="images/2.jpg">
+        content="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-social-para-eventos.jpg.webp">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
     <meta property="og:image:type" content="image/jpeg">
