@@ -2,6 +2,86 @@
 
 <head>
     <meta charset="UTF-8">
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=G-Q23M0P9W93&amp;l=dataLayer&amp;cx=c"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=G-Q23M0P9W93&amp;l=dataLayer&amp;cx=c"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script type="text/javascript" async=""
+        src="https://www.googletagmanager.com/gtag/js?id=G-Q23M0P9W93&amp;l=dataLayer&amp;cx=c"></script>
+    <script type="text/javascript" id="sendinblue-js" async="" src="https://s.sib.im/automation.js"></script>
+    <script async="" src="//connect.facebook.net/en_US/fbevents.js"></script>
+    <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-MJCK59D"></script>
+    <script>
+        if (navigator.userAgent.match(/MSIE|Internet Explorer/i) || navigator.userAgent.match(/Trident\/7\..*?rv:11/i)) {
+            var href = document.location.href;
+            if (!href.match(/[?&]nowprocket/)) {
+                if (href.indexOf("?") == -1) {
+                    if (href.indexOf("#") == -1) {
+                        document.location.href = href + "?nowprocket=1"
+                    } else {
+                        document.location.href = href.replace("#", "?nowprocket=1#")
+                    }
+                } else {
+                    if (href.indexOf("#") == -1) {
+                        document.location.href = href + "&nowprocket=1"
+                    } else {
+                        document.location.href = href.replace("#", "&nowprocket=1#")
+                    }
+                }
+            }
+        }
+    </script>
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
