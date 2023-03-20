@@ -360,7 +360,7 @@
         content="MakeuplayerGabriela">
     <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
     <meta property="og:image"
-        content="https://photos.google.com/photo/AF1QipP5_WtApEfNdwv-ccTUGXMi0MC6HH3D9tWJW48v">
+        content="https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
     <meta property="og:image:type" content="image/jpeg">
