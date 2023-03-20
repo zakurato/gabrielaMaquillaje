@@ -814,6 +814,39 @@
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
         onerror="this.removeAttribute('data-rocket-async')" media="all">
 
+
+
+
+
+ 
+    <script data-minify="1"
+        src="https://www.maquillajealicante.com/wp-content/cache/min/1/wp-content/plugins/ct-ultimate-gdpr/assets/js/cookie-list.js?ver=1657614754"
+        id="ct-ultimate-gdpr-cookie-list-js" defer=""></script>
+    <script data-minify="1"
+        src="https://www.maquillajealicante.com/wp-content/cache/min/1/wp-content/plugins/ct-ultimate-gdpr/assets/js/shortcode-block-cookie.js?ver=1657614754"
+        id="ct-ultimate-gdpr-shortcode-block-cookie-js" defer=""></script>
+    <link rel="https://api.w.org/" href="https://www.maquillajealicante.com/wp-json/">
+    <link rel="alternate" type="application/json" href="https://www.maquillajealicante.com/wp-json/wp/v2/pages/26">
+    <link rel="EditURI" type="application/rsd+xml" title="RSD"
+        href="https://www.maquillajealicante.com/xmlrpc.php?rsd">
+    <link rel="wlwmanifest" type="application/wlwmanifest+xml"
+        href="https://www.maquillajealicante.com/wp-includes/wlwmanifest.xml">
+    <meta name="generator" content="WordPress 6.0.1">
+    <link rel="shortlink" href="https://www.maquillajealicante.com/">
+    <link rel="alternate" type="application/json+oembed"
+        href="https://www.maquillajealicante.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.maquillajealicante.com%2F">
+    <link rel="alternate" type="text/xml+oembed"
+        href="https://www.maquillajealicante.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.maquillajealicante.com%2F&amp;format=xml">
+    <script>
+        document.createElement("picture");
+        if (!window.HTMLPictureElement && document.addEventListener) {
+            window.addEventListener("DOMContentLoaded", function() {
+                var s = document.createElement("script");
+                s.src = "https://www.maquillajealicante.com/wp-content/plugins/webp-express/js/picturefill.min.js";
+                document.body.appendChild(s);
+            });
+        }
+    </script><!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];
@@ -832,7 +865,8 @@
     </script>
     <!-- End Google Tag Manager -->
     <meta name="google-site-verification" content="zr-ZC3txviQnJzUlz6pTwy8MmZURRY_yazt8BlpUK28">
-
+    <meta name="msapplication-TileImage"
+        content="https://www.maquillajealicante.com/wp-content/uploads/2020/11/favicon.ico">
     <style id="wp-custom-css">
         .elementor-text-editor p {
             padding-bottom: 6px;
