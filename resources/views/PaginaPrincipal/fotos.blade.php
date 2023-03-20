@@ -351,7 +351,7 @@
   <meta property="og:url" content="https://www.maquillajealicante.com/">
   <meta property="og:site_name" content="Carmen Moreno">
   <meta property="article:modified_time" content="2023-01-12T11:36:17+00:00">
-  <meta property="og:image" content="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-social-mov.jpg">
+  <meta property="og:image" content="https://files.fm/f/9fr5w2pg3">
   <meta property="og:image:width" content="500">
   <meta property="og:image:height" content="500">
   <meta property="og:image:type" content="image/jpeg">
@@ -362,8 +362,8 @@
   <!-- / Yoast SEO plugin. -->
 
 
-  <link rel="stylesheet" href="{{asset("IndexCss/index.Css?2.0")}}">
-  <link rel="stylesheet" href="{{asset("IndexCss/fotos.Css?2.0")}}">
+  <link rel="stylesheet" href="{{asset("IndexCss/index.Css")}}?v={{ time() }}">
+  <link rel="stylesheet" href="{{asset("IndexCss/fotos.Css")}}?v={{ time() }}">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
