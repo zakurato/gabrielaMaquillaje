@@ -121,8 +121,6 @@ class HomeController extends Controller
 
     public function fotos(){
         $trabajos = Trabajo::orderBy('id', 'desc')->get();
-
-        return $trabajos;
         $categorias = Categoria::all();
         return view("PaginaPrincipal.fotos",compact("trabajos","categorias"));
     }
