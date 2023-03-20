@@ -341,25 +341,27 @@
 
   <!-- This site is optimized with the Yoast SEO plugin v19.6 - https://yoast.com/wordpress/plugins/seo/ -->
   <title>MakeuplayerGabriela</title>
-  <link rel="stylesheet" href="https://www.maquillajealicante.com/wp-content/cache/min/1/855e3c317be0316ca9641313919da2f5.css" data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'" onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1">
-  <meta name="description" content="MAQUILLADORA profesional en Alicante: Maquillaje para Eventos, Novias, Ceremonia y Fotografía ❯ Más de 20 años de experiencia ❯ ✆ 654 791 487 ❯❯">
-  <link rel="canonical" href="https://www.maquillajealicante.com/">
-  <meta property="og:locale" content="es_ES">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="MakeuplayerGabriela">
-  <meta property="og:description" content="MAQUILLADORA profesional en Alicante: Maquillaje para Eventos, Novias, Ceremonia y Fotografía ❯ Más de 20 años de experiencia ❯ ✆ 654 791 487 ❯❯">
-  <meta property="og:url" content="https://www.maquillajealicante.com/">
-  <meta property="og:site_name" content="Carmen Moreno">
-  <meta property="article:modified_time" content="2023-01-12T11:36:17+00:00">
-  <meta property="og:image" content="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-social-mov.jpg">
-  <meta property="og:image:width" content="500">
-  <meta property="og:image:height" content="500">
-  <meta property="og:image:type" content="image/jpeg">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:label1" content="Tiempo de lectura">
-  <meta name="twitter:data1" content="10 minutos">
-  <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.maquillajealicante.com/","url":"https://www.maquillajealicante.com/","name":"Maquillaje Alicante ※ Carmen Moreno Maquilladora en Alicante","isPartOf":{"@id":"https://www.maquillajealicante.com/#website"},"primaryImageOfPage":{"@id":"https://www.maquillajealicante.com/#primaryimage"},"image":{"@id":"https://www.maquillajealicante.com/#primaryimage"},"thumbnailUrl":"https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg","datePublished":"2020-11-12T10:16:47+00:00","dateModified":"2023-01-12T11:36:17+00:00","description":"MAQUILLADORA profesional en Alicante: Maquillaje para Eventos, Novias, Ceremonia y Fotografía ❯ Más de 20 años de experiencia ❯ ✆ 654 791 487 ❯❯","breadcrumb":{"@id":"https://www.maquillajealicante.com/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://www.maquillajealicante.com/"]}]},{"@type":"ImageObject","inLanguage":"es","@id":"https://www.maquillajealicante.com/#primaryimage","url":"https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg","contentUrl":"https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg","width":1920,"height":600,"caption":"Maquillaje Profesional en Alicante"},{"@type":"BreadcrumbList","@id":"https://www.maquillajealicante.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada"}]},{"@type":"WebSite","@id":"https://www.maquillajealicante.com/#website","url":"https://www.maquillajealicante.com/","name":"Carmen Moreno","description":"Maquilladora Profesional Alicante","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.maquillajealicante.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"}]}</script>
-  <!-- / Yoast SEO plugin. -->
+  <link rel="stylesheet"
+        href="https://www.maquillajealicante.com/wp-content/cache/min/1/855e3c317be0316ca9641313919da2f5.css"
+        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
+        onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1">
+    <meta name="description"
+        content="MakeuplayerGabriela">
+    <link rel="canonical" href="https://www.makeuplayerGabriela.com/">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MakeuplayerGabriela">
+    <meta property="og:description"
+        content="MakeuplayerGabriela">
+    <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
+    <meta property="og:image"
+        content="{{ asset('images/4.jpg') }}">
+    <meta property="og:image:width" content="500">
+    <meta property="og:image:height" content="500">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://www.maquillajealicante.com/","url":"https://www.maquillajealicante.com/","name":"Maquillaje Alicante ※ Carmen Moreno Maquilladora en Alicante","isPartOf":{"@id":"https://www.maquillajealicante.com/#website"},"primaryImageOfPage":{"@id":"https://www.maquillajealicante.com/#primaryimage"},"image":{"@id":"https://www.maquillajealicante.com/#primaryimage"},"thumbnailUrl":"https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg","datePublished":"2020-11-12T10:16:47+00:00","dateModified":"2023-01-12T11:36:17+00:00","description":"MAQUILLADORA profesional en Alicante: Maquillaje para Eventos, Novias, Ceremonia y Fotografía ❯ Más de 20 años de experiencia ❯ ✆ 654 791 487 ❯❯","breadcrumb":{"@id":"https://www.maquillajealicante.com/#breadcrumb"},"inLanguage":"es","potentialAction":[{"@type":"ReadAction","target":["https://www.maquillajealicante.com/"]}]},{"@type":"ImageObject","inLanguage":"es","@id":"https://www.maquillajealicante.com/#primaryimage","url":"https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg","contentUrl":"https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-alicante-1.jpg","width":1920,"height":600,"caption":"Maquillaje Profesional en Alicante"},{"@type":"BreadcrumbList","@id":"https://www.maquillajealicante.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Portada"}]},{"@type":"WebSite","@id":"https://www.maquillajealicante.com/#website","url":"https://www.maquillajealicante.com/","name":"Carmen Moreno","description":"Maquilladora Profesional Alicante","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.maquillajealicante.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"es"}]}</script>
+    <!-- / Yoast SEO plugin. -->
 
 
   <link rel="stylesheet" href="{{asset("IndexCss/index.Css")}}?v={{ time() }}">

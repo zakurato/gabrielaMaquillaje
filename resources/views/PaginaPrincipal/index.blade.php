@@ -360,7 +360,7 @@
         content="MakeuplayerGabriela">
     <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
     <meta property="og:image"
-        content="{{ asset('images/4.jpg') }}">
+        content="https://photos.google.com/photo/AF1QipP5_WtApEfNdwv-ccTUGXMi0MC6HH3D9tWJW48v">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
     <meta property="og:image:type" content="image/jpeg">
