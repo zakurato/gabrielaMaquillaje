@@ -424,8 +424,6 @@
                                                 <button>Crear categoría </button>
                                             </a>
 
-
-
                                             <br><br><br>
                                             <form method="POST" action="{{route("store")}}" accept-charset="UTF-8" enctype="multipart/form-data">
                                                 @csrf
@@ -458,17 +456,15 @@
                                               <br><br><br>
                                               <h1 style="text-align: center">Categorias</h1>
                                               <table border="1">
-                                                <tr>
-                                                  <td>Categoria</td>
-                                                  <td>Trabajo realizado</td>
-                                                  <td>Accion</td>
-                                                </tr>
                                                 @foreach ($trabajos as $item)
                                                 <tr>
                                                   <td style="text-align: center">{{$item->nombreCategoria}}</td>
+                                                </tr>
+                                                <tr>
                                                   <td style="text-align: center">
                                                     <img style="width: 200px; height: 200px;" src="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}">
                                                   </td>
+                                                </tr>
                                                   <td style="text-align: center;">
                                                     <form action="{{route("eliminarTrabajo")}}" method="GET">
                                                       <input type="hidden" name="id" value="{{$item->id}}">
