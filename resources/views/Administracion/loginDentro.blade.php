@@ -462,7 +462,23 @@
                                                 </tr>
                                                 <tr>
                                                   <td style="text-align: center">
-                                                    <img style="width: 200px; height: 200px;" src="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}">
+
+                                                    <picture>
+                                                      <source
+                                                          data-lazy-srcset="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}"
+                                                          type="image/webp"
+                                                          srcset="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}">
+                                                      <img width="380" height="380"
+                                                          src="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}"
+                                                          class="attachment-large size-large webpexpress-processed entered lazyloaded"
+                                                          alt="Maquillaje Alicante WP"
+                                                          data-lazy-src="{{asset("images/logo.jpg")}}"
+                                                          data-ll-status="loaded"><noscript><img
+                                                              width="380" height="380"
+                                                              src="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}"
+                                                              class="attachment-large size-large webpexpress-processed"
+                                                              alt="Maquillaje Alicante WP"></noscript>
+                                                  </picture>
                                                   </td>
                                                 </tr>
                                                   <td style="text-align: center;">
