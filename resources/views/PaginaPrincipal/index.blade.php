@@ -430,39 +430,7 @@
                 })), (e = t.source || {}).concatemoji ? c(e.concatemoji) : e.wpemoji && e.twemoji && (c(e.twemoji), c(e
                     .wpemoji)))
         }(window, document, window._wpemojiSettings);
-    </script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
-        defer=""></script>
+
     <style>
         img.wp-smiley,
         img.emoji {
