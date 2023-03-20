@@ -431,7 +431,38 @@
                     .wpemoji)))
         }(window, document, window._wpemojiSettings);
     </script>
-
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/wp-emoji-release.min.js?ver=6.0.1" type="text/javascript"
+        defer=""></script>
     <style>
         img.wp-smiley,
         img.emoji {
@@ -792,6 +823,9 @@
         href="https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-6.css?ver=1661418447"
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
         onerror="this.removeAttribute('data-rocket-async')" media="all">
+
+
+
     <link rel="stylesheet"
         href="https://www.maquillajealicante.com/wp-content/uploads/elementor/css/global.css?ver=1661418447"
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
@@ -809,6 +843,64 @@
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
         onerror="this.removeAttribute('data-rocket-async')" media="all">
 
+
+    <style id="rocket-lazyload-inline-css">
+        .rll-youtube-player {
+            position: relative;
+            padding-bottom: 56.23%;
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .rll-youtube-player:focus-within {
+            outline: 2px solid currentColor;
+            outline-offset: 5px;
+        }
+
+        .rll-youtube-player iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 100;
+            background: 0 0
+        }
+
+        .rll-youtube-player img {
+            bottom: 0;
+            display: block;
+            left: 0;
+            margin: auto;
+            max-width: 100%;
+            width: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            border: none;
+            height: auto;
+            -webkit-transition: .4s all;
+            -moz-transition: .4s all;
+            transition: .4s all
+        }
+
+        .rll-youtube-player img:hover {
+            -webkit-filter: brightness(75%)
+        }
+
+        .rll-youtube-player .play {
+            height: 100%;
+            width: 100%;
+            left: 0;
+            top: 0;
+            position: absolute;
+            background: url(https://www.maquillajealicante.com/wp-content/plugins/wp-rocket/assets/img/youtube.png) no-repeat center;
+            background-color: transparent !important;
+            cursor: pointer;
+            border: none;
+        }
+    </style>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Work+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAllura%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.0.1"
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
@@ -816,9 +908,18 @@
 
 
 
-
-
- 
+    <script src="https://www.maquillajealicante.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"
+        defer=""></script>
+    <script src="https://www.maquillajealicante.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2"
+        id="jquery-migrate-js" defer=""></script>
+    <script
+        src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.7.2"
+        id="font-awesome-4-shim-js" defer=""></script>
+    <script id="ct-ultimate-gdpr-cookie-list-js-extra">
+        var ct_ultimate_gdpr_cookie_list = {
+            "list": []
+        };
+    </script>
     <script data-minify="1"
         src="https://www.maquillajealicante.com/wp-content/cache/min/1/wp-content/plugins/ct-ultimate-gdpr/assets/js/cookie-list.js?ver=1657614754"
         id="ct-ultimate-gdpr-cookie-list-js" defer=""></script>
