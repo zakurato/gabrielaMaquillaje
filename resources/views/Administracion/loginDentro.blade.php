@@ -468,13 +468,13 @@
                                                           data-lazy-srcset="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}"
                                                           type="image/webp"
                                                           srcset="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}">
-                                                      <img width="380" height="380"
+                                                      <img width="390" height="390"
                                                           src="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}"
                                                           class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                           alt="Maquillaje Alicante WP"
                                                           data-lazy-src="{{asset("images/logo.jpg")}}"
                                                           data-ll-status="loaded"><noscript><img
-                                                              width="380" height="380"
+                                                              width="390" height="390"
                                                               src="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}"
                                                               class="attachment-large size-large webpexpress-processed"
                                                               alt="Maquillaje Alicante WP"></noscript>
