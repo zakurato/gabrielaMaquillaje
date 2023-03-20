@@ -814,6 +814,52 @@
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
         onerror="this.removeAttribute('data-rocket-async')" media="all">
 
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MJCK59D');
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta name="google-site-verification" content="zr-ZC3txviQnJzUlz6pTwy8MmZURRY_yazt8BlpUK28">
+
+    <style id="wp-custom-css">
+        .elementor-text-editor p {
+            padding-bottom: 6px;
+        }
+
+        ul {
+            margin-bottom: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .elementor-text-editor h2,
+        .elementor-text-editor h3 {
+            margin-top: 24px;
+        }
+    </style>
+    <noscript>
+        <style id="rocket-lazyload-nojs-css">
+            .rll-youtube-player,
+            [data-lazy-src] {
+                display: none !important;
+            }
+        </style>
+    </noscript>
+
    
 </head>
 
