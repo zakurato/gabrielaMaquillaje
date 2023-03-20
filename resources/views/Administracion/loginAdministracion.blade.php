@@ -1,6 +1,5 @@
 <html lang="es">
 <head>
-
     <meta charset="UTF-8">
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -430,24 +429,8 @@
                       </div>
                   </div>
               </section>
-              <section class="elementor-section elementor-top-section elementor-element elementor-element-e5c4400 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e5c4400" data-element_type="section">
-                  <div class="elementor-container elementor-column-gap-extended">
-                      
-                  </div>
-              </section>
-              
-              
-              <section class="elementor-section elementor-top-section elementor-element elementor-element-2d460dd elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2d460dd" data-element_type="section">
-                  <div class="elementor-container elementor-column-gap-default">
-                      <div class="elementor-row">
-                          <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5851674" data-id="5851674" data-element_type="column">
-                              <div class="elementor-column-wrap elementor-element-populated">
-                                  
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </section>
+
+
           </div>
       </div>
   </div>

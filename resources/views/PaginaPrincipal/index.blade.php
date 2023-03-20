@@ -60,6 +60,8 @@
         href="https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-20.css?ver=1661956219"
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
         onerror="this.removeAttribute('data-rocket-async')" media="all">
+
+        
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Work+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAllura%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.0.1"
         data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
