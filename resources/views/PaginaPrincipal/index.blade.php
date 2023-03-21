@@ -222,13 +222,12 @@
                                 <img width="176" height="85"
                                     src="{{asset("images/logo.jpg")}}"
                                     class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                    alt="Maquillaje Alicante WP"
                                     data-lazy-src="{{asset("images/logo.jpg")}}"
                                     data-ll-status="loaded"><noscript><img
                                         width="176" height="85"
                                         src="{{asset("images/logo.jpg")}}"
                                         class="attachment-large size-large webpexpress-processed"
-                                        alt="Maquillaje Alicante WP"></noscript>
+                                        ></noscript>
                             </picture>
                         </a>
                     </div>
@@ -972,13 +971,12 @@
                                                                             <img width="176" height="85"
                                                                                 src="{{asset("images/logo.jpg")}}"
                                                                                 class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                                                alt="Maquillaje Alicante WP"
                                                                                 data-lazy-src="{{asset("images/logo.jpg")}}"
                                                                                 data-ll-status="loaded"><noscript><img
                                                                                     width="176" height="85"
                                                                                     src="{{asset("images/logo.jpg")}}"
                                                                                     class="attachment-large size-large webpexpress-processed"
-                                                                                    alt="Maquillaje Alicante WP"></noscript>
+                                                                                    ></noscript>
                                                                         </picture>
                                                                     </div>
                                                                 </div>

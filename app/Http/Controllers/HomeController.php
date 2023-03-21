@@ -30,13 +30,21 @@ class HomeController extends Controller
         }
     }
 
-    public function loginDentro(){
+    public function loginDentro(Request $request){
 
-        $categorias = Categoria::all();
 
-        $trabajos = Trabajo::orderBy('id', 'desc')->paginate(10);
+        if (empty($request->all()) || $request->txtBuscar == "TODAS") {
+            $categorias = Categoria::all();
+            $trabajos = Trabajo::orderBy('id', 'desc')->paginate(10);
+            return view("Administracion.loginDentro",compact("categorias","trabajos"));
 
-        return view("Administracion.loginDentro",compact("categorias","trabajos"));
+        }else{
+            $categorias = Categoria::all();
+            $trabajos = Trabajo::where('nombreCategoria', '=', $request->txtBuscar)->orderBy('id', 'desc')->paginate(10);
+            //$trabajos = Trabajo::orderBy('id', 'desc')->paginate(10);
+            return view("Administracion.loginDentro",compact("categorias","trabajos"));
+        }
+       
     }
 
     public function loginFuera(Request $request){

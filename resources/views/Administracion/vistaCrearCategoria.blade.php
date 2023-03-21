@@ -199,13 +199,12 @@
                             <img width="176" height="85"
                                 src="{{asset("images/logo.jpg")}}"
                                 class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                alt="Maquillaje Alicante WP"
                                 data-lazy-src="{{asset("images/logo.jpg")}}"
                                 data-ll-status="loaded"><noscript><img
                                     width="176" height="85"
                                     src="{{asset("images/logo.jpg")}}"
                                     class="attachment-large size-large webpexpress-processed"
-                                    alt="Maquillaje Alicante WP"></noscript>
+                                    ></noscript>
                         </picture>
                     </a>
                 </div>
@@ -510,11 +509,11 @@
                                                                   <div class="elementor-image">
                                                                       <picture>
                                                                           <source data-lazy-srcset="{{asset("images/logo.jpg")}}" type="image/webp" srcset="{{asset("images/logo.jpg")}}">
-                                                                          <img width="176" height="85" src="{{asset("images/logo.jpg")}}" class="attachment-large size-large webpexpress-processed entered lazyloaded" alt="Maquillaje Alicante WP" data-lazy-src="{{asset("images/logo.jpg")}}" data-ll-status="loaded"><noscript><img
+                                                                          <img width="176" height="85" src="{{asset("images/logo.jpg")}}" class="attachment-large size-large webpexpress-processed entered lazyloaded" data-lazy-src="{{asset("images/logo.jpg")}}" data-ll-status="loaded"><noscript><img
                                                                                   width="176" height="85"
                                                                                   src="{{asset("images/logo.jpg")}}"
                                                                                   class="attachment-large size-large webpexpress-processed"
-                                                                                  alt="Maquillaje Alicante WP"></noscript>
+                                                                                  ></noscript>
                                                                       </picture>
                                                                   </div>
                                                               </div>

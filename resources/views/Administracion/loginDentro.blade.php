@@ -199,13 +199,12 @@
                             <img width="176" height="85"
                                 src="{{asset("images/logo.jpg")}}"
                                 class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                alt="Maquillaje Alicante WP"
                                 data-lazy-src="{{asset("images/logo.jpg")}}"
                                 data-ll-status="loaded"><noscript><img
                                     width="176" height="85"
                                     src="{{asset("images/logo.jpg")}}"
                                     class="attachment-large size-large webpexpress-processed"
-                                    alt="Maquillaje Alicante WP"></noscript>
+                                    ></noscript>
                         </picture>
                     </a>
                 </div>
@@ -453,7 +452,19 @@
                                                  <br><br><br>
                                                 <button type="submit" class="" style="width: 100%; height: 50px; font: 120% Arial ">Guardar imagen</button>
                                               </form>
-                                        
+
+                                              <br><br><br>
+                                              <label for="categoria" required>Buscar por categoria:</label>
+                                              <form id="myForm" action="{{ route('loginDentro') }}" method="GET">
+                                                @csrf <!-- Add CSRF token field for security -->
+                                                <select class="form-select" name="txtBuscar" onchange="document.getElementById('myForm').submit();">
+                                                    <option selected>Seleccione la categoria que desea buscar</option>
+                                                    <option value="TODAS">TODAS</option>
+                                                    @foreach ($categorias as $item)
+                                                        <option value="{{ $item->nombreCategoria }}">{{ $item->nombreCategoria }}</option>
+                                                    @endforeach
+                                                </select>   
+                                            </form>
                                               <br><br><br>
                                               <div>{{ $trabajos->appends(request()->input())->links('pagination::bootstrap-4') }}</div>
 
@@ -474,13 +485,12 @@
                                                       <img width="390" height="390"
                                                           src="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}"
                                                           class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                          alt="Maquillaje Alicante WP"
                                                           data-lazy-src="{{asset("images/logo.jpg")}}"
                                                           data-ll-status="loaded"><noscript><img
                                                               width="390" height="390"
                                                               src="{{URL::asset('imagenesTrabajos/'.$item->imagen)}}"
                                                               class="attachment-large size-large webpexpress-processed"
-                                                              alt="Maquillaje Alicante WP"></noscript>
+                                                              ></noscript>
                                                   </picture>
                                                   </td>
                                                 </tr>
@@ -553,11 +563,11 @@
                                                                   <div class="elementor-image">
                                                                       <picture>
                                                                           <source data-lazy-srcset="{{asset("images/logo.jpg")}}" type="image/webp" srcset="{{asset("images/logo.jpg")}}">
-                                                                          <img width="176" height="85" src="{{asset("images/logo.jpg")}}" class="attachment-large size-large webpexpress-processed entered lazyloaded" alt="Maquillaje Alicante WP" data-lazy-src="{{asset("images/logo.jpg")}}" data-ll-status="loaded"><noscript><img
+                                                                          <img width="176" height="85" src="{{asset("images/logo.jpg")}}" class="attachment-large size-large webpexpress-processed entered lazyloaded" data-lazy-src="{{asset("images/logo.jpg")}}" data-ll-status="loaded"><noscript><img
                                                                                   width="176" height="85"
                                                                                   src="{{asset("images/logo.jpg")}}"
                                                                                   class="attachment-large size-large webpexpress-processed"
-                                                                                  alt="Maquillaje Alicante WP"></noscript>
+                                                                                  ></noscript>
                                                                       </picture>
                                                                   </div>
                                                               </div>
