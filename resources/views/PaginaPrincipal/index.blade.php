@@ -255,7 +255,7 @@
             <div class="elementor-section-wrap">
                 <br>
                 <h1 style="text-align: center">MakeuplayerGabriela</h1>
-                <hr style="margin-left: auto; margin-right: auto; color: #b8860b ; background-color: #b8860b ; width:30%; height: 2px;">
+                <hr style="margin-left: auto; margin-right: auto; color: #BC9D4B ; background-color: #BC9D4B ; width:30%; height: 2px;">
 
 
                 <section
@@ -508,11 +508,10 @@
                                                     </figure>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje para boda</h2>
-                                                        <p class="elementor-image-box-description">El maquillaje es uno
-                                                            de los complementos más importantes de tu boda. Por ello nos
-                                                            adaptamos por completo a tu estilo, edad, facciones del
-                                                            rostro, color de piel, ojos y vestuario, para conseguir un
-                                                            look de 10.</p>
+                                                        <p class="elementor-image-box-description">El maquillaje es clave en tu boda, por eso adaptamos el look a tu estilo,
+                                                            edad, facciones, tono de piel, ojos y vestido. <b>Nos enfocamos en cada detalle</b> para que te veas radiante en tu
+                                                            gran día. Con nuestro servicio personalizado, lucirás como siempre soñaste. Te garantizamos que estarás
+                                                            espectacular.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -549,13 +548,10 @@
                                                         </picture>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
-                                                        <h2 class="elementor-image-box-title">Regala un curso de
-                                                            maquillaje</h2>
-                                                        <p class="elementor-image-box-description">Con este regalo
-                                                            <b>vas a triunfar</b>. En la mayoría de los casos nadie nos
-                                                            enseña a maquillarnos y es algo que hacemos habitualmente,
-                                                            así que desde luego, regalar un curso de maquillaje es un
-                                                            excelente regalo.</p>
+                                                        <h2 class="elementor-image-box-title">Maquillaje nocturno</h2>
+                                                        <p class="elementor-image-box-description">Nuestro servicio personalizado de maquillaje
+                                                        nocturno te hará lucir <b>radiante y deslumbrante</b> en cualquier evento nocturno.
+                                                        Confía en MakeuplayerGabriela expertos en maquillaje y luce fabulosa en tu próxima noche especial.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -593,11 +589,15 @@
                                                     </figure>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje para
-                                                            adolescentes</h2>
-                                                        <p class="elementor-image-box-description">Esta formación está
-                                                            orientada para que adolescentes se inicien en el mundo del
-                                                            maquillaje. Aprenderás a maquillarte sin tropiezos y
-                                                            teniendo en cuenta el cuidado<br> de la piel.</p>
+                                                            Quince años</h2>
+                                                        <p class="elementor-image-box-description">
+                                                        Lucir espectacular en tu fiesta de quince años es fácil con
+                                                        nuestro servicio de maquillaje personalizado. MakeuplayerGabriela 
+                                                        se enfoca en <b>resaltar tus mejores rasgos</b>
+                                                        y adaptar el look a tu estilo personal y la ocasión.
+                                                        Te proporcionamos los mejores consejos para mantener tu maquillaje
+                                                        perfecto durante toda la noche. ¡Contáctanos para lucir radiante
+                                                        en tu noche especial!</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -920,8 +920,8 @@
 														<b>Gabriela López</b><strong>&nbsp;</strong></span>y<b>&nbsp;</b>pongo
                                                         a tu disposición mi amplia experiencia como <strong>maquilladora
                                                             profesional y especialista en estética</strong>. Descubre
-                                                        todos los servicios que te podemos ofrecer en mi estudio para
-                                                        particulares, estilistas, estudios de fotografía y agencias.</p>
+                                                        todos los servicios que te podemos ofrecer para
+                                                        particulares, estilistas, estudios de fotografía, bodas, y agencias.</p>
                                                 </div>
                                             </div>
                                         </div>
