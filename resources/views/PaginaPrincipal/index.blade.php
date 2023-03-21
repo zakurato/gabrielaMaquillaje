@@ -1033,7 +1033,9 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <span class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    +506 88389748 </span>
+                                                                                    <a href="tel:+50688389748">
+                                                                                        +506 88389748 </a> 
+                                                                                    </span>
                                                                             </span>
                                                                         </div>
                                                                     </div>
