@@ -359,13 +359,12 @@
                                                             <img width="300" height="450"
                                                                 src="{{asset("images/dia.jpg")}}"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                alt="Maquillaje social para eventos"
                                                                 data-lazy-src="{{asset("images/dia.jpg")}}"
                                                                 data-ll-status="loaded"><noscript><img width="300"
                                                                     height="450"
                                                                     src="{{asset("images/dia.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    alt="Maquillaje social para eventos"></noscript>
+                                                                    ></noscript>
                                                         </picture>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
@@ -449,7 +448,6 @@
                                                             <img width="300" height="450"
                                                                 src="{{asset("images/editorial.jpg")}}"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                alt=""
                                                                 data-lazy-src="{{asset("images/editorial.jpg")}}"
                                                                 data-ll-status="loaded"><noscript>
                                                                     <img width="300"
@@ -501,7 +499,7 @@
                                                                 srcset="{{asset("images/novia.jpg")}}">
                                                             <img width="300" height="450"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                alt="Maquillaje para bodas"
+                                                                
                                                                 data-lazy-src="{{asset("images/novia.jpg")}}"
                                                                 src="{{asset("images/novia.jpg")}}"
                                                                 data-ll-status="loaded"><noscript>
@@ -509,7 +507,7 @@
                                                                     height="450"
                                                                     src="{{asset("images/novia.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    alt="Maquillaje para bodas"></noscript>
+                                                                    ></noscript>
                                                         </picture>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
@@ -543,7 +541,7 @@
                                                                 srcset="{{asset("images/noche.jpg")}}">
                                                             <img width="300" height="450"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                alt="Regalar curso de maquillaje"
+                                                                
                                                                 data-lazy-src="{{asset("images/noche.jpg")}}"
                                                                 src="{{asset("images/noche.jpg")}}"
                                                                 data-ll-status="loaded"><noscript>
@@ -551,7 +549,7 @@
                                                                     height="450"
                                                                     src="{{asset("images/noche.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    alt="Regalar curso de maquillaje"></noscript>
+                                                                    ></noscript>
                                                         </picture>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
@@ -790,10 +788,10 @@
                                                                         src="{{ asset('images/3.jpg') }}"
                                                                         class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                                                         alt=""
-                                                                        data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2023/02/pieles-seca-1024x373.jpg"
+                                                                        data-lazy-src="{{ asset('images/3.jpg') }}"
                                                                         data-ll-status="loaded"><noscript><img
                                                                             width="350" height="291"
-                                                                            src="https://www.maquillajealicante.com/wp-content/uploads/2023/02/pieles-seca-1024x373.jpg"
+                                                                            src="{{ asset('images/3.jpg') }}"
                                                                             class="attachment-large size-large webpexpress-processed"
                                                                             alt=""></noscript>
                                                                 </picture>
@@ -857,7 +855,7 @@
                                                             class="attachment-2048x2048 size-2048x2048 webpexpress-processed entered lazyloaded"
                                                             alt=""
                                                             data-lazy-sizes="(max-width: 360px) 100vw, 360px"
-                                                            data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/carmen-moreno-maquillaje-profesional.png"
+                                                            data-lazy-src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
                                                             data-ll-status="loaded"
                                                             sizes="(max-width: 360px) 100vw, 360px"><noscript>
                                                             <img width="360" height="360"
