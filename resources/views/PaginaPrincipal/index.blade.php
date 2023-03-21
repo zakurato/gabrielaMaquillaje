@@ -353,27 +353,30 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-social-para-eventos.jpg.webp"
+                                                                data-lazy-srcset="{{asset("images/dia.jpg")}}"
                                                                 type="image/webp"
-                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-social-para-eventos.jpg.webp">
-                                                            <img width="730" height="450"
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-social-para-eventos.jpg"
+                                                                srcset="{{asset("images/dia.jpg")}}">
+                                                            <img width="300" height="450"
+                                                                src="{{asset("images/dia.jpg")}}"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
                                                                 alt="Maquillaje social para eventos"
-                                                                data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-social-para-eventos.jpg"
-                                                                data-ll-status="loaded"><noscript><img width="730"
+                                                                data-lazy-src="{{asset("images/dia.jpg")}}"
+                                                                data-ll-status="loaded"><noscript><img width="300"
                                                                     height="450"
-                                                                    src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-social-para-eventos.jpg"
+                                                                    src="{{asset("images/dia.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
                                                                     alt="Maquillaje social para eventos"></noscript>
                                                         </picture>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
-                                                        <h2 class="elementor-image-box-title">Maquillaje social</h2>
-                                                        <p class="elementor-image-box-description">Prueba nuestro
-                                                            servicio de <b>maquillaje social</b> para fiestas y eventos.
-                                                            Intenso o natural teniendo en cuenta el tipo de evento, el
-                                                            vestido, el peinado y tu estilo para crear un look perfecto.
+                                                        <h2 class="elementor-image-box-title">Maquillaje de día</h2>
+                                                        <p class="elementor-image-box-description">
+                                                        Ofrecemos un servicio de maquillaje personalizado para tu día
+                                                        a día, adaptado a tu estilo y resaltando tus rasgos más hermosos.
+                                                        MakeuplayerGabriela te brinda consejos para mantener
+                                                        tu look <b>fresco y perfecto</b> durante todo el día. Ya sea un look
+                                                        natural o audaz, te harán sentir segura y radiante en cualquier
+                                                        ocasión.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -395,29 +398,31 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-maquillaje-profesional.jpg.webp"
+                                                                data-lazy-srcset="{{asset("images/fantasia.jpg")}}"
                                                                 type="image/webp"
-                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-maquillaje-profesional.jpg.webp">
-                                                            <img width="730" height="450"
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-maquillaje-profesional.jpg"
+                                                                srcset="{{asset("images/fantasia.jpg")}}">
+                                                            <img width="300" height="450"
+                                                                src="{{asset("images/fantasia.jpg")}}"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                alt="Curso de Maquillaje Profesional"
-                                                                data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-maquillaje-profesional.jpg"
-                                                                data-ll-status="loaded"><noscript><img width="730"
+                                                                data-lazy-src="{{asset("images/fantasia.jpg")}}"
+                                                                data-ll-status="loaded"><noscript>
+                                                                    <img width="300"
                                                                     height="450"
-                                                                    src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-maquillaje-profesional.jpg"
+                                                                    src="{{asset("images/fantasia.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
                                                                     alt="Curso de Maquillaje Profesional"></noscript>
                                                         </picture>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
-                                                        <h2 class="elementor-image-box-title">Curso de maquillaje
-                                                            profesional</h2>
-                                                        <p class="elementor-image-box-description"><b>Formamos a
-                                                                profesionales</b> o reciclamos los conocimientos
-                                                            adquiridos previamente, afianzando las técnicas y los tipos
-                                                            de maquillaje más demandados para que puedan ofrecer a sus
-                                                            clientes las últimas tendencias.</p>
+                                                        <h2 class="elementor-image-box-title">Maquillaje de fiesta</h2>
+                                                        <p class="elementor-image-box-description">
+                                                            MakeuplayerGabriela puede ayudarte a transformar
+                                                            tu look para tu próxima fiesta con un estilo
+                                                            <b>completamente diferente.</b> Con mi experiencia en maquillaje,
+                                                            puedo crear un look que se adapte a tu estilo
+                                                            y personalidad, desde un estilo natural y fresco
+                                                            hasta algo más audaz y atrevido.
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -438,30 +443,30 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/cursos-de-automaquillaje.jpg.webp"
+                                                                data-lazy-srcset="{{asset("images/editorial.jpg")}}"
                                                                 type="image/webp"
-                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/cursos-de-automaquillaje.jpg.webp">
-                                                            <img width="730" height="450"
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/cursos-de-automaquillaje.jpg"
+                                                                srcset="{{asset("images/editorial.jpg")}}">
+                                                            <img width="300" height="450"
+                                                                src="{{asset("images/editorial.jpg")}}"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
                                                                 alt=""
-                                                                data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/cursos-de-automaquillaje.jpg"
-                                                                data-ll-status="loaded"><noscript><img width="730"
+                                                                data-lazy-src="{{asset("images/editorial.jpg")}}"
+                                                                data-ll-status="loaded"><noscript>
+                                                                    <img width="300"
                                                                     height="450"
-                                                                    src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/cursos-de-automaquillaje.jpg"
+                                                                    src="{{asset("images/editorial.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
                                                                     alt=""></noscript>
                                                         </picture>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
-                                                        <h2 class="elementor-image-box-title">Curso de automaquillaje
-                                                        </h2>
-                                                        <p class="elementor-image-box-description">El maquillaje es una
-                                                            actividad que realizamos casi todos los días, por eso es
-                                                            importante que conozcas qué tipo de maquillaje es el
-                                                            adecuado para tí, <b>qué tonos son los que te favorecen</b>
-                                                            y cómo aplicarlos así como los productos indispensables en
-                                                            tu maquillaje diario.
+                                                        <h2 class="elementor-image-box-title">Maquillaje editorial</h2>
+                                                        <p class="elementor-image-box-description">
+                                                            ¿Quieres un look de maquillaje editorial impresionante? 
+                                                            <b>MakeuplayerGabriela puede ayudarte.</b> Creando un look único
+                                                            y adaptado a tu estilo, resaltando tu belleza natural.
+                                                            Contáctanos para sorprender a todos con tu belleza
+                                                            radiante.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -491,17 +496,18 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-para-boda.jpg.webp"
+                                                                data-lazy-srcset="{{asset("images/novia.jpg")}}"
                                                                 type="image/webp"
-                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-para-boda.jpg.webp">
-                                                            <img width="730" height="450"
+                                                                srcset="{{asset("images/novia.jpg")}}">
+                                                            <img width="300" height="450"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
                                                                 alt="Maquillaje para bodas"
-                                                                data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-para-boda.jpg"
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-para-boda.jpg"
-                                                                data-ll-status="loaded"><noscript><img width="730"
+                                                                data-lazy-src="{{asset("images/novia.jpg")}}"
+                                                                src="{{asset("images/novia.jpg")}}"
+                                                                data-ll-status="loaded"><noscript>
+                                                                    <img width="300"
                                                                     height="450"
-                                                                    src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/maquillaje-para-boda.jpg"
+                                                                    src="{{asset("images/novia.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
                                                                     alt="Maquillaje para bodas"></noscript>
                                                         </picture>
@@ -532,17 +538,18 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/regalar-curso-de-maquillaje.jpg.webp"
+                                                                data-lazy-srcset="{{asset("images/noche.jpg")}}"
                                                                 type="image/webp"
-                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/regalar-curso-de-maquillaje.jpg.webp">
-                                                            <img width="730" height="450"
+                                                                srcset="{{asset("images/noche.jpg")}}">
+                                                            <img width="300" height="450"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
                                                                 alt="Regalar curso de maquillaje"
-                                                                data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/regalar-curso-de-maquillaje.jpg"
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/regalar-curso-de-maquillaje.jpg"
-                                                                data-ll-status="loaded"><noscript><img width="730"
+                                                                data-lazy-src="{{asset("images/noche.jpg")}}"
+                                                                src="{{asset("images/noche.jpg")}}"
+                                                                data-ll-status="loaded"><noscript>
+                                                                    <img width="300"
                                                                     height="450"
-                                                                    src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/regalar-curso-de-maquillaje.jpg"
+                                                                    src="{{asset("images/noche.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
                                                                     alt="Regalar curso de maquillaje"></noscript>
                                                         </picture>
@@ -572,19 +579,18 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-de-automaquillaje.jpg.webp"
+                                                                data-lazy-srcset="{{asset("images/quinceAnos.jpg")}}"
                                                                 type="image/webp"
-                                                                srcset="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-de-automaquillaje.jpg.webp">
-                                                            <img width="730" height="450"
+                                                                srcset="{{asset("images/quinceAnos.jpg")}}">
+                                                            <img width="300" height="450"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                alt="Curso de Maquillaje Profesional"
-                                                                data-lazy-src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-de-automaquillaje.jpg"
-                                                                src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-de-automaquillaje.jpg"
-                                                                data-ll-status="loaded"><noscript><img width="730"
-                                                                    height="450"
-                                                                    src="https://www.maquillajealicante.com/wp-content/uploads/2021/03/curso-de-automaquillaje.jpg"
+                                                                data-lazy-src="{{asset("images/quinceAnos.jpg")}}"
+                                                                src="{{asset("images/quinceAnos.jpg")}}"
+                                                                data-ll-status="loaded"><noscript>
+                                                                    <img width="300" height="450"
+                                                                    src="{{asset("images/quinceAnos.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    alt="Curso de Maquillaje Profesional"></noscript>
+                                                                    ></noscript>
                                                         </picture>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
