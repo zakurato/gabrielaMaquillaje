@@ -215,7 +215,7 @@
               <span class="btnNav navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-              <ul class="navbar-nav">
+              <ul class="navbar-nav inicioNav">
                   <li class="nav-item dropdown">
                     <li><a class="dropdown-item aNav" href="{{route("loginDentro")}}">Inicio</a></li>                  
               </ul>
