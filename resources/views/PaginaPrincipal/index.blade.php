@@ -22,7 +22,7 @@
         content="MakeuplayerGabriela">
     <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
     <meta property="og:image"
-        content="{{asset("images/2.jpg")}}">
+        content="https://images.unsplash.com/reserve/Af0sF2OS5S5gatqrKzVP_Silhoutte.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
     <meta property="og:image:type" content="image/jpeg">
