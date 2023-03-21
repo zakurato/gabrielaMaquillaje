@@ -34,3 +34,99 @@
     background-color: rgba(0, 0, 0, 0) !important;
     color: rgba(0, 0, 0, 0) !important;
 }
+
+
+
+body{
+    background-color: white !important;
+}
+
+/*seccion de entrada de imagen*/
+
+.image-container {
+    width: 100%;
+    float: right;
+    position: relative;
+  }
+  
+  /* animación de la imagen */
+  @keyframes slide-left {
+    from {
+      transform: translateX(-35%);
+    }
+    to {
+      transform: translateX(-1%);
+    }
+  }
+  
+  /* aplicación de la animación a la imagen */
+  .image-container img {
+    animation: slide-left 2s ease-in-out forwards;
+  }
+  
+  .image-container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 2px;
+    background-color: black;
+  }
+  
+  .image-container:last-child::after {
+    display: none;
+  }
+
+  /*degradado*/
+
+  .degradado {
+    filter: saturate(100%) brightness(80%) contrast(100%);
+}
+
+/*nav con boostrap pero modificado*/
+
+.aNav{
+  color: white !important;
+}
+.aNav:hover{
+  background-color: #212529!important;
+}
+
+.btnNav:focus{
+  color: black !important;
+  background-color: black !important;
+}
+.btnNav:hover{
+  color: black !important;
+  background-color: black !important;
+}
+
+  
+
+
+  /*letras encima de las imagenes*/
+
+  .image-text {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .image-text h1 {
+    font-size: 3rem;
+  }
+  
+  .image-text p {
+    font-size: 1.5rem;
+  }
+  
+  
+  
+.copyri{
+  font: 100% Arial !important
+}
+
