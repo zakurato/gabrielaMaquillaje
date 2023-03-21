@@ -78,28 +78,24 @@ class HomeController extends Controller
     
 
     public function store(Request $request){
-        //return $request;
-
         $request->validate([
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg,heif|max:16384',
+            'image.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg,heif|max:16384',
         ]);
-
-        //$imageName = $request->image->getClientOriginalName(); //guarda las imagenes con el nombre original problemas cuando se suben con el celular las fotos
-        $imageName = time().'.'.$request->image->extension(); //si las imagenes tienen el mismo nombre las guarda con diferente nombre 
-        $request->image->move(public_path('imagenesTrabajos'), $imageName);
-
-        //return $request->categoria;
-
-        $trabajo = new Trabajo();
-
-        $trabajo->nombreCategoria = $request->categoria;
-        $trabajo->imagen = $imageName;
-        $trabajo->save();
-
-        session()->flash("correcto","Se ha guardado correctamente");
+    
+        foreach ($request->file('image') as $image) {
+            $imageName = time().'_'.rand().'.'.$image->extension();//la funcion rand me genera un numero aleatorio para que las imagenes no se repitan
+            $image->move(public_path('imagenesTrabajos'), $imageName);
+    
+            $trabajo = new Trabajo();
+            $trabajo->nombreCategoria = $request->categoria;
+            $trabajo->imagen = $imageName;
+            $trabajo->save();
+        }
+        session()->flash("correcto","Se han guardado correctamente las imágenes.");
         return redirect()->route("loginDentro");
-
     }
+
+
 
     public function eliminarCategoria(Request $request){
         $delete = Categoria::where("id",$request->id)->delete();

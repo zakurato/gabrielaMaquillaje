@@ -431,9 +431,10 @@
                                                   <label for="inputImage" required>Seleccione la imagen del articulo:</label>
                                                   <input 
                                                       type="file" 
-                                                      name="image" 
+                                                      name="image[]"
                                                       id="inputImage"
                                                       class="form-control" 
+                                                      multiple
                                                       required>
                                         
                                                   @error('image')
