@@ -454,6 +454,8 @@
                                               </form>
                                         
                                               <br><br><br>
+                                              <div>{{ $trabajos->appends(request()->input())->links('pagination::bootstrap-4') }}</div>
+
                                               <h1 style="text-align: center">Categorias</h1>
                                               <table border="1">
                                                 @foreach ($trabajos as $item)
@@ -491,7 +493,8 @@
                                                 </tr>
                                                 @endforeach
                                               </table>
-                                        
+                                              <div>{{ $trabajos->appends(request()->input())->links('pagination::bootstrap-4') }}</div>
+
                                           </div>
                                       </div>
                                   </div>

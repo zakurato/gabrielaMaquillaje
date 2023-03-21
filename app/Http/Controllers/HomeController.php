@@ -34,7 +34,7 @@ class HomeController extends Controller
 
         $categorias = Categoria::all();
 
-        $trabajos = Trabajo::orderBy('id', 'desc')->get();
+        $trabajos = Trabajo::orderBy('id', 'desc')->paginate(10);
 
         return view("Administracion.loginDentro",compact("categorias","trabajos"));
     }
