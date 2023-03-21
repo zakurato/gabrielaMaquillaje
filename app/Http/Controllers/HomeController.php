@@ -79,7 +79,7 @@ class HomeController extends Controller
 
     public function store(Request $request){
         $request->validate([
-            'image.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg,heif|max:16384',
+            'image.*' => 'required|image|mimes:jpeg,png,jpg,gif,svg,heif|max:32768',
         ]);
     
         foreach ($request->file('image') as $image) {
