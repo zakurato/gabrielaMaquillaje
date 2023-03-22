@@ -249,7 +249,7 @@
         </div>
     </nav>
 
-
+ 
     <div data-elementor-type="wp-page" data-elementor-id="26" class="elementor elementor-26">
         <div class="elementor-inner">
             <div class="elementor-section-wrap">
@@ -474,6 +474,7 @@
                                                                     ></noscript>
                                                         </picture>
                                                     </figure>
+                                                    <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje de día</h2>
                                                         <p class="elementor-image-box-description">
@@ -519,6 +520,7 @@
                                                                     alt="Curso de Maquillaje Profesional"></noscript>
                                                         </picture>
                                                     </figure>
+                                                    <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje de fiesta</h2>
                                                         <p class="elementor-image-box-description">
@@ -564,6 +566,7 @@
                                                                     alt=""></noscript>
                                                         </picture>
                                                     </figure>
+                                                    <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje editorial</h2>
                                                         <p class="elementor-image-box-description">
@@ -616,6 +619,7 @@
                                                                     ></noscript>
                                                         </picture>
                                                     </figure>
+                                                    <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje para boda</h2>
                                                         <p class="elementor-image-box-description">El maquillaje es clave en tu boda.<b>Nos enfocamos en cada detalle</b> para que te veas radiante en tu
@@ -657,6 +661,7 @@
                                                                     ></noscript>
                                                         </picture>
                                                     </figure>
+                                                    <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje nocturno</h2>
                                                         <p class="elementor-image-box-description">MakeuplayerGabriela te hará lucir <b>radiante y deslumbrante</b> en cualquier evento nocturno.
@@ -695,6 +700,7 @@
                                                                     ></noscript>
                                                         </picture>
                                                     </figure>
+                                                    <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje para
                                                             Quince años</h2>
