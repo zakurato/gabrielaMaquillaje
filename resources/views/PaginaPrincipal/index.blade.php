@@ -276,15 +276,15 @@
                                                 <div class="elementor-image">
                                                     <picture>
                                                         <img width="360" height="360"
-                                                            src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
+                                                            src="{{ asset('images/gaby.jpg') }}"
                                                             class="attachment-2048x2048 size-2048x2048 webpexpress-processed entered lazyloaded"
                                                             alt=""
                                                             data-lazy-sizes="(max-width: 360px) 100vw, 360px"
-                                                            data-lazy-src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
+                                                            data-lazy-src="{{ asset('images/gaby.jpg') }}"
                                                             data-ll-status="loaded"
                                                             sizes="(max-width: 360px) 100vw, 360px"><noscript>
                                                             <img width="360" height="360"
-                                                                src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
+                                                                src="{{ asset('images/gaby.jpg') }}"
                                                                 class="attachment-2048x2048 size-2048x2048 webpexpress-processed"
                                                                 alt=""
                                                                 sizes="(max-width: 360px) 100vw, 360px"></noscript>
