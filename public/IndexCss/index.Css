@@ -102,3 +102,17 @@ img:hover{
   font: 100% Arial !important
 }
 
+
+.gabyOpacity {
+  opacity: 0;
+  animation: fadeIn 4s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -257,6 +257,115 @@
                 <h1 style="text-align: center">MakeuplayerGabriela</h1>
                 <hr style="margin-left: auto; margin-right: auto; color: #BC9D4B ; background-color: #BC9D4B ; width:30%; height: 2px;">
 
+                <div class="gabyOpacity">
+                <section
+                    class="elementor-section elementor-top-section elementor-element elementor-element-0721eb9 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                    data-id="0721eb9" data-element_type="section"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-background-overlay"></div>
+                    <div class="elementor-container elementor-column-gap-no">
+                        <div class="elementor-row">
+                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b2cec07"
+                                data-id="b2cec07" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-ed87c28 elementor-widget elementor-widget-image"
+                                            data-id="ed87c28" data-element_type="widget"
+                                            data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-image">
+                                                    <picture>
+                                                        <img width="360" height="360"
+                                                            src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
+                                                            class="attachment-2048x2048 size-2048x2048 webpexpress-processed entered lazyloaded"
+                                                            alt=""
+                                                            data-lazy-sizes="(max-width: 360px) 100vw, 360px"
+                                                            data-lazy-src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
+                                                            data-ll-status="loaded"
+                                                            sizes="(max-width: 360px) 100vw, 360px"><noscript>
+                                                            <img width="360" height="360"
+                                                                src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
+                                                                class="attachment-2048x2048 size-2048x2048 webpexpress-processed"
+                                                                alt=""
+                                                                sizes="(max-width: 360px) 100vw, 360px"></noscript>
+                                                    </picture>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73c595a"
+                                data-id="73c595a" data-element_type="column">
+                                <div class="elementor-column-wrap elementor-element-populated">
+                                    <div class="elementor-widget-wrap">
+                                        <div class="elementor-element elementor-element-0d19504 elementor-widget elementor-widget-heading"
+                                            data-id="0d19504" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">Gabriela
+                                                    López, maquilladora profesional</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-1707c19 elementor-widget elementor-widget-text-editor"
+                                            data-id="1707c19" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                    /*! elementor - v3.7.2 - 21-08-2022 */
+                                                    .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                        background-color: #818a91;
+                                                        color: #fff
+                                                    }
+
+                                                    .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                        color: #818a91;
+                                                        border: 3px solid;
+                                                        background-color: transparent
+                                                    }
+
+                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                        margin-top: 8px
+                                                    }
+
+                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                        width: 1em;
+                                                        height: 1em
+                                                    }
+
+                                                    .elementor-widget-text-editor .elementor-drop-cap {
+                                                        float: left;
+                                                        text-align: center;
+                                                        line-height: 1;
+                                                        font-size: 50px
+                                                    }
+
+                                                    .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                        display: inline-block
+                                                    }
+                                                </style>
+                                                <div class="elementor-text-editor elementor-clearfix">
+                                                    <p>Hola, soy&nbsp;<span style="color: #ffff99;">
+														<b>Gabriela López</b><strong>&nbsp;</strong></span>y<b>&nbsp;</b>pongo
+                                                        a tu disposición mi amplia experiencia como <strong>maquilladora
+                                                            profesional y especialista en estética</strong>. Descubre
+                                                        todos los servicios que te puedo para
+                                                        particulares, fotografía, bodas, y agencias.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                </div>
+                
+                <br><br><br>
+
+
 
                 <section
                     class="elementor-section elementor-top-section elementor-element elementor-element-e5c4400 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -833,109 +942,7 @@
                     </div>
                 </section>
 
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-0721eb9 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="0721eb9" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-background-overlay"></div>
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-row">
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b2cec07"
-                                data-id="b2cec07" data-element_type="column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-ed87c28 elementor-widget elementor-widget-image"
-                                            data-id="ed87c28" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image">
-                                                    <picture>
-                                                        <img width="360" height="360"
-                                                            src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
-                                                            class="attachment-2048x2048 size-2048x2048 webpexpress-processed entered lazyloaded"
-                                                            alt=""
-                                                            data-lazy-sizes="(max-width: 360px) 100vw, 360px"
-                                                            data-lazy-src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
-                                                            data-ll-status="loaded"
-                                                            sizes="(max-width: 360px) 100vw, 360px"><noscript>
-                                                            <img width="360" height="360"
-                                                                src="{{ asset('images/312989973_1523386941514133_2601446845352579645_n.jpg') }}"
-                                                                class="attachment-2048x2048 size-2048x2048 webpexpress-processed"
-                                                                alt=""
-                                                                sizes="(max-width: 360px) 100vw, 360px"></noscript>
-                                                    </picture>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73c595a"
-                                data-id="73c595a" data-element_type="column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-0d19504 elementor-widget elementor-widget-heading"
-                                            data-id="0d19504" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">Gabriela
-                                                    López, maquilladora profesional</h2>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1707c19 elementor-widget elementor-widget-text-editor"
-                                            data-id="1707c19" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                    /*! elementor - v3.7.2 - 21-08-2022 */
-                                                    .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-                                                        background-color: #818a91;
-                                                        color: #fff
-                                                    }
 
-                                                    .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
-                                                        color: #818a91;
-                                                        border: 3px solid;
-                                                        background-color: transparent
-                                                    }
-
-                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
-                                                        margin-top: 8px
-                                                    }
-
-                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
-                                                        width: 1em;
-                                                        height: 1em
-                                                    }
-
-                                                    .elementor-widget-text-editor .elementor-drop-cap {
-                                                        float: left;
-                                                        text-align: center;
-                                                        line-height: 1;
-                                                        font-size: 50px
-                                                    }
-
-                                                    .elementor-widget-text-editor .elementor-drop-cap-letter {
-                                                        display: inline-block
-                                                    }
-                                                </style>
-                                                <div class="elementor-text-editor elementor-clearfix">
-                                                    <p>Hola, soy&nbsp;<span style="color: #ffff99;">
-														<b>Gabriela López</b><strong>&nbsp;</strong></span>y<b>&nbsp;</b>pongo
-                                                        a tu disposición mi amplia experiencia como <strong>maquilladora
-                                                            profesional y especialista en estética</strong>. Descubre
-                                                        todos los servicios que te podemos ofrecer para
-                                                        particulares, estilistas, estudios de fotografía, bodas, y agencias.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
         </div>
     </div>
