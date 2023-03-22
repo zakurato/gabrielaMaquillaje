@@ -349,7 +349,7 @@
 														<b>Gabriela López</b><strong>&nbsp;</strong></span>y<b>&nbsp;</b>pongo
                                                         a tu disposición mi amplia experiencia como <strong>maquilladora
                                                             profesional y especialista en estética</strong>. Descubre
-                                                        todos los servicios que te puedo para
+                                                        todos los servicios que te puedo ofrecer para
                                                         particulares, fotografía, bodas, y agencias.</p>
                                                 </div>
                                             </div>
