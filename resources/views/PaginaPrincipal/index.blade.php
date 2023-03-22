@@ -348,9 +348,7 @@
                                                     <p>Hola, soy&nbsp;<span style="color: #ffff99;">
 														<b>Gabriela López</b><strong>&nbsp;</strong></span>y<b>&nbsp;</b>pongo
                                                         a tu disposición mi amplia experiencia como <strong>maquilladora
-                                                            profesional y especialista en estética</strong>. Descubre
-                                                        todos los servicios que te puedo ofrecer para
-                                                        particulares, fotografía, bodas, y agencias.</p>
+                                                            profesional</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -479,7 +477,7 @@
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje de día</h2>
                                                         <p class="elementor-image-box-description">
-                                                        Ofrecemos un servicio de maquillaje personalizado para tu día
+                                                        Brindo un servicio de maquillaje personalizado para tu día
                                                         a día, adaptado a tu estilo y resaltando tus rasgos más hermosos.
                                                         MakeuplayerGabriela te brinda consejos para mantener
                                                         tu look <b>fresco y perfecto</b> durante todo el día. Ya sea un look
@@ -572,8 +570,7 @@
                                                             ¿Quieres un look de maquillaje editorial impresionante? 
                                                             <b>MakeuplayerGabriela puede ayudarte.</b> Creando un look único
                                                             y adaptado a tu estilo, resaltando tu belleza natural.
-                                                            Contáctanos para sorprender a todos con tu belleza
-                                                            radiante.
+                                                            
                                                         </p>
                                                     </div>
                                                 </div>
@@ -621,8 +618,7 @@
                                                     </figure>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje para boda</h2>
-                                                        <p class="elementor-image-box-description">El maquillaje es clave en tu boda, por eso adaptamos el look a tu estilo,
-                                                            edad, facciones, tono de piel, ojos y vestido. <b>Nos enfocamos en cada detalle</b> para que te veas radiante en tu
+                                                        <p class="elementor-image-box-description">El maquillaje es clave en tu boda.<b>Nos enfocamos en cada detalle</b> para que te veas radiante en tu
                                                             gran día. Con nuestro servicio personalizado, lucirás como siempre soñaste. Te garantizamos que estarás
                                                             espectacular.</p>
                                                     </div>
@@ -663,9 +659,8 @@
                                                     </figure>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje nocturno</h2>
-                                                        <p class="elementor-image-box-description">Nuestro servicio personalizado de maquillaje
-                                                        nocturno te hará lucir <b>radiante y deslumbrante</b> en cualquier evento nocturno.
-                                                        Confía en MakeuplayerGabriela expertos en maquillaje y luce fabulosa en tu próxima noche especial.</p>
+                                                        <p class="elementor-image-box-description">MakeuplayerGabriela te hará lucir <b>radiante y deslumbrante</b> en cualquier evento nocturno.
+                                                         Luce fabulosa en tu próxima noche especial.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -708,9 +703,7 @@
                                                         nuestro servicio de maquillaje personalizado. MakeuplayerGabriela 
                                                         se enfoca en <b>resaltar tus mejores rasgos</b>
                                                         y adaptar el look a tu estilo personal y la ocasión.
-                                                        Te proporcionamos los mejores consejos para mantener tu maquillaje
-                                                        perfecto durante toda la noche. ¡Contáctanos para lucir radiante
-                                                        en tu noche especial!</p>
+                                                        </p>
                                                     </div>
                                                 </div>
                                             </div>
