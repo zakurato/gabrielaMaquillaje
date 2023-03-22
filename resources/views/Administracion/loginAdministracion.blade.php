@@ -21,7 +21,7 @@
         content="MakeuplayerGabriela">
     <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
     <meta property="og:image"
-        content="{{ asset('images/4.jpg') }}">
+    content="https://instagram.fsjo8-1.fna.fbcdn.net/v/t51.2885-15/336974129_756395785900436_5961524674523560380_n.jpg?stp=dst-jpg_e15&_nc_ht=instagram.fsjo8-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=u20plMrqg0YAX9MI3pW&edm=ACqnv0EBAAAA&ccb=7-5&ig_cache_key=MzA2MzA3MzM0NjQ3NjY5OTE3Mw%3D%3D.2-ccb7-5&oh=00_AfDPZkCPQ1phy0-hGuOSWYaFBb0uUn_I2sOhtV_AnFE6zA&oe=641EA330&_nc_sid=9ec724">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
     <meta property="og:image:type" content="image/jpeg">
