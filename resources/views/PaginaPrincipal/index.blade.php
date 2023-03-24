@@ -9,14 +9,12 @@
     <!-- This site is optimized with the Yoast SEO plugin v19.6 - https://yoast.com/wordpress/plugins/seo/ -->
     <title>MakeuplayerGabriela</title>
 
-    <meta name="description"
-        content="MakeuplayerGabriela">
+    <meta name="description" content="MakeuplayerGabriela">
     <link rel="canonical" href="https://www.makeuplayerGabriela.com/">
     <meta property="og:locale" content="es_ES">
     <meta property="og:type" content="website">
     <meta property="og:title" content="MakeuplayerGabriela">
-    <meta property="og:description"
-        content="MakeuplayerGabriela">
+    <meta property="og:description" content="MakeuplayerGabriela">
     <meta property="og:url" content="https://www.makeuplayerGabriela.com/">
     <meta property="og:image"
         content="https://instagram.fsjo8-1.fna.fbcdn.net/v/t51.2885-15/336974129_756395785900436_5961524674523560380_n.jpg?stp=dst-jpg_e15&_nc_ht=instagram.fsjo8-1.fna.fbcdn.net&_nc_cat=108&_nc_ohc=u20plMrqg0YAX9MI3pW&edm=ACqnv0EBAAAA&ccb=7-5&ig_cache_key=MzA2MzA3MzM0NjQ3NjY5OTE3Mw%3D%3D.2-ccb7-5&oh=00_AfDPZkCPQ1phy0-hGuOSWYaFBb0uUn_I2sOhtV_AnFE6zA&oe=641EA330&_nc_sid=9ec724">
@@ -37,25 +35,17 @@
     </script>
 
 
+    <!-- / ALL CSS. -->
 
-
-
-     <!-- / ALL CSS. -->   
-
-     <link rel="stylesheet"
-     href="{{asset("allCss/all.Css")}}?v={{ time() }}"
-     data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-     onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1"><!-- No se puede quitar -->
-     <link rel="stylesheet"
-     href="{{ asset('allCss/all2.Css') }}?v={{ time() }}"
-     data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-     onerror="this.removeAttribute('data-rocket-async')" media="all">
-     <link rel="stylesheet"
-            href="{{ asset('allCss/all3.Css') }}?v={{ time() }}"
-            media="all" data-minify="1" />
-        <link rel='stylesheet' id='elementor-post-6-css'
-            href='{{ asset('allCss/all4.Css') }}?v={{ time() }}'
-            media='all' />
+    <link rel="stylesheet" href="{{ asset('allCss/all.Css') }}?v={{ time() }}" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel='stylesheet'"
+        onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1"><!-- No se puede quitar -->
+    <link rel="stylesheet" href="{{ asset('allCss/all2.Css') }}?v={{ time() }}" data-rocket-async="style"
+        as="style" onload="this.onload=null;this.rel='stylesheet'"
+        onerror="this.removeAttribute('data-rocket-async')" media="all">
+    <link rel="stylesheet" href="{{ asset('allCss/all3.Css') }}?v={{ time() }}" media="all" data-minify="1" />
+    <link rel='stylesheet' id='elementor-post-6-css' href='{{ asset('allCss/all4.Css') }}?v={{ time() }}'
+        media='all' />
 
 
 </head>
@@ -64,160 +54,21 @@
     class="home page-template page-template-elementor_header_footer page page-id-26 elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-26 e--ua-blink e--ua-chrome e--ua-webkit"
     data-elementor-device-mode="widescreen">
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-dark-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0.49803921568627"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.49803921568627"></feFuncG>
-                    <feFuncB type="table" tableValues="0 0.49803921568627"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-grayscale">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1"></feFuncR>
-                    <feFuncG type="table" tableValues="0 1"></feFuncG>
-                    <feFuncB type="table" tableValues="0 1"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.54901960784314 0.98823529411765"></feFuncR>
-                    <feFuncG type="table" tableValues="0 1"></feFuncG>
-                    <feFuncB type="table" tableValues="0.71764705882353 0.25490196078431"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-red">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 1"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.27843137254902"></feFuncG>
-                    <feFuncB type="table" tableValues="0.5921568627451 0.27843137254902"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-midnight">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0 0"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.64705882352941"></feFuncG>
-                    <feFuncB type="table" tableValues="0 1"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-magenta-yellow">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.78039215686275 1"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.94901960784314"></feFuncG>
-                    <feFuncB type="table" tableValues="0.35294117647059 0.47058823529412"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-purple-green">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.65098039215686 0.40392156862745"></feFuncR>
-                    <feFuncG type="table" tableValues="0 1"></feFuncG>
-                    <feFuncB type="table" tableValues="0.44705882352941 0.4"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false"
-        role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;">
-        <defs>
-            <filter id="wp-duotone-blue-orange">
-                <feColorMatrix color-interpolation-filters="sRGB" type="matrix"
-                    values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 ">
-                </feColorMatrix>
-                <feComponentTransfer color-interpolation-filters="sRGB">
-                    <feFuncR type="table" tableValues="0.098039215686275 1"></feFuncR>
-                    <feFuncG type="table" tableValues="0 0.66274509803922"></feFuncG>
-                    <feFuncB type="table" tableValues="0.84705882352941 0.41960784313725"></feFuncB>
-                    <feFuncA type="table" tableValues="1 1"></feFuncA>
-                </feComponentTransfer>
-                <feComposite in2="SourceGraphic" operator="in"></feComposite>
-            </filter>
-        </defs>
-    </svg><!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MJCK59D" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
-
-
     <nav style="background-color: black !important" class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <div class="elementor-image">
                     <div style="text-align: left">
-                        <a href="{{route("index")}}">
+                        <a href="{{ route('index') }}">
                             <picture>
-                                <source
-                                    data-lazy-srcset="{{asset("images/logo.jpg")}}"
-                                    type="image/webp"
-                                    srcset="{{asset("images/logo.jpg")}}">
-                                <img width="176" height="85"
-                                    src="{{asset("images/logo.jpg")}}"
+                                <source data-lazy-srcset="{{ asset('images/logo.jpg') }}" type="image/webp"
+                                    srcset="{{ asset('images/logo.jpg') }}">
+                                <img width="176" height="85" src="{{ asset('images/logo.jpg') }}"
                                     class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                    data-lazy-src="{{asset("images/logo.jpg")}}"
-                                    data-ll-status="loaded"><noscript><img
-                                        width="176" height="85"
-                                        src="{{asset("images/logo.jpg")}}"
-                                        class="attachment-large size-large webpexpress-processed"
-                                        ></noscript>
+                                    data-lazy-src="{{ asset('images/logo.jpg') }}"
+                                    data-ll-status="loaded"><noscript><img width="176" height="85"
+                                        src="{{ asset('images/logo.jpg') }}"
+                                        class="attachment-large size-large webpexpress-processed"></noscript>
                             </picture>
                         </a>
                     </div>
@@ -239,118 +90,121 @@
         </div>
     </nav>
 
- 
+
     <div data-elementor-type="wp-page" data-elementor-id="26" class="elementor elementor-26">
         <div class="elementor-inner">
             <div class="elementor-section-wrap">
                 <br>
                 <h1 style="text-align: center">MakeuplayerGabriela</h1>
-                <hr style="margin-left: auto; margin-right: auto; color: #BC9D4B ; background-color: #BC9D4B ; width:30%; height: 2px;">
+                <hr
+                    style="margin-left: auto; margin-right: auto; color: #BC9D4B ; background-color: #BC9D4B ; width:30%; height: 2px;">
 
                 <div class="gabyOpacity">
-                <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-0721eb9 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-                    data-id="0721eb9" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-background-overlay"></div>
-                    <div class="elementor-container elementor-column-gap-no">
-                        <div class="elementor-row">
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b2cec07"
-                                data-id="b2cec07" data-element_type="column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-ed87c28 elementor-widget elementor-widget-image"
-                                            data-id="ed87c28" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-image">
-                                                    <picture>
-                                                        <img width="360" height="360"
-                                                            src="{{ asset('images/gaby.jpg') }}"
-                                                            class="attachment-2048x2048 size-2048x2048 webpexpress-processed entered lazyloaded"
-                                                            alt=""
-                                                            data-lazy-sizes="(max-width: 360px) 100vw, 360px"
-                                                            data-lazy-src="{{ asset('images/gaby.jpg') }}"
-                                                            data-ll-status="loaded"
-                                                            sizes="(max-width: 360px) 100vw, 360px"><noscript>
+                    <section
+                        class="elementor-section elementor-top-section elementor-element elementor-element-0721eb9 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
+                        data-id="0721eb9" data-element_type="section"
+                        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                        <div class="elementor-background-overlay"></div>
+                        <div class="elementor-container elementor-column-gap-no">
+                            <div class="elementor-row">
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b2cec07"
+                                    data-id="b2cec07" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-ed87c28 elementor-widget elementor-widget-image"
+                                                data-id="ed87c28" data-element_type="widget"
+                                                data-widget_type="image.default">
+                                                <div class="elementor-widget-container">
+                                                    <div class="elementor-image">
+                                                        <picture>
                                                             <img width="360" height="360"
                                                                 src="{{ asset('images/gaby.jpg') }}"
-                                                                class="attachment-2048x2048 size-2048x2048 webpexpress-processed"
+                                                                class="attachment-2048x2048 size-2048x2048 webpexpress-processed entered lazyloaded"
                                                                 alt=""
-                                                                sizes="(max-width: 360px) 100vw, 360px"></noscript>
-                                                    </picture>
+                                                                data-lazy-sizes="(max-width: 360px) 100vw, 360px"
+                                                                data-lazy-src="{{ asset('images/gaby.jpg') }}"
+                                                                data-ll-status="loaded"
+                                                                sizes="(max-width: 360px) 100vw, 360px"><noscript>
+                                                                <img width="360" height="360"
+                                                                    src="{{ asset('images/gaby.jpg') }}"
+                                                                    class="attachment-2048x2048 size-2048x2048 webpexpress-processed"
+                                                                    alt=""
+                                                                    sizes="(max-width: 360px) 100vw, 360px"></noscript>
+                                                        </picture>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73c595a"
-                                data-id="73c595a" data-element_type="column">
-                                <div class="elementor-column-wrap elementor-element-populated">
-                                    <div class="elementor-widget-wrap">
-                                        <div class="elementor-element elementor-element-0d19504 elementor-widget elementor-widget-heading"
-                                            data-id="0d19504" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">Gabriela
-                                                    López, maquilladora profesional</h2>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1707c19 elementor-widget elementor-widget-text-editor"
-                                            data-id="1707c19" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                    /*! elementor - v3.7.2 - 21-08-2022 */
-                                                    .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-                                                        background-color: #818a91;
-                                                        color: #fff
-                                                    }
-
-                                                    .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
-                                                        color: #818a91;
-                                                        border: 3px solid;
-                                                        background-color: transparent
-                                                    }
-
-                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
-                                                        margin-top: 8px
-                                                    }
-
-                                                    .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
-                                                        width: 1em;
-                                                        height: 1em
-                                                    }
-
-                                                    .elementor-widget-text-editor .elementor-drop-cap {
-                                                        float: left;
-                                                        text-align: center;
-                                                        line-height: 1;
-                                                        font-size: 50px
-                                                    }
-
-                                                    .elementor-widget-text-editor .elementor-drop-cap-letter {
-                                                        display: inline-block
-                                                    }
-                                                </style>
-                                                <div class="elementor-text-editor elementor-clearfix">
-                                                    <p>Hola, soy&nbsp;<span style="color: #ffff99;">
-														<b>Gabriela López</b><strong>&nbsp;</strong></span>y<b>&nbsp;</b>pongo
-                                                        a tu disposición mi amplia experiencia como <strong>maquilladora
-                                                            profesional</p>
+                                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73c595a"
+                                    data-id="73c595a" data-element_type="column">
+                                    <div class="elementor-column-wrap elementor-element-populated">
+                                        <div class="elementor-widget-wrap">
+                                            <div class="elementor-element elementor-element-0d19504 elementor-widget elementor-widget-heading"
+                                                data-id="0d19504" data-element_type="widget"
+                                                data-widget_type="heading.default">
+                                                <div class="elementor-widget-container">
+                                                    <h2 class="elementor-heading-title elementor-size-default">Gabriela
+                                                        López, maquilladora profesional</h2>
                                                 </div>
                                             </div>
-                                        </div>
+                                            <div class="elementor-element elementor-element-1707c19 elementor-widget elementor-widget-text-editor"
+                                                data-id="1707c19" data-element_type="widget"
+                                                data-widget_type="text-editor.default">
+                                                <div class="elementor-widget-container">
+                                                    <style>
+                                                        /*! elementor - v3.7.2 - 21-08-2022 */
+                                                        .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                            background-color: #818a91;
+                                                            color: #fff
+                                                        }
 
+                                                        .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                            color: #818a91;
+                                                            border: 3px solid;
+                                                            background-color: transparent
+                                                        }
+
+                                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                            margin-top: 8px
+                                                        }
+
+                                                        .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                            width: 1em;
+                                                            height: 1em
+                                                        }
+
+                                                        .elementor-widget-text-editor .elementor-drop-cap {
+                                                            float: left;
+                                                            text-align: center;
+                                                            line-height: 1;
+                                                            font-size: 50px
+                                                        }
+
+                                                        .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                            display: inline-block
+                                                        }
+                                                    </style>
+                                                    <div class="elementor-text-editor elementor-clearfix">
+                                                        <p>Hola, soy&nbsp;<span style="color: #ffff99;">
+                                                                <b>Gabriela
+                                                                    López</b><strong>&nbsp;</strong></span>y<b>&nbsp;</b>pongo
+                                                            a tu disposición mi amplia experiencia como
+                                                            <strong>maquilladora
+                                                                profesional</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </section>
+                    </section>
                 </div>
-                
+
                 <br><br><br>
 
 
@@ -449,31 +303,32 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
-                                                            <source
-                                                                data-lazy-srcset="{{asset("images/dia.jpg")}}"
+                                                            <source data-lazy-srcset="{{ asset('images/dia.jpg') }}"
                                                                 type="image/webp"
-                                                                srcset="{{asset("images/dia.jpg")}}">
+                                                                srcset="{{ asset('images/dia.jpg') }}">
                                                             <img width="300" height="450"
-                                                                src="{{asset("images/dia.jpg")}}"
+                                                                src="{{ asset('images/dia.jpg') }}"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{asset("images/dia.jpg")}}"
+                                                                data-lazy-src="{{ asset('images/dia.jpg') }}"
                                                                 data-ll-status="loaded"><noscript><img width="300"
                                                                     height="450"
-                                                                    src="{{asset("images/dia.jpg")}}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    ></noscript>
+                                                                    src="{{ asset('images/dia.jpg') }}"
+                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje de día</h2>
                                                         <p class="elementor-image-box-description">
-                                                        Brindo un servicio de maquillaje personalizado para tu día
-                                                        a día, adaptado a tu estilo y resaltando tus rasgos más hermosos.
-                                                        MakeuplayerGabriela te brinda consejos para mantener
-                                                        tu look <b>fresco y perfecto</b> durante todo el día. Ya sea un look
-                                                        natural o audaz, te harán sentir segura y radiante en cualquier
-                                                        ocasión.
+                                                            Brindo un servicio de maquillaje personalizado para tu día
+                                                            a día, adaptado a tu estilo y resaltando tus rasgos más
+                                                            hermosos.
+                                                            MakeuplayerGabriela te brinda consejos para mantener
+                                                            tu look <b>fresco y perfecto</b> durante todo el día. Ya sea
+                                                            un look
+                                                            natural o audaz, te harán sentir segura y radiante en
+                                                            cualquier
+                                                            ocasión.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -495,19 +350,17 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="{{asset("images/fantasia.jpg")}}"
+                                                                data-lazy-srcset="{{ asset('images/fantasia.jpg') }}"
                                                                 type="image/webp"
-                                                                srcset="{{asset("images/fantasia.jpg")}}">
+                                                                srcset="{{ asset('images/fantasia.jpg') }}">
                                                             <img width="300" height="450"
-                                                                src="{{asset("images/fantasia.jpg")}}"
+                                                                src="{{ asset('images/fantasia.jpg') }}"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{asset("images/fantasia.jpg")}}"
+                                                                data-lazy-src="{{ asset('images/fantasia.jpg') }}"
                                                                 data-ll-status="loaded"><noscript>
-                                                                    <img width="300"
-                                                                    height="450"
-                                                                    src="{{asset("images/fantasia.jpg")}}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    ></noscript>
+                                                                <img width="300" height="450"
+                                                                    src="{{ asset('images/fantasia.jpg') }}"
+                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
@@ -516,7 +369,8 @@
                                                         <p class="elementor-image-box-description">
                                                             MakeuplayerGabriela puede ayudarte a transformar
                                                             tu look para tu próxima fiesta con un estilo
-                                                            <b>completamente diferente.</b> Con mi experiencia en maquillaje,
+                                                            <b>completamente diferente.</b> Con mi experiencia en
+                                                            maquillaje,
                                                             puedo crear un look que se adapte a tu estilo
                                                             y personalidad, desde un estilo natural y fresco
                                                             hasta algo más audaz y atrevido.
@@ -541,17 +395,16 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="{{asset("images/editorial.jpg")}}"
+                                                                data-lazy-srcset="{{ asset('images/editorial.jpg') }}"
                                                                 type="image/webp"
-                                                                srcset="{{asset("images/editorial.jpg")}}">
+                                                                srcset="{{ asset('images/editorial.jpg') }}">
                                                             <img width="300" height="450"
-                                                                src="{{asset("images/editorial.jpg")}}"
+                                                                src="{{ asset('images/editorial.jpg') }}"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{asset("images/editorial.jpg")}}"
+                                                                data-lazy-src="{{ asset('images/editorial.jpg') }}"
                                                                 data-ll-status="loaded"><noscript>
-                                                                    <img width="300"
-                                                                    height="450"
-                                                                    src="{{asset("images/editorial.jpg")}}"
+                                                                <img width="300" height="450"
+                                                                    src="{{ asset('images/editorial.jpg') }}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
                                                                     alt=""></noscript>
                                                         </picture>
@@ -560,10 +413,11 @@
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje editorial</h2>
                                                         <p class="elementor-image-box-description">
-                                                            ¿Quieres un look de maquillaje editorial impresionante? 
-                                                            <b>MakeuplayerGabriela puede ayudarte.</b> Creando un look único
+                                                            ¿Quieres un look de maquillaje editorial impresionante?
+                                                            <b>MakeuplayerGabriela puede ayudarte.</b> Creando un look
+                                                            único
                                                             y adaptado a tu estilo, resaltando tu belleza natural.
-                                                            
+
                                                         </p>
                                                     </div>
                                                 </div>
@@ -592,28 +446,27 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
-                                                            <source
-                                                                data-lazy-srcset="{{asset("images/novia.jpg")}}"
+                                                            <source data-lazy-srcset="{{ asset('images/novia.jpg') }}"
                                                                 type="image/webp"
-                                                                srcset="{{asset("images/novia.jpg")}}">
+                                                                srcset="{{ asset('images/novia.jpg') }}">
                                                             <img width="300" height="450"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                
-                                                                data-lazy-src="{{asset("images/novia.jpg")}}"
-                                                                src="{{asset("images/novia.jpg")}}"
+                                                                data-lazy-src="{{ asset('images/novia.jpg') }}"
+                                                                src="{{ asset('images/novia.jpg') }}"
                                                                 data-ll-status="loaded"><noscript>
-                                                                    <img width="300"
-                                                                    height="450"
-                                                                    src="{{asset("images/novia.jpg")}}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    ></noscript>
+                                                                <img width="300" height="450"
+                                                                    src="{{ asset('images/novia.jpg') }}"
+                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje para boda</h2>
-                                                        <p class="elementor-image-box-description">El maquillaje es clave en tu boda.<b>Nos enfocamos en cada detalle</b> para que te veas radiante en tu
-                                                            gran día. Con nuestro servicio personalizado, lucirás como siempre soñaste. Te garantizamos que estarás
+                                                        <p class="elementor-image-box-description">El maquillaje es
+                                                            clave en tu boda.<b>Nos enfocamos en cada detalle</b> para
+                                                            que te veas radiante en tu
+                                                            gran día. Con nuestro servicio personalizado, lucirás como
+                                                            siempre soñaste. Te garantizamos que estarás
                                                             espectacular.</p>
                                                     </div>
                                                 </div>
@@ -634,28 +487,26 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
-                                                            <source
-                                                                data-lazy-srcset="{{asset("images/noche.jpg")}}"
+                                                            <source data-lazy-srcset="{{ asset('images/noche.jpg') }}"
                                                                 type="image/webp"
-                                                                srcset="{{asset("images/noche.jpg")}}">
+                                                                srcset="{{ asset('images/noche.jpg') }}">
                                                             <img width="300" height="450"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                
-                                                                data-lazy-src="{{asset("images/noche.jpg")}}"
-                                                                src="{{asset("images/noche.jpg")}}"
+                                                                data-lazy-src="{{ asset('images/noche.jpg') }}"
+                                                                src="{{ asset('images/noche.jpg') }}"
                                                                 data-ll-status="loaded"><noscript>
-                                                                    <img width="300"
-                                                                    height="450"
-                                                                    src="{{asset("images/noche.jpg")}}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    ></noscript>
+                                                                <img width="300" height="450"
+                                                                    src="{{ asset('images/noche.jpg') }}"
+                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje nocturno</h2>
-                                                        <p class="elementor-image-box-description">MakeuplayerGabriela te hará lucir <b>radiante y deslumbrante</b> en cualquier evento nocturno.
-                                                         Luce fabulosa en tu próxima noche especial.</p>
+                                                        <p class="elementor-image-box-description">MakeuplayerGabriela
+                                                            te hará lucir <b>radiante y deslumbrante</b> en cualquier
+                                                            evento nocturno.
+                                                            Luce fabulosa en tu próxima noche especial.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -676,18 +527,17 @@
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
                                                             <source
-                                                                data-lazy-srcset="{{asset("images/quinceAnos.jpg")}}"
+                                                                data-lazy-srcset="{{ asset('images/quinceAnos.jpg') }}"
                                                                 type="image/webp"
-                                                                srcset="{{asset("images/quinceAnos.jpg")}}">
+                                                                srcset="{{ asset('images/quinceAnos.jpg') }}">
                                                             <img width="300" height="450"
                                                                 class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{asset("images/quinceAnos.jpg")}}"
-                                                                src="{{asset("images/quinceAnos.jpg")}}"
+                                                                data-lazy-src="{{ asset('images/quinceAnos.jpg') }}"
+                                                                src="{{ asset('images/quinceAnos.jpg') }}"
                                                                 data-ll-status="loaded"><noscript>
-                                                                    <img width="300" height="450"
-                                                                    src="{{asset("images/quinceAnos.jpg")}}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    ></noscript>
+                                                                <img width="300" height="450"
+                                                                    src="{{ asset('images/quinceAnos.jpg') }}"
+                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
@@ -695,10 +545,11 @@
                                                         <h2 class="elementor-image-box-title">Maquillaje para
                                                             Quince años</h2>
                                                         <p class="elementor-image-box-description">
-                                                        Lucir espectacular en tu fiesta de quince años es fácil con
-                                                        nuestro servicio de maquillaje personalizado. MakeuplayerGabriela 
-                                                        se enfoca en <b>resaltar tus mejores rasgos</b>
-                                                        y adaptar el look a tu estilo personal y la ocasión.
+                                                            Lucir espectacular en tu fiesta de quince años es fácil con
+                                                            nuestro servicio de maquillaje personalizado.
+                                                            MakeuplayerGabriela
+                                                            se enfoca en <b>resaltar tus mejores rasgos</b>
+                                                            y adaptar el look a tu estilo personal y la ocasión.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -734,7 +585,8 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h3 class="elementor-heading-title elementor-size-default">Llama ahora
-                                                    y solicita más información sobre todos los servicios de MakeuplayerGabriela
+                                                    y solicita más información sobre todos los servicios de
+                                                    MakeuplayerGabriela
                                                 </h3>
                                             </div>
                                         </div>
@@ -824,7 +676,8 @@
                                             data-id="1092890" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h2 class="elementor-heading-title elementor-size-default">MakeuplayerGabriela</h2>
+                                                <h2 class="elementor-heading-title elementor-size-default">
+                                                    MakeuplayerGabriela</h2>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-373df16 elementor-widget elementor-widget-heading"
@@ -854,68 +707,65 @@
                                                     class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid elementor-has-item-ratio">
                                                     <article
                                                         class="img elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                            <div style="text-align: center">
-                                                                <picture>
-                                                                    <source
-                                                                        data-lazy-srcset="{{ asset('images/2.jpg') }}"
-                                                                        type="image/webp"
-                                                                        srcset="{{ asset('images/2.jpg') }}"><img
+                                                        <div style="text-align: center">
+                                                            <picture>
+                                                                <source data-lazy-srcset="{{ asset('images/2.jpg') }}"
+                                                                    type="image/webp"
+                                                                    srcset="{{ asset('images/2.jpg') }}"><img
+                                                                    width="350" height="291"
+                                                                    src="{{ asset('images/2.jpg') }}"
+                                                                    class="attachment-large size-large webpexpress-processed entered lazyloaded"
+                                                                    alt=""
+                                                                    data-ll-status="loaded"><noscript><img
                                                                         width="350" height="291"
                                                                         src="{{ asset('images/2.jpg') }}"
-                                                                        class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                                        alt=""
-                                                                        data-ll-status="loaded"><noscript><img
-                                                                            width="350" height="291"
-                                                                            src="{{ asset('images/2.jpg') }}"
-                                                                            class="attachment-large size-large webpexpress-processed"
-                                                                            alt=""></noscript>
-                                                                </picture>
-                                                            </div>
+                                                                        class="attachment-large size-large webpexpress-processed"
+                                                                        alt=""></noscript>
+                                                            </picture>
+                                                        </div>
 
 
                                                     </article>
                                                     <article
                                                         class="elementor-post elementor-grid-item post-2864 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                            <div style="text-align: center">
-                                                                <picture>
-                                                                    <source
-                                                                        data-lazy-srcset="{{ asset('images/3.jpg') }}"
-                                                                        type="image/webp"
-                                                                        srcset="{{ asset('images/3.jpg') }}"><img
+                                                        <div style="text-align: center">
+                                                            <picture>
+                                                                <source data-lazy-srcset="{{ asset('images/3.jpg') }}"
+                                                                    type="image/webp"
+                                                                    srcset="{{ asset('images/3.jpg') }}"><img
+                                                                    width="350" height="291"
+                                                                    src="{{ asset('images/3.jpg') }}"
+                                                                    class="attachment-large size-large webpexpress-processed entered lazyloaded"
+                                                                    alt=""
+                                                                    data-lazy-src="{{ asset('images/3.jpg') }}"
+                                                                    data-ll-status="loaded"><noscript><img
                                                                         width="350" height="291"
                                                                         src="{{ asset('images/3.jpg') }}"
-                                                                        class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                                        alt=""
-                                                                        data-lazy-src="{{ asset('images/3.jpg') }}"
-                                                                        data-ll-status="loaded"><noscript><img
-                                                                            width="350" height="291"
-                                                                            src="{{ asset('images/3.jpg') }}"
-                                                                            class="attachment-large size-large webpexpress-processed"
-                                                                            alt=""></noscript>
-                                                                </picture>
-                                                            </div>
+                                                                        class="attachment-large size-large webpexpress-processed"
+                                                                        alt=""></noscript>
+                                                            </picture>
+                                                        </div>
 
                                                     </article>
                                                     <article
                                                         class="elementor-post elementor-grid-item post-2833 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                            <div style="text-align: center">
-                                                                <picture>
-                                                                    <source
-                                                                        data-lazy-srcset="{{ asset('images/4.jpg') }}"
-                                                                        type="image/webp"
-                                                                        srcset="{{ asset('images/4.jpg') }}"><img
+                                                        <div style="text-align: center">
+                                                            <picture>
+                                                                <source data-lazy-srcset="{{ asset('images/4.jpg') }}"
+                                                                    type="image/webp"
+                                                                    srcset="{{ asset('images/4.jpg') }}"><img
+                                                                    width="350" height="291"
+                                                                    src="{{ asset('images/4.jpg') }}"
+                                                                    class="attachment-large size-large webpexpress-processed entered lazyloaded"
+                                                                    alt=""
+                                                                    data-lazy-src="{{ asset('images/4.jpg') }}"
+                                                                    data-ll-status="loaded"><noscript><img
                                                                         width="350" height="291"
                                                                         src="{{ asset('images/4.jpg') }}"
-                                                                        class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                                        alt=""
-                                                                        data-lazy-src="{{ asset('images/4.jpg') }}"
-                                                                        data-ll-status="loaded"><noscript><img
-                                                                            width="350" height="291"
-                                                                            src="{{ asset('images/4.jpg') }}"
-                                                                            class="attachment-large size-large webpexpress-processed"
-                                                                            alt=""></noscript>
-                                                                </picture>
-                                                            </div>
+                                                                        class="attachment-large size-large webpexpress-processed"
+                                                                        alt=""></noscript>
+                                                            </picture>
+                                                        </div>
 
                                                     </article>
                                                 </div>
@@ -965,18 +815,17 @@
                                                                     <div class="elementor-image">
                                                                         <picture>
                                                                             <source
-                                                                                data-lazy-srcset="{{asset("images/logo.jpg")}}"
+                                                                                data-lazy-srcset="{{ asset('images/logo.jpg') }}"
                                                                                 type="image/webp"
-                                                                                srcset="{{asset("images/logo.jpg")}}">
+                                                                                srcset="{{ asset('images/logo.jpg') }}">
                                                                             <img width="176" height="85"
-                                                                                src="{{asset("images/logo.jpg")}}"
+                                                                                src="{{ asset('images/logo.jpg') }}"
                                                                                 class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                                                data-lazy-src="{{asset("images/logo.jpg")}}"
+                                                                                data-lazy-src="{{ asset('images/logo.jpg') }}"
                                                                                 data-ll-status="loaded"><noscript><img
                                                                                     width="176" height="85"
-                                                                                    src="{{asset("images/logo.jpg")}}"
-                                                                                    class="attachment-large size-large webpexpress-processed"
-                                                                                    ></noscript>
+                                                                                    src="{{ asset('images/logo.jpg') }}"
+                                                                                    class="attachment-large size-large webpexpress-processed"></noscript>
                                                                         </picture>
                                                                     </div>
                                                                 </div>
@@ -1032,8 +881,8 @@
                                                                             <span class="elementor-icon-box-title">
                                                                                 <span>
                                                                                     <a href="tel:+50688389748">
-                                                                                        +506 88389748 </a> 
-                                                                                    </span>
+                                                                                        +506 88389748 </a>
+                                                                                </span>
                                                                             </span>
                                                                         </div>
                                                                     </div>
@@ -1094,7 +943,8 @@
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container">
                                                                     <span
-                                                                        class="elementor-heading-title elementor-size-default">Síguenos en</span>
+                                                                        class="elementor-heading-title elementor-size-default">Síguenos
+                                                                        en</span>
                                                                 </div>
                                                             </div>
                                                             <div class="elementor-element elementor-element-55bc3571 elementor-icon-list--layout-inline elementor-widget__width-auto elementor-mobile-align-center elementor-widget-mobile__width-inherit elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list"
@@ -1108,8 +958,7 @@
                                                                             <a href="#" target="_blank"
                                                                                 rel="nofollow">
 
-                                                                                <span
-                                                                                    class="elementor-icon-list-icon">
+                                                                                <span class="elementor-icon-list-icon">
                                                                                     <i aria-hidden="true"
                                                                                         class="fab fa-facebook-square"></i>
                                                                                 </span>
@@ -1122,8 +971,7 @@
                                                                             <a href="https://www.instagram.com/makeuplayer_gabriela/"
                                                                                 target="_blank" rel="nofollow">
 
-                                                                                <span
-                                                                                    class="elementor-icon-list-icon">
+                                                                                <span class="elementor-icon-list-icon">
                                                                                     <i aria-hidden="true"
                                                                                         class="fab fa-instagram"></i>
                                                                                 </span>
@@ -1206,1564 +1054,36 @@
         </div>
     </div>
 
-    <script id="rocket-browser-checker-js-after">
-        "use strict";
-        var _createClass = function() {
-            function defineProperties(target, props) {
-                for (var i = 0; i < props.length; i++) {
-                    var descriptor = props[i];
-                    descriptor.enumerable = descriptor.enumerable || !1, descriptor.configurable = !0, "value" in
-                        descriptor && (descriptor.writable = !0), Object.defineProperty(target, descriptor.key,
-                            descriptor)
-                }
-            }
-            return function(Constructor, protoProps, staticProps) {
-                return protoProps && defineProperties(Constructor.prototype, protoProps), staticProps &&
-                    defineProperties(Constructor, staticProps), Constructor
-            }
-        }();
-
-        function _classCallCheck(instance, Constructor) {
-            if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function")
-        }
-        var RocketBrowserCompatibilityChecker = function() {
-            function RocketBrowserCompatibilityChecker(options) {
-                _classCallCheck(this, RocketBrowserCompatibilityChecker), this.passiveSupported = !1, this
-                    ._checkPassiveOption(this), this.options = !!this.passiveSupported && options
-            }
-            return _createClass(RocketBrowserCompatibilityChecker, [{
-                key: "_checkPassiveOption",
-                value: function(self) {
-                    try {
-                        var options = {
-                            get passive() {
-                                return !(self.passiveSupported = !0)
-                            }
-                        };
-                        window.addEventListener("test", null, options), window.removeEventListener(
-                            "test", null, options)
-                    } catch (err) {
-                        self.passiveSupported = !1
-                    }
-                }
-            }, {
-                key: "initRequestIdleCallback",
-                value: function() {
-                    !1 in window && (window.requestIdleCallback = function(cb) {
-                        var start = Date.now();
-                        return setTimeout(function() {
-                            cb({
-                                didTimeout: !1,
-                                timeRemaining: function() {
-                                    return Math.max(0, 50 - (Date.now() -
-                                        start))
-                                }
-                            })
-                        }, 1)
-                    }), !1 in window && (window.cancelIdleCallback = function(id) {
-                        return clearTimeout(id)
-                    })
-                }
-            }, {
-                key: "isDataSaverModeOn",
-                value: function() {
-                    return "connection" in navigator && !0 === navigator.connection.saveData
-                }
-            }, {
-                key: "supportsLinkPrefetch",
-                value: function() {
-                    var elem = document.createElement("link");
-                    return elem.relList && elem.relList.supports && elem.relList.supports("prefetch") &&
-                        window.IntersectionObserver && "isIntersecting" in IntersectionObserverEntry
-                        .prototype
-                }
-            }, {
-                key: "isSlowConnection",
-                value: function() {
-                    return "connection" in navigator && "effectiveType" in navigator.connection && (
-                        "2g" === navigator.connection.effectiveType || "slow-2g" === navigator
-                        .connection.effectiveType)
-                }
-            }]), RocketBrowserCompatibilityChecker
-        }();
-    </script>
-
-    <script id="rocket-preload-links-js-after">
-        (function() {
-            "use strict";
-            var r = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-                    return typeof e
-                } : function(e) {
-                    return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ?
-                        "symbol" : typeof e
-                },
-                e = function() {
-                    function i(e, t) {
-                        for (var n = 0; n < t.length; n++) {
-                            var i = t[n];
-                            i.enumerable = i.enumerable || !1, i.configurable = !0, "value" in i && (i.writable = !0),
-                                Object.defineProperty(e, i.key, i)
-                        }
-                    }
-                    return function(e, t, n) {
-                        return t && i(e.prototype, t), n && i(e, n), e
-                    }
-                }();
-
-            function i(e, t) {
-                if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
-            }
-            var t = function() {
-                function n(e, t) {
-                    i(this, n), this.browser = e, this.config = t, this.options = this.browser.options, this
-                        .prefetched = new Set, this.eventTime = null, this.threshold = 1111, this.numOnHover = 0
-                }
-                return e(n, [{
-                    key: "init",
-                    value: function() {
-                        !this.browser.supportsLinkPrefetch() || this.browser.isDataSaverModeOn() ||
-                            this.browser.isSlowConnection() || (this.regex = {
-                                excludeUris: RegExp(this.config.excludeUris, "i"),
-                                images: RegExp(".(" + this.config.imageExt + ")$", "i"),
-                                fileExt: RegExp(".(" + this.config.fileExt + ")$", "i")
-                            }, this._initListeners(this))
-                    }
-                }, {
-                    key: "_initListeners",
-                    value: function(e) {
-                        -1 < this.config.onHoverDelay && document.addEventListener("mouseover", e
-                                .listener.bind(e), e.listenerOptions), document.addEventListener(
-                                "mousedown", e.listener.bind(e), e.listenerOptions), document
-                            .addEventListener("touchstart", e.listener.bind(e), e.listenerOptions)
-                    }
-                }, {
-                    key: "listener",
-                    value: function(e) {
-                        var t = e.target.closest("a"),
-                            n = this._prepareUrl(t);
-                        if (null !== n) switch (e.type) {
-                            case "mousedown":
-                            case "touchstart":
-                                this._addPrefetchLink(n);
-                                break;
-                            case "mouseover":
-                                this._earlyPrefetch(t, n, "mouseout")
-                        }
-                    }
-                }, {
-                    key: "_earlyPrefetch",
-                    value: function(t, e, n) {
-                        var i = this,
-                            r = setTimeout(function() {
-                                if (r = null, 0 === i.numOnHover) setTimeout(function() {
-                                    return i.numOnHover = 0
-                                }, 1e3);
-                                else if (i.numOnHover > i.config.rateThrottle) return;
-                                i.numOnHover++, i._addPrefetchLink(e)
-                            }, this.config.onHoverDelay);
-                        t.addEventListener(n, function e() {
-                            t.removeEventListener(n, e, {
-                                passive: !0
-                            }), null !== r && (clearTimeout(r), r = null)
-                        }, {
-                            passive: !0
-                        })
-                    }
-                }, {
-                    key: "_addPrefetchLink",
-                    value: function(i) {
-                        return this.prefetched.add(i.href), new Promise(function(e, t) {
-                            var n = document.createElement("link");
-                            n.rel = "prefetch", n.href = i.href, n.onload = e, n.onerror =
-                                t, document.head.appendChild(n)
-                        }).catch(function() {})
-                    }
-                }, {
-                    key: "_prepareUrl",
-                    value: function(e) {
-                        if (null === e || "object" !== (void 0 === e ? "undefined" : r(e)) || !1 in
-                            e || -1 === ["http:", "https:"].indexOf(e.protocol)) return null;
-                        var t = e.href.substring(0, this.config.siteUrl.length),
-                            n = this._getPathname(e.href, t),
-                            i = {
-                                original: e.href,
-                                protocol: e.protocol,
-                                origin: t,
-                                pathname: n,
-                                href: t + n
-                            };
-                        return this._isLinkOk(i) ? i : null
-                    }
-                }, {
-                    key: "_getPathname",
-                    value: function(e, t) {
-                        var n = t ? e.substring(this.config.siteUrl.length) : e;
-                        return n.startsWith("/") || (n = "/" + n), this._shouldAddTrailingSlash(n) ?
-                            n + "/" : n
-                    }
-                }, {
-                    key: "_shouldAddTrailingSlash",
-                    value: function(e) {
-                        return this.config.usesTrailingSlash && !e.endsWith("/") && !this.regex
-                            .fileExt.test(e)
-                    }
-                }, {
-                    key: "_isLinkOk",
-                    value: function(e) {
-                        return null !== e && "object" === (void 0 === e ? "undefined" : r(e)) && (!
-                            this.prefetched.has(e.href) && e.origin === this.config.siteUrl && -
-                            1 === e.href.indexOf("?") && -1 === e.href.indexOf("#") && !this
-                            .regex.excludeUris.test(e.href) && !this.regex.images.test(e.href))
-                    }
-                }], [{
-                    key: "run",
-                    value: function() {
-                        "undefined" != typeof RocketPreloadLinksConfig && new n(
-                            new RocketBrowserCompatibilityChecker({
-                                capture: !0,
-                                passive: !0
-                            }), RocketPreloadLinksConfig).init()
-                    }
-                }]), n
-            }();
-            t.run();
-        }());
-    </script>
-
-    <script>
-        window.lazyLoadOptions = {
-            elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
-            data_src: "lazy-src",
-            data_srcset: "lazy-srcset",
-            data_sizes: "lazy-sizes",
-            class_loading: "lazyloading",
-            class_loaded: "lazyloaded",
-            threshold: 300,
-            callback_loaded: function(element) {
-                if (element.tagName === "IFRAME" && element.dataset.rocketLazyload == "fitvidscompatible") {
-                    if (element.classList.contains("lazyloaded")) {
-                        if (typeof window.jQuery != "undefined") {
-                            if (jQuery.fn.fitVids) {
-                                jQuery(element).parent().fitVids()
-                            }
-                        }
-                    }
-                }
-            }
-        };
-        window.addEventListener('LazyLoad::Initialized', function(e) {
-            var lazyLoadInstance = e.detail.instance;
-            if (window.MutationObserver) {
-                var observer = new MutationObserver(function(mutations) {
-                    var image_count = 0;
-                    var iframe_count = 0;
-                    var rocketlazy_count = 0;
-                    mutations.forEach(function(mutation) {
-                        for (var i = 0; i < mutation.addedNodes.length; i++) {
-                            if (typeof mutation.addedNodes[i].getElementsByTagName !== 'function') {
-                                continue
-                            }
-                            if (typeof mutation.addedNodes[i].getElementsByClassName !==
-                                'function') {
-                                continue
-                            }
-                            images = mutation.addedNodes[i].getElementsByTagName('img');
-                            is_image = mutation.addedNodes[i].tagName == "IMG";
-                            iframes = mutation.addedNodes[i].getElementsByTagName('iframe');
-                            is_iframe = mutation.addedNodes[i].tagName == "IFRAME";
-                            rocket_lazy = mutation.addedNodes[i].getElementsByClassName(
-                                'rocket-lazyload');
-                            image_count += images.length;
-                            iframe_count += iframes.length;
-                            rocketlazy_count += rocket_lazy.length;
-                            if (is_image) {
-                                image_count += 1
-                            }
-                            if (is_iframe) {
-                                iframe_count += 1
-                            }
-                        }
-                    });
-                    if (image_count > 0 || iframe_count > 0 || rocketlazy_count > 0) {
-                        lazyLoadInstance.update()
-                    }
-                });
-                var b = document.getElementsByTagName("body")[0];
-                var config = {
-                    childList: !0,
-                    subtree: !0
-                };
-                observer.observe(b, config)
-            }
-        }, !1)
-    </script>
-
-    <script>
-        function lazyLoadThumb(e) {
-            var t =
-                '<img data-lazy-src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"><noscript><img src="https://i.ytimg.com/vi/ID/hqdefault.jpg" alt="" width="480" height="360"></noscript>',
-                a = '<button class="play" aria-label="play Youtube video"></button>';
-            return t.replace("ID", e) + a
-        }
-
-        function lazyLoadYoutubeIframe() {
-            var e = document.createElement("iframe"),
-                t = "ID?autoplay=1";
-            t += 0 === this.parentNode.dataset.query.length ? '' : '&' + this.parentNode.dataset.query;
-            e.setAttribute("src", t.replace("ID", this.parentNode.dataset.src)), e.setAttribute("frameborder", "0"), e
-                .setAttribute("allowfullscreen", "1"), e.setAttribute("allow",
-                    "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"), this.parentNode.parentNode
-                .replaceChild(e, this.parentNode)
-        }
-        document.addEventListener("DOMContentLoaded", function() {
-            var e, t, p, a = document.getElementsByClassName("rll-youtube-player");
-            for (t = 0; t < a.length; t++) e = document.createElement("div"), e.setAttribute("data-id", a[t].dataset
-                .id), e.setAttribute("data-query", a[t].dataset.query), e.setAttribute("data-src", a[t].dataset
-                .src), e.innerHTML = lazyLoadThumb(a[t].dataset.id), a[t].appendChild(e), p = e.querySelector(
-                '.play'), p.onclick = lazyLoadYoutubeIframe
-        });
-    </script>
-    <script>
-        "use strict";
-
-        function wprRemoveCPCSS() {
-            var preload_stylesheets = document.querySelectorAll('link[data-rocket-async="style"][rel="preload"]');
-            if (preload_stylesheets && 0 < preload_stylesheets.length)
-                for (var stylesheet_index = 0; stylesheet_index < preload_stylesheets.length; stylesheet_index++) {
-                    var media = preload_stylesheets[stylesheet_index].getAttribute("media") || "all";
-                    if (window.matchMedia(media).matches) return void setTimeout(wprRemoveCPCSS, 200)
-                }
-            var elem = document.getElementById("rocket-critical-css");
-            elem && "remove" in elem && elem.remove()
-        }
-        window.addEventListener ? window.addEventListener("load", wprRemoveCPCSS) : window.attachEvent && window
-            .attachEvent("onload", wprRemoveCPCSS);
-    </script>
-    <script>
-        class RocketElementorAnimation {
-            constructor() {
-                this.deviceMode = document.createElement("span"), this.deviceMode.id = "elementor-device-mode", this
-                    .deviceMode.setAttribute("class", "elementor-screen-only"), document.body.appendChild(this
-                        .deviceMode)
-            }
-            _detectAnimations() {
-                let t = getComputedStyle(this.deviceMode, ":after").content.replace(/"/g, "");
-                this.animationSettingKeys = this._listAnimationSettingsKeys(t), document.querySelectorAll(
-                    ".elementor-invisible[data-settings]").forEach(t => {
-                    const e = t.getBoundingClientRect();
-                    if (e.bottom >= 0 && e.top <= window.innerHeight) try {
-                        this._animateElement(t)
-                    } catch (t) {}
-                })
-            }
-            _animateElement(t) {
-                const e = JSON.parse(t.dataset.settings),
-                    i = e._animation_delay || e.animation_delay || 0,
-                    n = e[this.animationSettingKeys.find(t => e[t])];
-                if ("none" === n) return void t.classList.remove("elementor-invisible");
-                t.classList.remove(n), this.currentAnimation && t.classList.remove(this.currentAnimation), this
-                    .currentAnimation = n;
-                let s = setTimeout(() => {
-                    t.classList.remove("elementor-invisible"), t.classList.add("animated", n), this
-                        ._removeAnimationSettings(t, e)
-                }, i);
-                window.addEventListener("rocket-startLoading", function() {
-                    clearTimeout(s)
-                })
-            }
-            _listAnimationSettingsKeys(t = "mobile") {
-                const e = [""];
-                switch (t) {
-                    case "mobile":
-                        e.unshift("_mobile");
-                    case "tablet":
-                        e.unshift("_tablet");
-                    case "desktop":
-                        e.unshift("_desktop")
-                }
-                const i = [];
-                return ["animation", "_animation"].forEach(t => {
-                    e.forEach(e => {
-                        i.push(t + e)
-                    })
-                }), i
-            }
-            _removeAnimationSettings(t, e) {
-                this._listAnimationSettingsKeys().forEach(t => delete e[t]), t.dataset.settings = JSON.stringify(e)
-            }
-            static run() {
-                const t = new RocketElementorAnimation;
-                requestAnimationFrame(t._detectAnimations.bind(t))
-            }
-        }
-        document.addEventListener("DOMContentLoaded", RocketElementorAnimation.run);
-    </script>
-
-
-    <span id="elementor-device-mode" class="elementor-screen-only"></span>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg>
-
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-
-
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-
-
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg
-        style="display: none;" class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg
-        style="display: none;" class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg
-        style="display: none;" class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg
-        style="display: none;" class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span><span id="elementor-device-mode"
-        class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span><span id="elementor-device-mode"
-        class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span><span id="elementor-device-mode"
-        class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
+   
 </body>
 
 
-<!-- / ALL script. --> 
-<script src="{{ asset('script/script1.js')}}" id="jquery-core-js"
-defer=""></script>
-<script data-minify="1"
-src="{{asset("script/script2.js")}}"
-id="ct-ultimate-gdpr-cookie-popup-js" defer=""></script>
-<script
-src="{{asset("script/script3.js")}}"
-id="ct-ultimate-gdpr-base64-js" defer=""></script>
-<script
-src="{{asset("script/script4.js")}}"id="joinchat-js" defer=""></script>
-<script
-src="{{asset("script/script5.js")}}"id="smartmenus-js" defer=""></script>
-<script 
-src="{{asset("script/script6.js")}}" id="imagesloaded-js"defer=""></script>
-<script
-src="{{asset("script/script7.js")}}"id="elementor-pro-webpack-runtime-js" defer=""></script>
-<script 
-src="{{asset("script/script8.js")}}"id="elementor-webpack-runtime-js" defer=""></script>
-<script
-src="{{asset("script/script9.js")}}"id="elementor-frontend-modules-js" defer=""></script>
-<script 
-src="{{asset("script/script10.js")}}"id="regenerator-runtime-js" defer=""></script>
-<script 
-src="{{asset("script/script11.js")}}"id="wp-polyfill-js"></script>
-<script 
-src="{{asset("script/script12.js")}}"id="wp-hooks-js"></script>
-<script 
-src="{{asset("script/script13.js")}}"id="wp-i18n-js"></script>
-<script 
-src="{{asset("script/script14.js")}}"id="elementor-pro-frontend-js" defer=""></script>
-<script
-src="{{asset("script/script15.js")}}"id="elementor-waypoints-js" defer=""></script>
-<script 
-src="{{asset("script/script16.js")}}" id="jquery-ui-core-js"defer=""></script>
-<script 
-src="{{asset("script/script17.js")}}"id="elementor-frontend-js" defer=""></script>
-<script
-src="{{asset("script/script18.js")}}"id="pro-elements-handlers-js" defer=""></script>
-<script
-src="{{asset("script/script19.js")}}"id="e-sticky-js" defer=""></script>
-<script data-no-minify="1" async=""
-src="{{asset("script/script20.js")}}"></script>
-<script src="{{asset("script/script21.js")}}"></script>
-<script src="{{asset("script/script22.js")}}"></script>
-<script src="{{asset("script/script23.js")}}"></script>
-<script src="{{asset("script/script24.js")}}"></script>
-<script src="{{asset("script/script25.js")}}"></script>
-<script src="{{asset("script/script26.js")}}"></script>
+<!-- / ALL script. -->
+<script src="{{ asset('script/script1.js') }}" id="jquery-core-js" defer=""></script>
+<script data-minify="1" src="{{ asset('script/script2.js') }}" id="ct-ultimate-gdpr-cookie-popup-js" defer=""></script>
+<script src="{{ asset('script/script3.js') }}" id="ct-ultimate-gdpr-base64-js" defer=""></script>
+<script src="{{ asset('script/script4.js') }}" id="joinchat-js" defer=""></script>
+<script src="{{ asset('script/script5.js') }}" id="smartmenus-js" defer=""></script>
+<script src="{{ asset('script/script6.js') }}" id="imagesloaded-js" defer=""></script>
+<script src="{{ asset('script/script7.js') }}" id="elementor-pro-webpack-runtime-js" defer=""></script>
+<script src="{{ asset('script/script8.js') }}" id="elementor-webpack-runtime-js" defer=""></script>
+<script src="{{ asset('script/script9.js') }}" id="elementor-frontend-modules-js" defer=""></script>
+<script src="{{ asset('script/script10.js') }}" id="regenerator-runtime-js" defer=""></script>
+<script src="{{ asset('script/script11.js') }}" id="wp-polyfill-js"></script>
+<script src="{{ asset('script/script12.js') }}" id="wp-hooks-js"></script>
+<script src="{{ asset('script/script13.js') }}" id="wp-i18n-js"></script>
+<script src="{{ asset('script/script14.js') }}" id="elementor-pro-frontend-js" defer=""></script>
+<script src="{{ asset('script/script15.js') }}" id="elementor-waypoints-js" defer=""></script>
+<script src="{{ asset('script/script16.js') }}" id="jquery-ui-core-js" defer=""></script>
+<script src="{{ asset('script/script17.js') }}" id="elementor-frontend-js" defer=""></script>
+<script src="{{ asset('script/script18.js') }}" id="pro-elements-handlers-js" defer=""></script>
+<script src="{{ asset('script/script19.js') }}" id="e-sticky-js" defer=""></script>
+<script data-no-minify="1" async="" src="{{ asset('script/script20.js') }}"></script>
+<script src="{{ asset('script/script21.js') }}"></script>
+<script src="{{ asset('script/script22.js') }}"></script>
+<script src="{{ asset('script/script23.js') }}"></script>
+<script src="{{ asset('script/script24.js') }}"></script>
+<script src="{{ asset('script/script25.js') }}"></script>
+<script src="{{ asset('script/script26.js') }}"></script>
+
 </html>
