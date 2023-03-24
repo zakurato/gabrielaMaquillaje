@@ -8,10 +8,7 @@
 
     <!-- This site is optimized with the Yoast SEO plugin v19.6 - https://yoast.com/wordpress/plugins/seo/ -->
     <title>MakeuplayerGabriela</title>
-    <link rel="stylesheet"
-        href="https://www.maquillajealicante.com/wp-content/cache/min/1/855e3c317be0316ca9641313919da2f5.css"
-        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-        onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1"><!-- No se puede quitar -->
+
     <meta name="description"
         content="MakeuplayerGabriela">
     <link rel="canonical" href="https://www.makeuplayerGabriela.com/">
@@ -39,35 +36,28 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
 
-    
-    <link rel="stylesheet"
-        href="https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-6.css?ver=1661418447"
-        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-        onerror="this.removeAttribute('data-rocket-async')" media="all">
-    <link rel="stylesheet"
-        href="https://www.maquillajealicante.com/wp-content/uploads/elementor/css/global.css?ver=1661418447"
-        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-        onerror="this.removeAttribute('data-rocket-async')" media="all">
-    <link rel="stylesheet"
-        href="https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-26.css?ver=1673523395"
-        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-        onerror="this.removeAttribute('data-rocket-async')" media="all">
-    <link rel="stylesheet"
-        href="https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-11.css?ver=1661418447"
-        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-        onerror="this.removeAttribute('data-rocket-async')" media="all">
-    <link rel="stylesheet"
-        href="https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-20.css?ver=1661956219"
-        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-        onerror="this.removeAttribute('data-rocket-async')" media="all">
 
-        
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css?family=Work+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAllura%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.0.1"
-        data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
-        onerror="this.removeAttribute('data-rocket-async')" media="all">
-    <script src="https://www.maquillajealicante.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0" id="jquery-core-js"
-        defer=""></script>
+
+
+
+     <!-- / ALL CSS. -->   
+
+     <link rel="stylesheet"
+     href="{{asset("allCss/all.Css")}}?v={{ time() }}"
+     data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
+     onerror="this.removeAttribute('data-rocket-async')" media="all" data-minify="1"><!-- No se puede quitar -->
+     <link rel="stylesheet"
+     href="{{ asset('allCss/all2.Css') }}?v={{ time() }}"
+     data-rocket-async="style" as="style" onload="this.onload=null;this.rel='stylesheet'"
+     onerror="this.removeAttribute('data-rocket-async')" media="all">
+     <link rel="stylesheet"
+            href="{{ asset('allCss/all3.Css') }}?v={{ time() }}"
+            media="all" data-minify="1" />
+        <link rel='stylesheet' id='elementor-post-6-css'
+            href='{{ asset('allCss/all4.Css') }}?v={{ time() }}'
+            media='all' />
+
+
 </head>
 
 <body
@@ -517,7 +507,7 @@
                                                                     height="450"
                                                                     src="{{asset("images/fantasia.jpg")}}"
                                                                     class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    alt="Curso de Maquillaje Profesional"></noscript>
+                                                                    ></noscript>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
@@ -1216,28 +1206,6 @@
         </div>
     </div>
 
-    <script id="ct-ultimate-gdpr-cookie-popup-js-extra">
-        var ct_ultimate_gdpr_cookie = {
-            "ajaxurl": "https:\/\/www.maquillajealicante.com\/wp-admin\/admin-ajax.php",
-            "readurl": "https:\/\/www.maquillajealicante.com\/",
-            "readurl_new_tab": "off",
-            "consent": "1",
-            "reload": "",
-            "consent_expire_time": "1710349561",
-            "consent_time": "1678813561",
-            "consent_default_level": "5",
-            "consent_accept_level": "5",
-            "age_enabled": "5",
-            "display_cookie_always": null,
-            "cookie_reset_consent": null
-        };
-    </script>
-    <script data-minify="1"
-        src="https://www.maquillajealicante.com/wp-content/cache/min/1/wp-content/plugins/ct-ultimate-gdpr/assets/js/cookie-popup.js?ver=1657614754"
-        id="ct-ultimate-gdpr-cookie-popup-js" defer=""></script>
-    <script
-        src="https://www.maquillajealicante.com/wp-content/plugins/ct-ultimate-gdpr/assets/js/jquery.base64.min.js?ver=3.5"
-        id="ct-ultimate-gdpr-base64-js" defer=""></script>
     <script id="rocket-browser-checker-js-after">
         "use strict";
         var _createClass = function() {
@@ -1319,17 +1287,7 @@
             }]), RocketBrowserCompatibilityChecker
         }();
     </script>
-    <script id="rocket-preload-links-js-extra">
-        var RocketPreloadLinksConfig = {
-            "excludeUris": "\/(?:.+\/)?feed(?:\/(?:.+\/?)?)?$|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin\/|\/logout\/|\/wp-login.php|\/refer\/|\/go\/|\/recommend\/|\/recommends\/",
-            "usesTrailingSlash": "1",
-            "imageExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php",
-            "fileExt": "jpg|jpeg|gif|png|tiff|bmp|webp|avif|pdf|doc|docx|xls|xlsx|php|html|htm",
-            "siteUrl": "https:\/\/www.maquillajealicante.com",
-            "onHoverDelay": "100",
-            "rateThrottle": "3"
-        };
-    </script>
+
     <script id="rocket-preload-links-js-after">
         (function() {
             "use strict";
@@ -1471,251 +1429,7 @@
             t.run();
         }());
     </script>
-    <script
-        src="https://www.maquillajealicante.com/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=4.5.9"
-        id="joinchat-js" defer=""></script>
-    <script
-        src="https://www.maquillajealicante.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.0.1"
-        id="smartmenus-js" defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/imagesloaded.min.js?ver=4.1.4" id="imagesloaded-js"
-        defer=""></script>
-    <script
-        src="https://www.maquillajealicante.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.7.3"
-        id="elementor-pro-webpack-runtime-js" defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.7.2"
-        id="elementor-webpack-runtime-js" defer=""></script>
-    <script
-        src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.7.2"
-        id="elementor-frontend-modules-js" defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.9"
-        id="regenerator-runtime-js" defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0"
-        id="wp-polyfill-js"></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/dist/hooks.min.js?ver=c6d64f2cb8f5c6bb49caca37f8828ce3"
-        id="wp-hooks-js"></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/dist/i18n.min.js?ver=ebee46757c6a411e38fd079a7ac71d94"
-        id="wp-i18n-js"></script>
-    <script id="wp-i18n-js-after">
-        wp.i18n.setLocaleData({
-            'text direction\u0004ltr': ['ltr']
-        });
-    </script>
-    <script id="elementor-pro-frontend-js-before">
-        var ElementorProFrontendConfig = {
-            "ajaxurl": "https:\/\/www.maquillajealicante.com\/wp-admin\/admin-ajax.php",
-            "nonce": "e4c5c315ca",
-            "urls": {
-                "assets": "https:\/\/www.maquillajealicante.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-                "rest": "https:\/\/www.maquillajealicante.com\/wp-json\/"
-            },
-            "shareButtonsNetworks": {
-                "facebook": {
-                    "title": "Facebook",
-                    "has_counter": true
-                },
-                "twitter": {
-                    "title": "Twitter"
-                },
-                "linkedin": {
-                    "title": "LinkedIn",
-                    "has_counter": true
-                },
-                "pinterest": {
-                    "title": "Pinterest",
-                    "has_counter": true
-                },
-                "reddit": {
-                    "title": "Reddit",
-                    "has_counter": true
-                },
-                "vk": {
-                    "title": "VK",
-                    "has_counter": true
-                },
-                "odnoklassniki": {
-                    "title": "OK",
-                    "has_counter": true
-                },
-                "tumblr": {
-                    "title": "Tumblr"
-                },
-                "digg": {
-                    "title": "Digg"
-                },
-                "skype": {
-                    "title": "Skype"
-                },
-                "stumbleupon": {
-                    "title": "StumbleUpon",
-                    "has_counter": true
-                },
-                "mix": {
-                    "title": "Mix"
-                },
-                "telegram": {
-                    "title": "Telegram"
-                },
-                "pocket": {
-                    "title": "Pocket",
-                    "has_counter": true
-                },
-                "xing": {
-                    "title": "XING",
-                    "has_counter": true
-                },
-                "whatsapp": {
-                    "title": "WhatsApp"
-                },
-                "email": {
-                    "title": "Email"
-                },
-                "print": {
-                    "title": "Print"
-                }
-            },
-            "facebook_sdk": {
-                "lang": "es_ES",
-                "app_id": ""
-            },
-            "lottie": {
-                "defaultAnimationUrl": "https:\/\/www.maquillajealicante.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
-            }
-        };
-    </script>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.7.3"
-        id="elementor-pro-frontend-js" defer=""></script>
-    <script
-        src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2"
-        id="elementor-waypoints-js" defer=""></script>
-    <script src="https://www.maquillajealicante.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.1" id="jquery-ui-core-js"
-        defer=""></script>
-    <script id="elementor-frontend-js-before">
-        var elementorFrontendConfig = {
-            "environmentMode": {
-                "edit": false,
-                "wpPreview": false,
-                "isScriptDebug": false
-            },
-            "i18n": {
-                "shareOnFacebook": "Compartir en Facebook",
-                "shareOnTwitter": "Compartir en Twitter",
-                "pinIt": "Pinear",
-                "download": "Descargar",
-                "downloadImage": "Descargar imagen",
-                "fullscreen": "Pantalla completa",
-                "zoom": "Zoom",
-                "share": "Compartir",
-                "playVideo": "Reproducir v\u00eddeo",
-                "previous": "Anterior",
-                "next": "Siguiente",
-                "close": "Cerrar"
-            },
-            "is_rtl": false,
-            "breakpoints": {
-                "xs": 0,
-                "sm": 480,
-                "md": 768,
-                "lg": 1025,
-                "xl": 1440,
-                "xxl": 1600
-            },
-            "responsive": {
-                "breakpoints": {
-                    "mobile": {
-                        "label": "M\u00f3vil",
-                        "value": 767,
-                        "default_value": 767,
-                        "direction": "max",
-                        "is_enabled": true
-                    },
-                    "mobile_extra": {
-                        "label": "M\u00f3vil grande",
-                        "value": 880,
-                        "default_value": 880,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "tablet": {
-                        "label": "Tableta",
-                        "value": 1024,
-                        "default_value": 1024,
-                        "direction": "max",
-                        "is_enabled": true
-                    },
-                    "tablet_extra": {
-                        "label": "Tableta grande",
-                        "value": 1200,
-                        "default_value": 1200,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "laptop": {
-                        "label": "Port\u00e1til",
-                        "value": 1366,
-                        "default_value": 1366,
-                        "direction": "max",
-                        "is_enabled": false
-                    },
-                    "widescreen": {
-                        "label": "Pantalla grande",
-                        "value": 2400,
-                        "default_value": 2400,
-                        "direction": "min",
-                        "is_enabled": false
-                    }
-                }
-            },
-            "version": "3.7.2",
-            "is_static": false,
-            "experimentalFeatures": {
-                "e_optimized_assets_loading": true,
-                "e_optimized_css_loading": true,
-                "e_import_export": true,
-                "e_hidden_wordpress_widgets": true,
-                "container": true,
-                "theme_builder_v2": true,
-                "landing-pages": true,
-                "elements-color-picker": true,
-                "favorite-widgets": true,
-                "admin-top-bar": true,
-                "page-transitions": true,
-                "notes": true,
-                "form-submissions": true,
-                "e_scroll_snap": true
-            },
-            "urls": {
-                "assets": "https:\/\/www.maquillajealicante.com\/wp-content\/plugins\/elementor\/assets\/"
-            },
-            "settings": {
-                "page": [],
-                "editorPreferences": []
-            },
-            "kit": {
-                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
-                "global_image_lightbox": "yes",
-                "lightbox_enable_counter": "yes",
-                "lightbox_enable_fullscreen": "yes",
-                "lightbox_enable_zoom": "yes",
-                "lightbox_enable_share": "yes",
-                "lightbox_title_src": "title",
-                "lightbox_description_src": "description"
-            },
-            "post": {
-                "id": 26,
-                "title": "Maquillaje%20Alicante%20%E2%80%BB%20Carmen%20Moreno%20Maquilladora%20en%20Alicante",
-                "excerpt": "",
-                "featuredImage": false
-            }
-        };
-    </script>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.7.2"
-        id="elementor-frontend-js" defer=""></script>
-    <script
-        src="https://www.maquillajealicante.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.7.3"
-        id="pro-elements-handlers-js" defer=""></script>
-    <script
-        src="https://www.maquillajealicante.com/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.7.3"
-        id="e-sticky-js" defer=""></script>
+
     <script>
         window.lazyLoadOptions = {
             elements_selector: "img[data-lazy-src],.rocket-lazyload,iframe[data-lazy-src]",
@@ -1783,9 +1497,7 @@
             }
         }, !1)
     </script>
-    <script data-no-minify="1" async=""
-        src="https://www.maquillajealicante.com/wp-content/plugins/wp-rocket/assets/js/lazyload/17.5/lazyload.min.js">
-    </script>
+
     <script>
         function lazyLoadThumb(e) {
             var t =
@@ -1885,29 +1597,7 @@
             }
         }
         document.addEventListener("DOMContentLoaded", RocketElementorAnimation.run);
-    </script><noscript>
-        <link rel="stylesheet"
-            href="https://www.maquillajealicante.com/wp-content/cache/min/1/855e3c317be0316ca9641313919da2f5.css"
-            media="all" data-minify="1" />
-        <link rel='stylesheet' id='elementor-post-6-css'
-            href='https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-6.css?ver=1661418447'
-            media='all' />
-        <link rel='stylesheet' id='elementor-global-css'
-            href='https://www.maquillajealicante.com/wp-content/uploads/elementor/css/global.css?ver=1661418447'
-            media='all' />
-        <link rel='stylesheet' id='elementor-post-26-css'
-            href='https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-26.css?ver=1673523395'
-            media='all' />
-        <link rel='stylesheet' id='elementor-post-11-css'
-            href='https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-11.css?ver=1661418447'
-            media='all' />
-        <link rel='stylesheet' id='elementor-post-20-css'
-            href='https://www.maquillajealicante.com/wp-content/uploads/elementor/css/post-20.css?ver=1661956219'
-            media='all' />
-        <link rel='stylesheet' id='google-fonts-1-css'
-            href='https://fonts.googleapis.com/css?family=Work+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CLato%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CAllura%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=auto&#038;ver=6.0.1'
-            media='all' />
-    </noscript>
+    </script>
 
 
     <span id="elementor-device-mode" class="elementor-screen-only"></span>
@@ -1975,70 +1665,6 @@
     </noscript>
     <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
         class="e-font-icon-svg-symbols"></svg>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6">
-    </script>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
 
     <script type="text/javascript" id="">
         ! function(b, e, f, g, a, c, d) {
@@ -2228,6 +1854,198 @@
         <a href="https://www.clickcease.com" rel="nofollow"><img
                 src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
     </noscript>
+
+    <script type="text/javascript" id="">
+        ! function(b, e, f, g, a, c, d) {
+            b.fbq || (a = b.fbq = function() {
+                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
+                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
+                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
+                    c, d))
+        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
+        fbq("init", "1684263075146665");
+        fbq("track", "PageView");
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
+    </noscript>
+
+
+    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
+    <script type="text/javascript" id="">
+        window.sendinblue = window.sendinblue || [];
+        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
+        window.sendinblue.factory = function(a) {
+            return function() {
+                var b = Array.prototype.slice.call(arguments);
+                b.unshift(a);
+                window.sendinblue.push(b);
+                return window.sendinblue
+            }
+        };
+        for (var i = 0; i < window.sendinblue.methods.length; i++) {
+            var key = window.sendinblue.methods[i];
+            window.sendinblue[key] = window.sendinblue.factory(key)
+        }
+        window.sendinblue.load = function() {
+            if (!document.getElementById("sendinblue-js")) {
+                var a = document.createElement("script");
+                a.type = "text/javascript";
+                a.id = "sendinblue-js";
+                a.async = !0;
+                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b)
+            }
+        };
+        window.sendinblue.SNIPPET_VERSION = "1.0";
+        window.sendinblue.load();
+        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
+        window.sendinblue.page();
+    </script>
+    <script type="text/javascript" id="">
+        var script = document.createElement("script");
+        script.async = !0;
+        script.type = "text/javascript";
+        var target = "https://www.clickcease.com/monitor/stat.js";
+        script.src = target;
+        var elem = document.head;
+        elem.appendChild(script);
+    </script>
+    <noscript>
+        <a href="https://www.clickcease.com" rel="nofollow"><img
+                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
+    </noscript>
+
+
+    <script type="text/javascript" id="">
+        ! function(b, e, f, g, a, c, d) {
+            b.fbq || (a = b.fbq = function() {
+                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
+                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
+                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
+                    c, d))
+        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
+        fbq("init", "1684263075146665");
+        fbq("track", "PageView");
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
+    </noscript>
+
+
+    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
+    <script type="text/javascript" id="">
+        window.sendinblue = window.sendinblue || [];
+        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
+        window.sendinblue.factory = function(a) {
+            return function() {
+                var b = Array.prototype.slice.call(arguments);
+                b.unshift(a);
+                window.sendinblue.push(b);
+                return window.sendinblue
+            }
+        };
+        for (var i = 0; i < window.sendinblue.methods.length; i++) {
+            var key = window.sendinblue.methods[i];
+            window.sendinblue[key] = window.sendinblue.factory(key)
+        }
+        window.sendinblue.load = function() {
+            if (!document.getElementById("sendinblue-js")) {
+                var a = document.createElement("script");
+                a.type = "text/javascript";
+                a.id = "sendinblue-js";
+                a.async = !0;
+                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b)
+            }
+        };
+        window.sendinblue.SNIPPET_VERSION = "1.0";
+        window.sendinblue.load();
+        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
+        window.sendinblue.page();
+    </script>
+    <script type="text/javascript" id="">
+        var script = document.createElement("script");
+        script.async = !0;
+        script.type = "text/javascript";
+        var target = "https://www.clickcease.com/monitor/stat.js";
+        script.src = target;
+        var elem = document.head;
+        elem.appendChild(script);
+    </script>
+    <noscript>
+        <a href="https://www.clickcease.com" rel="nofollow"><img
+                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
+    </noscript>
+    <script type="text/javascript" id="">
+        ! function(b, e, f, g, a, c, d) {
+            b.fbq || (a = b.fbq = function() {
+                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
+                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
+                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
+                    c, d))
+        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
+        fbq("init", "1684263075146665");
+        fbq("track", "PageView");
+    </script>
+    <noscript>
+        <img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
+    </noscript>
+
+
+    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
+    <script type="text/javascript" id="">
+        window.sendinblue = window.sendinblue || [];
+        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
+        window.sendinblue.factory = function(a) {
+            return function() {
+                var b = Array.prototype.slice.call(arguments);
+                b.unshift(a);
+                window.sendinblue.push(b);
+                return window.sendinblue
+            }
+        };
+        for (var i = 0; i < window.sendinblue.methods.length; i++) {
+            var key = window.sendinblue.methods[i];
+            window.sendinblue[key] = window.sendinblue.factory(key)
+        }
+        window.sendinblue.load = function() {
+            if (!document.getElementById("sendinblue-js")) {
+                var a = document.createElement("script");
+                a.type = "text/javascript";
+                a.id = "sendinblue-js";
+                a.async = !0;
+                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
+                var b = document.getElementsByTagName("script")[0];
+                b.parentNode.insertBefore(a, b)
+            }
+        };
+        window.sendinblue.SNIPPET_VERSION = "1.0";
+        window.sendinblue.load();
+        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
+        window.sendinblue.page();
+    </script>
+    <script type="text/javascript" id="">
+        var script = document.createElement("script");
+        script.async = !0;
+        script.type = "text/javascript";
+        var target = "https://www.clickcease.com/monitor/stat.js";
+        script.src = target;
+        var elem = document.head;
+        elem.appendChild(script);
+    </script>
+    <noscript>
+        <a href="https://www.clickcease.com" rel="nofollow"><img
+                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
+    </noscript>
+    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
+        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
+        class="elementor-screen-only"></span>
 
 
     <script type="text/javascript" id="">
@@ -2357,150 +2175,16 @@
     <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
         class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
         class="elementor-screen-only"></span>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6">
-    </script>
-
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <script type="text/javascript" id="">
-        ! function(b, e, f, g, a, c, d) {
-            b.fbq || (a = b.fbq = function() {
-                    a.callMethod ? a.callMethod.apply(a, arguments) : a.queue.push(arguments)
-                }, b._fbq || (b._fbq = a), a.push = a, a.loaded = !0, a.version = "2.0", a.queue = [], c = e
-                .createElement(f), c.async = !0, c.src = g, d = e.getElementsByTagName(f)[0], d.parentNode.insertBefore(
-                    c, d))
-        }(window, document, "script", "//connect.facebook.net/en_US/fbevents.js");
-        fbq("init", "1684263075146665");
-        fbq("track", "PageView");
-    </script>
-    <noscript>
-        <img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=1684263075146665&amp;ev=PageView&amp;noscript=1" alt="">
-    </noscript>
-
-
-    <meta name="facebook-domain-verification" content="5z47xysz6f5yl80wgudlc8l5mo97ij">
-    <script type="text/javascript" id="">
-        window.sendinblue = window.sendinblue || [];
-        window.sendinblue.methods = "identify init group track page trackLink".split(" ");
-        window.sendinblue.factory = function(a) {
-            return function() {
-                var b = Array.prototype.slice.call(arguments);
-                b.unshift(a);
-                window.sendinblue.push(b);
-                return window.sendinblue
-            }
-        };
-        for (var i = 0; i < window.sendinblue.methods.length; i++) {
-            var key = window.sendinblue.methods[i];
-            window.sendinblue[key] = window.sendinblue.factory(key)
-        }
-        window.sendinblue.load = function() {
-            if (!document.getElementById("sendinblue-js")) {
-                var a = document.createElement("script");
-                a.type = "text/javascript";
-                a.id = "sendinblue-js";
-                a.async = !0;
-                a.src = ("https:" === document.location.protocol ? "https://" : "http://") + "s.sib.im/automation.js";
-                var b = document.getElementsByTagName("script")[0];
-                b.parentNode.insertBefore(a, b)
-            }
-        };
-        window.sendinblue.SNIPPET_VERSION = "1.0";
-        window.sendinblue.load();
-        window.sendinblue.client_key = "syfyu3dsuweys3t0mb0m1";
-        window.sendinblue.page();
-    </script>
-    <script type="text/javascript" id="">
-        var script = document.createElement("script");
-        script.async = !0;
-        script.type = "text/javascript";
-        var target = "https://www.clickcease.com/monitor/stat.js";
-        script.src = target;
-        var elem = document.head;
-        elem.appendChild(script);
-    </script>
-    <noscript>
-        <a href="https://www.clickcease.com" rel="nofollow"><img
-                src="https://monitor.clickcease.com/stats/stats.aspx" alt="ClickCease"></a>
-    </noscript>
-    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg style="display: none;"
-        class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
-        class="elementor-screen-only"></span>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6">
-    </script><span id="elementor-device-mode" class="elementor-screen-only"></span><svg
+    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg
         style="display: none;" class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
         class="elementor-screen-only"></span>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6">
-    </script><span id="elementor-device-mode" class="elementor-screen-only"></span><svg
+    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg
         style="display: none;" class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
         class="elementor-screen-only"></span>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6">
-    </script><span id="elementor-device-mode" class="elementor-screen-only"></span><svg
+    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg
         style="display: none;" class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
         class="elementor-screen-only"></span>
-    <script src="https://www.maquillajealicante.com/wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6">
-    </script><span id="elementor-device-mode" class="elementor-screen-only"></span><svg
+    <span id="elementor-device-mode" class="elementor-screen-only"></span><svg
         style="display: none;" class="e-font-icon-svg-symbols"></svg><span id="elementor-device-mode"
         class="elementor-screen-only"></span>
     <script type="text/javascript" id="">
@@ -3033,4 +2717,53 @@
 </body>
 
 
+<!-- / ALL script. --> 
+<script src="{{ asset('script/script1.js')}}" id="jquery-core-js"
+defer=""></script>
+<script data-minify="1"
+src="{{asset("script/script2.js")}}"
+id="ct-ultimate-gdpr-cookie-popup-js" defer=""></script>
+<script
+src="{{asset("script/script3.js")}}"
+id="ct-ultimate-gdpr-base64-js" defer=""></script>
+<script
+src="{{asset("script/script4.js")}}"id="joinchat-js" defer=""></script>
+<script
+src="{{asset("script/script5.js")}}"id="smartmenus-js" defer=""></script>
+<script 
+src="{{asset("script/script6.js")}}" id="imagesloaded-js"defer=""></script>
+<script
+src="{{asset("script/script7.js")}}"id="elementor-pro-webpack-runtime-js" defer=""></script>
+<script 
+src="{{asset("script/script8.js")}}"id="elementor-webpack-runtime-js" defer=""></script>
+<script
+src="{{asset("script/script9.js")}}"id="elementor-frontend-modules-js" defer=""></script>
+<script 
+src="{{asset("script/script10.js")}}"id="regenerator-runtime-js" defer=""></script>
+<script 
+src="{{asset("script/script11.js")}}"id="wp-polyfill-js"></script>
+<script 
+src="{{asset("script/script12.js")}}"id="wp-hooks-js"></script>
+<script 
+src="{{asset("script/script13.js")}}"id="wp-i18n-js"></script>
+<script 
+src="{{asset("script/script14.js")}}"id="elementor-pro-frontend-js" defer=""></script>
+<script
+src="{{asset("script/script15.js")}}"id="elementor-waypoints-js" defer=""></script>
+<script 
+src="{{asset("script/script16.js")}}" id="jquery-ui-core-js"defer=""></script>
+<script 
+src="{{asset("script/script17.js")}}"id="elementor-frontend-js" defer=""></script>
+<script
+src="{{asset("script/script18.js")}}"id="pro-elements-handlers-js" defer=""></script>
+<script
+src="{{asset("script/script19.js")}}"id="e-sticky-js" defer=""></script>
+<script data-no-minify="1" async=""
+src="{{asset("script/script20.js")}}"></script>
+<script src="{{asset("script/script21.js")}}"></script>
+<script src="{{asset("script/script22.js")}}"></script>
+<script src="{{asset("script/script23.js")}}"></script>
+<script src="{{asset("script/script24.js")}}"></script>
+<script src="{{asset("script/script25.js")}}"></script>
+<script src="{{asset("script/script26.js")}}"></script>
 </html>
