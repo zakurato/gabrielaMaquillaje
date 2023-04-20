@@ -320,15 +320,8 @@
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje de día</h2>
                                                         <p class="elementor-image-box-description">
-                                                            Brindo un servicio de maquillaje personalizado para tu día
-                                                            a día, adaptado a tu estilo y resaltando tus rasgos más
+                                                            Maquillaje para tu día a día, <b>adaptado a tu estilo</b> y resaltando tus rasgos más
                                                             hermosos.
-                                                            MakeuplayerGabriela te brinda consejos para mantener
-                                                            tu look <b>fresco y perfecto</b> durante todo el día. Ya sea
-                                                            un look
-                                                            natural o audaz, te harán sentir segura y radiante en
-                                                            cualquier
-                                                            ocasión.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -367,12 +360,8 @@
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje de fiesta</h2>
                                                         <p class="elementor-image-box-description">
-                                                            MakeuplayerGabriela puede ayudarte a transformar
-                                                            tu look para tu próxima fiesta con un estilo
-                                                            <b>completamente diferente.</b> Con mi experiencia en
-                                                            maquillaje,
-                                                            puedo crear un look que se adapte a tu estilo
-                                                            y personalidad, desde un estilo natural y fresco
+                                                            Elige como transformar el look para tu próxima fiesta con un estilo
+                                                            <b>completamente diferente.</b> desde lo natural y fresco
                                                             hasta algo más audaz y atrevido.
                                                         </p>
                                                     </div>
@@ -413,11 +402,8 @@
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje editorial</h2>
                                                         <p class="elementor-image-box-description">
-                                                            ¿Quieres un look de maquillaje editorial impresionante?
-                                                            <b>MakeuplayerGabriela puede ayudarte.</b> Creando un look
-                                                            único
-                                                            y adaptado a tu estilo, resaltando tu belleza natural.
-
+                                                            Creemos un impresionante look único, potencializando la
+                                                            <b>creatividad</b> para resaltar tu belleza natural.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -462,12 +448,10 @@
                                                     <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje para boda</h2>
-                                                        <p class="elementor-image-box-description">El maquillaje es
-                                                            clave en tu boda.<b>Nos enfocamos en cada detalle</b> para
+                                                        <p class="elementor-image-box-description">
+                                                            Enfocandome <b>en cada detalle</b> para
                                                             que te veas radiante en tu
-                                                            gran día. Con nuestro servicio personalizado, lucirás como
-                                                            siempre soñaste. Te garantizamos que estarás
-                                                            espectacular.</p>
+                                                            gran día y lucir como siempre soñaste.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -503,10 +487,9 @@
                                                     <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje nocturno</h2>
-                                                        <p class="elementor-image-box-description">MakeuplayerGabriela
-                                                            te hará lucir <b>radiante y deslumbrante</b> en cualquier
-                                                            evento nocturno.
-                                                            Luce fabulosa en tu próxima noche especial.</p>
+                                                        <p class="elementor-image-box-description">
+                                                            Podras lucir un <b>radiante look sofisticado</b> en cualquier
+                                                            evento nocturno desde lo sencillo a lo intenso</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -542,14 +525,10 @@
                                                     </figure>
                                                     <br><br>
                                                     <div class="elementor-image-box-content">
-                                                        <h2 class="elementor-image-box-title">Maquillaje para
-                                                            Quince años</h2>
+                                                        <h2 class="elementor-image-box-title">Maquillaje para Quince años</h2>
                                                         <p class="elementor-image-box-description">
-                                                            Lucir espectacular en tu fiesta de quince años es fácil con
-                                                            nuestro servicio de maquillaje personalizado.
-                                                            MakeuplayerGabriela
-                                                            se enfoca en <b>resaltar tus mejores rasgos</b>
-                                                            y adaptar el look a tu estilo personal y la ocasión.
+                                                            Verte espectacular en tu fiesta de quince años será mas sencillo
+                                                            <b> resaltando los mejores rasgos</b> de tu joven rostro
                                                         </p>
                                                     </div>
                                                 </div>
