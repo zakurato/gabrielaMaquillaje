@@ -183,7 +183,7 @@
                                                                     López</b><strong>&nbsp;</strong></span>y<b>&nbsp;</b>pongo
                                                             a tu disposición mi amplia experiencia como
                                                             <strong>maquilladora
-                                                                profesional</p>
+                                                                profesional.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -352,7 +352,7 @@
                                                         <h2 class="elementor-image-box-title">Maquillaje de fiesta</h2>
                                                         <p class="elementor-image-box-description">
                                                             Elige como transformar el look para tu próxima fiesta con un estilo
-                                                            <b>completamente diferente.</b> desde lo natural y fresco
+                                                            <b>completamente diferente.</b> Desde lo natural y fresco
                                                             hasta algo más audaz y atrevido.
                                                         </p>
                                                     </div>
@@ -479,8 +479,8 @@
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje nocturno</h2>
                                                         <p class="elementor-image-box-description">
-                                                            Podras lucir un <b>radiante look sofisticado</b> en cualquier
-                                                            evento nocturno desde lo sencillo a lo intenso</p>
+                                                            Podrás lucir un <b>radiante look sofisticado</b> en cualquier
+                                                            evento nocturno desde lo sencillo a lo intenso.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -518,8 +518,8 @@
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje para Quince años</h2>
                                                         <p class="elementor-image-box-description">
-                                                            Verte espectacular en tu fiesta de quince años será mas sencillo
-                                                            <b> resaltando los mejores rasgos</b> de tu joven rostro
+                                                            Verte espectacular en tu fiesta de quince años será más sencillo
+                                                            <b> resaltando los mejores rasgos</b> de tu joven rostro.
                                                         </p>
                                                     </div>
                                                 </div>
