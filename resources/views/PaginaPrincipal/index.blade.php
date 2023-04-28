@@ -119,7 +119,7 @@
                                                         <picture>
                                                             <img width="360" height="360"
                                                               class="lazy"
-                                                              src="{{ asset('images/gaby2.jpg') }}"
+                                                              src="{{ asset('images/gaby3.jpg') }}"
                                                               sizes="(max-width: 360px) 100vw, 360px">
                                                             </picture>
                                                     </div>
