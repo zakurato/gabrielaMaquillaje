@@ -119,7 +119,7 @@
                                                         <picture>
                                                             <img width="360" height="360"
                                                               class="lazy"
-                                                              data-src="{{ asset('images/gaby.jpg') }}"
+                                                              src="{{ asset('images/gaby2.jpg') }}"
                                                               sizes="(max-width: 360px) 100vw, 360px">
                                                             </picture>
                                                     </div>
@@ -128,36 +128,6 @@
                                         </div>
                                     </div>
                                 </div>
-
-                                <!-- Agrega el siguiente script JavaScript al final de tu archivo HTML -->
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-      // Encuentra todas las imágenes con la clase 'lazy'
-      var lazyImages = document.querySelectorAll("img.lazy");
-  
-      // Función para cargar las imágenes
-      function lazyLoad() {
-        for (var i = 0; i < lazyImages.length; i++) {
-          // Verifica si la imagen está dentro del área visible del navegador
-          if (lazyImages[i].getBoundingClientRect().top <= window.innerHeight && lazyImages[i].getBoundingClientRect().bottom >= 0 && getComputedStyle(lazyImages[i]).display !== "none") {
-            // Reemplaza el atributo 'src' con el valor del atributo 'data-src'
-            lazyImages[i].src = lazyImages[i].dataset.src;
-  
-            // Remueve la clase 'lazy' una vez que la imagen ha sido cargada
-            lazyImages[i].classList.remove("lazy");
-          }
-        }
-      }
-  
-      // Llama a la función lazyLoad() en el evento 'scroll'
-      window.addEventListener("scroll", lazyLoad);
-      window.addEventListener("resize", lazyLoad);
-      window.addEventListener("orientationchange", lazyLoad);
-  
-      // Llama a la función lazyLoad() cuando se carga inicialmente la página
-      lazyLoad();
-    });
-  </script>
                                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-73c595a"
                                     data-id="73c595a" data-element_type="column">
                                     <div class="elementor-column-wrap elementor-element-populated">
