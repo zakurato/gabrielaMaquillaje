@@ -584,8 +584,8 @@
 
                                                                             <div class="elementor-icon-box-content">
                                                                                 <h4 class="elementor-icon-box-title">
-                                                                                    <a href="tel:+50688389748">
-                                                                                        +506 88389748 </a>
+                                                                                    <a href="tel:+50683566970">
+                                                                                        +506 83566970 </a>
                                                                                 </h4>
                                                                             </div>
                                                                         </div>
@@ -827,8 +827,8 @@
                                                                         </div>
                                                                         <div class="elementor-icon-box-content">
                                                                             <span class="elementor-icon-box-title">
-                                                                                <a href="tel:+50688389748">
-                                                                                    +506 88389748 </a>
+                                                                                <a href="tel:+50683566970">
+                                                                                    +506 83566970 </a>
                                                                             </span>
                                                                         </div>
                                                                     </div>
@@ -850,8 +850,8 @@
                                                                         <div class="elementor-icon-box-content">
                                                                             <span class="elementor-icon-box-title">
                                                                                 <span>
-                                                                                    <a href="tel:+50688389748">
-                                                                                        +506 88389748 </a>
+                                                                                    <a href="tel:+50683566970">
+                                                                                        +506 83566970 </a>
                                                                                 </span>
                                                                             </span>
                                                                         </div>
@@ -1014,7 +1014,7 @@
 
 
     <div class="joinchat joinchat--right joinchat--btn joinchat--show joinchat--tooltip"
-        data-settings="{&quot;telephone&quot;:&quot;50687249099&quot;,&quot;mobile_only&quot;:false,&quot;button_delay&quot;:0,&quot;whatsapp_web&quot;:true,&quot;qr&quot;:false,&quot;message_views&quot;:2,&quot;message_delay&quot;:10,&quot;message_badge&quot;:false,&quot;message_send&quot;:&quot;&quot;,&quot;message_hash&quot;:&quot;&quot;}"
+        data-settings="{&quot;telephone&quot;:&quot;50683566970&quot;,&quot;mobile_only&quot;:false,&quot;button_delay&quot;:0,&quot;whatsapp_web&quot;:true,&quot;qr&quot;:false,&quot;message_views&quot;:2,&quot;message_delay&quot;:10,&quot;message_badge&quot;:false,&quot;message_send&quot;:&quot;&quot;,&quot;message_hash&quot;:&quot;&quot;}"
         style="--vh:321px;">
         <div class="joinchat__button">
             <div class="joinchat__button__open"></div>
