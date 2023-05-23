@@ -47,6 +47,9 @@
     <link rel='stylesheet' id='elementor-post-6-css' href='{{ asset('allCss/all4.Css') }}?v={{ time() }}'
         media='all' />
 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 
@@ -294,17 +297,37 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
-                                                            <source data-lazy-srcset="{{ asset('images/dia.jpg') }}"
-                                                                type="image/webp"
-                                                                srcset="{{ asset('images/dia.jpg') }}">
-                                                            <img width="300" height="450"
-                                                                src="{{ asset('images/dia.jpg') }}"
-                                                                class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{ asset('images/dia.jpg') }}"
-                                                                data-ll-status="loaded"><noscript><img width="300"
-                                                                    height="450"
-                                                                    src="{{ asset('images/dia.jpg') }}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
+                                                            <div class="elementor-image-box-wrapper">
+                                                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                                                    <!-- Indicators -->
+                                                                    <ol class="carousel-indicators">
+                                                                      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                                                      <li data-target="#myCarousel" data-slide-to="1"></li>
+                                                                    </ol>
+                                                                  
+                                                                    <!-- Wrapper for slides -->
+                                                                  <div class="carousel-inner">
+                                                              
+                                                                    <div class="item active">
+                                                                      <img src="images/dia2.jpg">
+                                                                    </div>
+                                                              
+                                                                    <div class="item">
+                                                                      <img src="images/dia3.jpg">
+                                                                    </div>
+                                                                
+                                                                  </div>
+            
+                                                                    <!-- Controls -->
+                                                                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
+                                                                    </div>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
@@ -332,21 +355,40 @@
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
-                                                        <picture>
-                                                            <source
-                                                                data-lazy-srcset="{{ asset('images/fantasia.jpg') }}"
-                                                                type="image/webp"
-                                                                srcset="{{ asset('images/fantasia.jpg') }}">
-                                                            <img width="300" height="450"
-                                                                src="{{ asset('images/fantasia.jpg') }}"
-                                                                class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{ asset('images/fantasia.jpg') }}"
-                                                                data-ll-status="loaded"><noscript>
-                                                                <img width="300" height="450"
-                                                                    src="{{ asset('images/fantasia.jpg') }}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
-                                                        </picture>
-                                                    </figure>
+                                                            <picture>
+                                                                <div class="elementor-image-box-wrapper">
+                                                                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                                                                        <!-- Indicators -->
+                                                                        <ol class="carousel-indicators">
+                                                                          <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                                                                          <li data-target="#myCarousel2" data-slide-to="1"></li>
+                                                                        </ol>
+                                                                      
+                                                                        <!-- Wrapper for slides -->
+                                                                      <div class="carousel-inner">
+                                                                  
+                                                                        <div class="item active">
+                                                                          <img src="images/fiesta2.jpg">
+                                                                        </div>
+                                                                  
+                                                                        <div class="item">
+                                                                          <img src="images/fiesta3.jpg">
+                                                                        </div>
+                                                                    
+                                                                      </div>
+                
+                                                                        <!-- Controls -->
+                                                                        <a class="carousel-control-prev" href="#myCarousel2" role="button" data-slide="prev">
+                                                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                            <span class="sr-only">Previous</span>
+                                                                        </a>
+                                                                        <a class="carousel-control-next" href="#myCarousel2" role="button" data-slide="next">
+                                                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                            <span class="sr-only">Next</span>
+                                                                        </a>
+                                                                        </div>
+                                                            </picture>
+                                                        </figure>
                                                     <br><br>
                                                     <div class="elementor-image-box-content">
                                                         <h2 class="elementor-image-box-title">Maquillaje de fiesta</h2>
@@ -374,19 +416,37 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
-                                                            <source
-                                                                data-lazy-srcset="{{ asset('images/editorial.jpg') }}"
-                                                                type="image/webp"
-                                                                srcset="{{ asset('images/editorial.jpg') }}">
-                                                            <img width="300" height="450"
-                                                                src="{{ asset('images/editorial.jpg') }}"
-                                                                class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{ asset('images/editorial.jpg') }}"
-                                                                data-ll-status="loaded"><noscript>
-                                                                <img width="300" height="450"
-                                                                    src="{{ asset('images/editorial.jpg') }}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"
-                                                                    alt=""></noscript>
+                                                            <div class="elementor-image-box-wrapper">
+                                                                <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                                                                    <!-- Indicators -->
+                                                                    <ol class="carousel-indicators">
+                                                                      <li data-target="#myCarousel3" data-slide-to="0" class="active"></li>
+                                                                      <li data-target="#myCarousel3" data-slide-to="1"></li>
+                                                                    </ol>
+                                                                  
+                                                                    <!-- Wrapper for slides -->
+                                                                  <div class="carousel-inner">
+                                                              
+                                                                    <div class="item active">
+                                                                      <img src="images/editorial.jpg">
+                                                                    </div>
+                                                              
+                                                                    <div class="item">
+                                                                      <img src="images/editorial2.jpg">
+                                                                    </div>
+                                                                
+                                                                  </div>
+            
+                                                                    <!-- Controls -->
+                                                                    <a class="carousel-control-prev" href="#myCarousel3" role="button" data-slide="prev">
+                                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="carousel-control-next" href="#myCarousel3" role="button" data-slide="next">
+                                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
+                                                                    </div>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
@@ -423,17 +483,37 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
-                                                            <source data-lazy-srcset="{{ asset('images/novia.jpg') }}"
-                                                                type="image/webp"
-                                                                srcset="{{ asset('images/novia.jpg') }}">
-                                                            <img width="300" height="450"
-                                                                class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{ asset('images/novia.jpg') }}"
-                                                                src="{{ asset('images/novia.jpg') }}"
-                                                                data-ll-status="loaded"><noscript>
-                                                                <img width="300" height="450"
-                                                                    src="{{ asset('images/novia.jpg') }}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
+                                                            <div class="elementor-image-box-wrapper">
+                                                                <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+                                                                    <!-- Indicators -->
+                                                                    <ol class="carousel-indicators">
+                                                                      <li data-target="#myCarousel4" data-slide-to="0" class="active"></li>
+                                                                      <li data-target="#myCarousel4" data-slide-to="1"></li>
+                                                                    </ol>
+                                                                  
+                                                                    <!-- Wrapper for slides -->
+                                                                  <div class="carousel-inner">
+                                                              
+                                                                    <div class="item active">
+                                                                      <img src="images/2.jpg">
+                                                                    </div>
+                                                              
+                                                                    <div class="item">
+                                                                      <img src="images/boda2.jpg">
+                                                                    </div>
+                                                                
+                                                                  </div>
+            
+                                                                    <!-- Controls -->
+                                                                    <a class="carousel-control-prev" href="#myCarousel4" role="button" data-slide="prev">
+                                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="carousel-control-next" href="#myCarousel4" role="button" data-slide="next">
+                                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
+                                                                    </div>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
@@ -462,22 +542,42 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
-                                                            <source data-lazy-srcset="{{ asset('images/noche.jpg') }}"
-                                                                type="image/webp"
-                                                                srcset="{{ asset('images/noche.jpg') }}">
-                                                            <img width="300" height="450"
-                                                                class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{ asset('images/noche.jpg') }}"
-                                                                src="{{ asset('images/noche.jpg') }}"
-                                                                data-ll-status="loaded"><noscript>
-                                                                <img width="300" height="450"
-                                                                    src="{{ asset('images/noche.jpg') }}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
+                                                            <div class="elementor-image-box-wrapper">
+                                                                <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+                                                                    <!-- Indicators -->
+                                                                    <ol class="carousel-indicators">
+                                                                      <li data-target="#myCarousel5" data-slide-to="0" class="active"></li>
+                                                                      <li data-target="#myCarousel5" data-slide-to="1"></li>
+                                                                    </ol>
+                                                                  
+                                                                    <!-- Wrapper for slides -->
+                                                                  <div class="carousel-inner">
+                                                              
+                                                                    <div class="item active">
+                                                                      <img src="images/quinceAnos2.jpg">
+                                                                    </div>
+                                                              
+                                                                    <div class="item">
+                                                                      <img src="images/noche2.jpg">
+                                                                    </div>
+                                                                
+                                                                  </div>
+            
+                                                                    <!-- Controls -->
+                                                                    <a class="carousel-control-prev" href="#myCarousel5" role="button" data-slide="prev">
+                                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="carousel-control-next" href="#myCarousel5" role="button" data-slide="next">
+                                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
+                                                                    </div>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
                                                     <div class="elementor-image-box-content">
-                                                        <h2 class="elementor-image-box-title">Maquillaje nocturno</h2>
+                                                        <h2 class="elementor-image-box-title">Maquillaje de noche</h2>
                                                         <p class="elementor-image-box-description">
                                                             Podrás lucir un <b>radiante look sofisticado</b> en cualquier
                                                             evento nocturno desde lo sencillo a lo intenso.</p>
@@ -500,18 +600,37 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img">
                                                         <picture>
-                                                            <source
-                                                                data-lazy-srcset="{{ asset('images/quinceAnos.jpg') }}"
-                                                                type="image/webp"
-                                                                srcset="{{ asset('images/quinceAnos.jpg') }}">
-                                                            <img width="300" height="450"
-                                                                class="elementor-animation-grow attachment-full size-full webpexpress-processed entered lazyloaded"
-                                                                data-lazy-src="{{ asset('images/quinceAnos.jpg') }}"
-                                                                src="{{ asset('images/quinceAnos.jpg') }}"
-                                                                data-ll-status="loaded"><noscript>
-                                                                <img width="300" height="450"
-                                                                    src="{{ asset('images/quinceAnos.jpg') }}"
-                                                                    class="elementor-animation-grow attachment-full size-full webpexpress-processed"></noscript>
+                                                            <div class="elementor-image-box-wrapper">
+                                                                <div id="myCarousel6" class="carousel slide" data-ride="carousel">
+                                                                    <!-- Indicators -->
+                                                                    <ol class="carousel-indicators">
+                                                                      <li data-target="#myCarousel6" data-slide-to="0" class="active"></li>
+                                                                      <li data-target="#myCarousel6" data-slide-to="1"></li>
+                                                                    </ol>
+                                                                  
+                                                                    <!-- Wrapper for slides -->
+                                                                  <div class="carousel-inner">
+                                                              
+                                                                    <div class="item active">
+                                                                      <img src="images/3.jpg">
+                                                                    </div>
+                                                              
+                                                                    <div class="item">
+                                                                      <img src="images/quinceAnos3.jpg">
+                                                                    </div>
+                                                                
+                                                                  </div>
+            
+                                                                    <!-- Controls -->
+                                                                    <a class="carousel-control-prev" href="#myCarousel6" role="button" data-slide="prev">
+                                                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Previous</span>
+                                                                    </a>
+                                                                    <a class="carousel-control-next" href="#myCarousel6" role="button" data-slide="next">
+                                                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                                        <span class="sr-only">Next</span>
+                                                                    </a>
+                                                                    </div>
                                                         </picture>
                                                     </figure>
                                                     <br><br>
@@ -658,99 +777,13 @@
                                                     novedades en maquillaje profesional</h2>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-f1cc2f1 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="f1cc2f1" data-element_type="widget"
-                                            data-widget_type="divider.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-divider">
-                                                    <span class="elementor-divider-separator">
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-109d77f elementor-grid-3 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-posts--thumbnail-top elementor-widget elementor-widget-posts"
-                                            data-id="109d77f" data-element_type="widget"
-                                            data-settings="{&quot;classic_columns&quot;:&quot;3&quot;,&quot;classic_columns_tablet&quot;:&quot;2&quot;,&quot;classic_columns_mobile&quot;:&quot;1&quot;,&quot;classic_row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:35,&quot;sizes&quot;:[]},&quot;classic_row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;classic_row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}"
-                                            data-widget_type="posts.classic">
-                                            <div class="elementor-widget-container">
-                                                <div
-                                                    class="elementor-posts-container elementor-posts elementor-posts--skin-classic elementor-grid elementor-has-item-ratio">
-                                                    <article
-                                                        class="img elementor-post elementor-grid-item post-2905 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                        <div style="text-align: center">
-                                                            <picture>
-                                                                <source data-lazy-srcset="{{ asset('images/2.jpg') }}"
-                                                                    type="image/webp"
-                                                                    srcset="{{ asset('images/2.jpg') }}"><img
-                                                                    width="350" height="291"
-                                                                    src="{{ asset('images/2.jpg') }}"
-                                                                    class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                                    alt=""
-                                                                    data-ll-status="loaded"><noscript><img
-                                                                        width="350" height="291"
-                                                                        src="{{ asset('images/2.jpg') }}"
-                                                                        class="attachment-large size-large webpexpress-processed"
-                                                                        alt=""></noscript>
-                                                            </picture>
-                                                        </div>
-
-
-                                                    </article>
-                                                    <article
-                                                        class="elementor-post elementor-grid-item post-2864 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                        <div style="text-align: center">
-                                                            <picture>
-                                                                <source data-lazy-srcset="{{ asset('images/3.jpg') }}"
-                                                                    type="image/webp"
-                                                                    srcset="{{ asset('images/3.jpg') }}"><img
-                                                                    width="350" height="291"
-                                                                    src="{{ asset('images/3.jpg') }}"
-                                                                    class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                                    alt=""
-                                                                    data-lazy-src="{{ asset('images/3.jpg') }}"
-                                                                    data-ll-status="loaded"><noscript><img
-                                                                        width="350" height="291"
-                                                                        src="{{ asset('images/3.jpg') }}"
-                                                                        class="attachment-large size-large webpexpress-processed"
-                                                                        alt=""></noscript>
-                                                            </picture>
-                                                        </div>
-
-                                                    </article>
-                                                    <article
-                                                        class="elementor-post elementor-grid-item post-2833 post type-post status-publish format-standard has-post-thumbnail hentry category-consejos tag-maquilladora tag-maquillaje tag-ventajas">
-                                                        <div style="text-align: center">
-                                                            <picture>
-                                                                <source data-lazy-srcset="{{ asset('images/4.jpg') }}"
-                                                                    type="image/webp"
-                                                                    srcset="{{ asset('images/4.jpg') }}"><img
-                                                                    width="350" height="291"
-                                                                    src="{{ asset('images/4.jpg') }}"
-                                                                    class="attachment-large size-large webpexpress-processed entered lazyloaded"
-                                                                    alt=""
-                                                                    data-lazy-src="{{ asset('images/4.jpg') }}"
-                                                                    data-ll-status="loaded"><noscript><img
-                                                                        width="350" height="291"
-                                                                        src="{{ asset('images/4.jpg') }}"
-                                                                        class="attachment-large size-large webpexpress-processed"
-                                                                        alt=""></noscript>
-                                                            </picture>
-                                                        </div>
-
-                                                    </article>
-                                                </div>
-
-
-
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-
+                <br><br>
 
             </div>
         </div>
