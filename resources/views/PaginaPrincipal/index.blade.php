@@ -57,24 +57,30 @@
     class="home page-template page-template-elementor_header_footer page page-id-26 elementor-default elementor-template-full-width elementor-kit-6 elementor-page elementor-page-26 e--ua-blink e--ua-chrome e--ua-webkit"
     data-elementor-device-mode="widescreen">
 
-    <nav style="background-color: black !important" class="navbar navbar-expand-lg navbar-dark bg-dark ">
+    <nav style="background-color: black !important;" class="navbar navbar-expand-lg navbar-dark bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <div class="elementor-image">
-                    <div style="text-align: left">
                         <a href="{{ route('index') }}">
                             <picture>
-                                <source data-lazy-srcset="{{ asset('images/logo.jpg') }}" type="image/webp"
+                                <source 
+                                    data-lazy-srcset="{{ asset('images/logo.jpg') }}" 
+                                    type="image/webp"
                                     srcset="{{ asset('images/logo.jpg') }}">
-                                <img width="176" height="85" src="{{ asset('images/logo.jpg') }}"
+                                <img width="176" 
+                                    height="85" 
+                                    src="{{ asset('images/logo.jpg') }}"
                                     class="attachment-large size-large webpexpress-processed entered lazyloaded"
                                     data-lazy-src="{{ asset('images/logo.jpg') }}"
-                                    data-ll-status="loaded"><noscript><img width="176" height="85"
+                                    data-ll-status="loaded"
+                                    >
+                                    <noscript>
+                                        <img width="176" height="85"
                                         src="{{ asset('images/logo.jpg') }}"
-                                        class="attachment-large size-large webpexpress-processed"></noscript>
+                                        class="attachment-large size-large webpexpress-processed">
+                                    </noscript>
                             </picture>
                         </a>
-                    </div>
                 </div>
             </a>
             <button class="navbar-toggler btnNav" type="button" data-bs-toggle="collapse"
